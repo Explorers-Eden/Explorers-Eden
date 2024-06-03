@@ -1,1 +1,1 @@
-execute as @e[type=player,scores={eden.joined.game=1..}] run function eden:join_messages/display_msg
+execute as @a[scores={eden.joined.game=1..}] run function eden:join_messages/display_msg
