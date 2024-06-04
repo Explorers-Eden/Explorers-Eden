@@ -1,2 +1,2 @@
-execute as @e[type=player,tag=!at_digsite] at @s if entity @e[type=marker,predicate=eden:entity/is_digsite,distance=..48] run function eden:digsites/location/entering
-execute as @e[type=player,tag=!not_at_digsite] at @s unless entity @e[type=marker,predicate=eden:entity/is_digsite,distance=..48] run function eden:digsites/location/exiting
+execute as @a[tag=!at_digsite] at @s if entity @e[type=marker,predicate=eden:entity/is_digsite,distance=..48] run function eden:digsites/location/entering
+execute as @a[tag=!not_at_digsite] at @s unless entity @e[type=marker,predicate=eden:entity/is_digsite,distance=..48] run function eden:digsites/location/exiting
