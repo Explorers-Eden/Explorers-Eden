@@ -18,6 +18,7 @@ function eden:schedules/on_load
 ##add scoreboards
 scoreboard objectives add eden.digsite.placed dummy
 scoreboard objectives add eden.digsite.attempts dummy
+scoreboard objectives add eden.digsite.age dummy
 scoreboard objectives add eden.technical dummy
 scoreboard objectives add eden.elytra.flying dummy
 scoreboard objectives add eden.joined.game minecraft.custom:minecraft.leave_game
