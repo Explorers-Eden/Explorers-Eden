@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:air",
+    "minecraft:water",
+    "minecraft:snow",
+    "minecraft:lava",
+    "#minecraft:wool_carpets"
+  ]
+}
