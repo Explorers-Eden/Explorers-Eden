@@ -2,7 +2,7 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "location": {
+      "stepping_on": {
         "block": {
           "blocks": "#minecraft:snow"
         }
