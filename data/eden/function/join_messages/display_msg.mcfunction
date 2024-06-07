@@ -25,7 +25,7 @@ execute if score $welcome_msg eden.technical matches 22 run tellraw @a [{"text":
 execute if score $welcome_msg eden.technical matches 23 run tellraw @a [{"text":"☀ ","color":"yellow"},{"text":"Greetings, ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":"! Your journey begins anew!","color":"#F5E8C9"}]
 execute if score $welcome_msg eden.technical matches 24 run tellraw @a [{"text":"☀ ","color":"yellow"},{"text":"Hail, ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":"! The land welcomes you!","color":"#F5E8C9"}]
 execute if score $welcome_msg eden.technical matches 25 run tellraw @a [{"text":"☀ ","color":"yellow"},{"text":"The realm rejoices as ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":" arrives!","color":"#F5E8C9"}]
-execute if score $welcome_msg eden.technical matches 26 run tellraw @a [{"text":"☀ ","color":"yellow"},{"text":"The adventure is rekindled with ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":"here!","color":"#F5E8C9"}]
+execute if score $welcome_msg eden.technical matches 26 run tellraw @a [{"text":"☀ ","color":"yellow"},{"text":"The adventure is rekindled with ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":" here!","color":"#F5E8C9"}]
 execute if score $welcome_msg eden.technical matches 27 run tellraw @a [{"text":"☀ ","color":"yellow"},{"text":"Behold, ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":" has joined us!","color":"#F5E8C9"}]
 execute if score $welcome_msg eden.technical matches 28 run tellraw @a [{"text":"☀ ","color":"yellow"},{"text":"The stars shine brighter with ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":"'s","color":"green"},{"text":"presence!","color":"#F5E8C9"}]
 execute if score $welcome_msg eden.technical matches 29 run tellraw @a [{"text":"☀ ","color":"yellow"},{"text":"Welcome, ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":", to the heart of adventure!","color":"#F5E8C9"}]
@@ -34,5 +34,5 @@ execute if score $welcome_msg eden.technical matches 31 run tellraw @a [{"text":
 execute if score $welcome_msg eden.technical matches 32 run tellraw @a [{"text":"☀ ","color":"yellow"},{"text":"Welcome, ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":", your adventure awaits!","color":"#F5E8C9"}]
 execute if score $welcome_msg eden.technical matches 33 run tellraw @a [{"text":"☀ ","color":"yellow"},{"text":"The fellowship is whole with ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":" here!","color":"#F5E8C9"}]
 
-execute as @e[type=player] at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ .5 .1
+execute as @a at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 scoreboard players set @s eden.joined.game 0

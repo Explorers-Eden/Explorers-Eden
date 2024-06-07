@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:writable_book"
+      },
+      "title": "A Realm Recrafted",
+      "description": "Welcome to Explorer's Eden",
+      "background": "minecraft:textures/block/mushroom_block_inside.png",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location"
+      }
+    },
+    "rewards": {
+      "function": "eden:first_join/run"
+    }
+  }
+  

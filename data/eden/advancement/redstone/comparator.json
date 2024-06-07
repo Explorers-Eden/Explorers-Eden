@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:comparator"
+      },
+      "title": "Compared to this..",
+      "description": "Mine 16 Nether Quartz Ores & Craft 16 Redstone Torches",
+      "background": "minecraft:textures/block/mushroom_block_inside.png",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "eden:redstone/repeater",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "eden.advancement.redstone.mined.nether_quartz_ore": {
+                  "min": 16
+                },
+                "eden.advancement.redstone.crafted.redstone_torch": {
+                  "min": 16
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "eden:advancements/redstone/comparator",
+      "recipes": [
+        "minecraft:comparator"
+      ]
+    }
+  }
+  

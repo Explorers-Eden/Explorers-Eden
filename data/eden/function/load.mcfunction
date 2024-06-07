@@ -31,6 +31,11 @@ scoreboard objectives add eden.afk.z2 dummy
 scoreboard objectives add eden.afk.check dummy
 scoreboard objectives add eden.rtp.cooldown dummy
 scoreboard objectives add eden.rtp.counter dummy
+scoreboard objectives add eden.advancement.redstone.mined.redstone_ore minecraft.mined:minecraft.redstone_ore
+scoreboard objectives add eden.advancement.redstone.mined.stone minecraft.mined:minecraft.stone
+scoreboard objectives add eden.advancement.redstone.crafted.redstone_torch minecraft.crafted:minecraft.redstone_torch
+scoreboard objectives add eden.advancement.redstone.mined.nether_quartz_ore minecraft.mined:minecraft.nether_quartz_ore
+
 
 ##trigger scoreboards
 scoreboard objectives add sit trigger {"text": "Sit"}
