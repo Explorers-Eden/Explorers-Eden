@@ -4,5 +4,5 @@ tellraw @s [\
 {"text":"Info: ","color":"aqua","bold":true,"italic":false},\
 {"text":"Well done ","color":"#FFE6B5","bold":false,"italic":false},\
 {"bold":false,"color":"#FFE6B5","italic":false,"selector":"@s"},\
-{"text":"! Continue with this advancement path to unlock redstone components.","color":"#FFE6B5","bold":false,"italic":false}\
+{"text":"! Continue with this advancement path to gain redstone components.","color":"#FFE6B5","bold":false,"italic":false}\
 ]

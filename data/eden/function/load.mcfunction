@@ -37,9 +37,18 @@ scoreboard objectives add eden.afk.check dummy
 scoreboard objectives add eden.rtp.cooldown dummy
 scoreboard objectives add eden.rtp.counter dummy
 scoreboard objectives add eden.advancement.redstone.mined.redstone_ore minecraft.mined:minecraft.redstone_ore
+scoreboard objectives add eden.advancement.redstone.mined.deepslate_redstone_ore minecraft.mined:minecraft.deepslate_redstone_ore
+scoreboard objectives add eden.advancement.redstone.mined.wheat minecraft.mined:minecraft.wheat
 scoreboard objectives add eden.advancement.redstone.mined.stone minecraft.mined:minecraft.stone
 scoreboard objectives add eden.advancement.redstone.crafted.redstone_torch minecraft.crafted:minecraft.redstone_torch
 scoreboard objectives add eden.advancement.redstone.mined.nether_quartz_ore minecraft.mined:minecraft.nether_quartz_ore
+scoreboard objectives add eden.advancement.redstone.crafted.iron_ingot minecraft.crafted:minecraft.iron_ingot
+scoreboard objectives add eden.advancement.redstone.crafted.chest minecraft.crafted:minecraft.chest
+scoreboard objectives add eden.advancement.redstone.killed.witch minecraft.killed:minecraft.witch
+scoreboard objectives add eden.advancement.redstone.crafted.piston minecraft.crafted:minecraft.piston
+scoreboard objectives add eden.advancement.redstone.crafted.bow minecraft.crafted:minecraft.bow
+scoreboard objectives add eden.advancement.redstone.killed.slime minecraft.killed:minecraft.slime
+
 
 
 ##trigger scoreboards

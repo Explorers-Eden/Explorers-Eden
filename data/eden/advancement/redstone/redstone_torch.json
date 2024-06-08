@@ -30,10 +30,7 @@
       }
     },
     "rewards": {
-      "function": "eden:advancements/redstone/redstone_torch",
-      "recipes": [
-        "minecraft:redstone_torch"
-      ]
+      "function": "eden:advancements/redstone/redstone_torch"
     }
   }
   

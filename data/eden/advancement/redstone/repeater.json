@@ -33,10 +33,7 @@
       }
     },
     "rewards": {
-      "function": "eden:advancements/redstone/repeater",
-      "recipes": [
-        "minecraft:repeater"
-      ]
+      "function": "eden:advancements/redstone/repeater"
     }
   }
   

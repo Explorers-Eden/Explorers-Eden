@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:observer"
+      },
+      "title": "Kinda Sus!",
+      "description": "Observer A Piglin Brute With Your Spyglass",
+      "background": "minecraft:textures/block/mushroom_block_inside.png",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "eden:redstone/dispenser",
+    "criteria": {
+      "looking_at": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:piglin_brute"
+                  }
+                }
+              }
+            }
+          ],
+          "item": {
+            "items": "minecraft:spyglass"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "eden:advancements/redstone/observer"
+    }
+  }
+  

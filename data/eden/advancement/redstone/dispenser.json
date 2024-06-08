@@ -1,16 +1,16 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:comparator"
+        "id": "minecraft:dispenser"
       },
-      "title": "Compared to this..",
-      "description": "Mine 16 Nether Quartz Ores & Craft 16 Redstone Torches",
+      "title": "Dispensator",
+      "description": "Mine 48 Stone Blocks & Craft A Bow",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,
       "hidden": false
     },
-    "parent": "eden:redstone/repeater",
+    "parent": "eden:redstone/dropper",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:location",
@@ -20,11 +20,11 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "eden.advancement.redstone.mined.nether_quartz_ore": {
-                  "min": 16
+                "eden.advancement.redstone.mined.stone": {
+                  "min": 48
                 },
-                "eden.advancement.redstone.crafted.redstone_torch": {
-                  "min": 16
+                "eden.advancement.redstone.crafted.bow": {
+                  "min": 1
                 }
               }
             }
@@ -33,7 +33,7 @@
       }
     },
     "rewards": {
-      "function": "eden:advancements/redstone/comparator"
+      "function": "eden:advancements/redstone/dispenser"
     }
   }
   

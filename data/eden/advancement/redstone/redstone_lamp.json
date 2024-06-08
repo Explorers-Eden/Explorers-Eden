@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:redstone_lamp"
+      },
+      "title": "Bright Idea!",
+      "description": "Gather 8 Glowstone & 32 Redstone Dust",
+      "background": "minecraft:textures/block/mushroom_block_inside.png",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "eden:redstone/target",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:redstone",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            },
+            {
+              "items": "minecraft:glowstone",
+              "count": {
+                "min": 8,
+                "max": 64
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "eden:advancements/redstone/redstone_lamp"
+    }
+  }
+  
