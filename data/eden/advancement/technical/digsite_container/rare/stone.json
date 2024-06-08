@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_generates_container_loot",
+        "conditions": {
+          "loot_table": "eden:digsites/stone/rare"
+        }
+      }
+    },
+    "rewards": {
+      "function": "eden:digsites/opened_rare_container"
+    }
+  }
+  

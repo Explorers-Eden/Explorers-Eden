@@ -16,6 +16,11 @@ scoreboard objectives remove eden.afk.check
 function eden:schedules/on_load
 
 ##add scoreboards
+scoreboard objectives add eden.digsite.container.opened.common dummy
+scoreboard objectives add eden.digsite.container.opened.rare dummy
+scoreboard objectives add eden.digsite.container.opened.legendary dummy
+scoreboard objectives add eden.digsite.container.opened.mythical dummy
+scoreboard objectives add eden.digsite.container.opened.total dummy
 scoreboard objectives add eden.digsite.placed dummy
 scoreboard objectives add eden.digsite.attempts dummy
 scoreboard objectives add eden.digsite.age dummy
