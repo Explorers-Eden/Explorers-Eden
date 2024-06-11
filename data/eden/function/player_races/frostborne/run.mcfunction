@@ -1,2 +1,0 @@
-execute if items entity @s armor.head minecraft:carved_pumpkin run attribute @s minecraft:generic.armor modifier add carved_pumpkin_armor 4 add_value
-execute unless items entity @s armor.head minecraft:carved_pumpkin run attribute @s minecraft:generic.armor modifier remove carved_pumpkin_armor
