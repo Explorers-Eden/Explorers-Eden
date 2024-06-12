@@ -75,7 +75,7 @@ team modify eden.moonshroud seeFriendlyInvisibles true
 team modify eden.moonshroud color blue
 team modify eden.netherian friendlyFire false
 team modify eden.netherian seeFriendlyInvisibles true
-team modify eden.netherian color red
+team modify eden.netherian color dark_red
 team modify eden.oakhearted friendlyFire false
 team modify eden.oakhearted seeFriendlyInvisibles true
 team modify eden.oakhearted color dark_green

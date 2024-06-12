@@ -1,1 +1,0 @@
-function eden:player_races/netherian/attribute_modifier
