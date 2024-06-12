@@ -66,7 +66,7 @@ team add eden.dunesworn {"bold":false,"color":"gold","italic":false,"text":"Dune
 team add eden.endling {"bold":false,"color":"dark_purple","italic":false,"text":"Endling"}
 
 ##modify teams
-team modify eden.afk color gray
+team modify eden.afk color dark_gray
 team modify eden.frostborne friendlyFire false
 team modify eden.frostborne seeFriendlyInvisibles true
 team modify eden.frostborne color aqua
