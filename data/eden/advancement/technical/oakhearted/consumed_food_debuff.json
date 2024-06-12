@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"oakhearted\"]}"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:beef",
+            "minecraft:beef",
+            "minecraft:porkchop",
+            "minecraft:cooked_porkchop",
+            "minecraft:mutton",
+            "minecraft:cooked_mutton",
+            "minecraft:chicken",
+            "minecraft:chicken_spawn_egg",
+            "minecraft:rabbit",
+            "minecraft:cooked_rabbit",
+            "minecraft:cod",
+            "minecraft:cooked_cod",
+            "minecraft:salmon",
+            "minecraft:cooked_salmon",
+            "minecraft:rabbit_stew",
+            "minecraft:rotten_flesh"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "eden:player_races/oakhearted/consumed_food_debuff"
+  }
+}
