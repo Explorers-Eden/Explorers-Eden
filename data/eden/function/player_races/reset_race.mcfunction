@@ -43,3 +43,7 @@ attribute @s minecraft:generic.jump_strength modifier remove jump_strength_orebr
 
 ##turtlekin
 tag @s remove turtlekin
+attribute @s minecraft:generic.oxygen_bonus modifier remove turtlekin_oxygen_bonus
+attribute @s minecraft:generic.water_movement_efficiency modifier remove turtlekin_water_move
+attribute @s minecraft:player.submerged_mining_speed modifier remove turtlekin_submerged_mining
+attribute @s minecraft:generic.movement_speed modifier remove debuff_speed_turtlekin

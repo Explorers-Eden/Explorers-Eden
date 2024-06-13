@@ -2,11 +2,6 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "location": {
-      "block": {
-        "blocks": "#minecraft:sand"
-      }
-    },
     "stepping_on": {
       "block": {
         "blocks": "#minecraft:sand"
