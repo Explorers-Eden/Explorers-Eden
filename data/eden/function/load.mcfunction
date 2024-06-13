@@ -48,6 +48,10 @@ scoreboard objectives add eden.advancement.redstone.killed.witch minecraft.kille
 scoreboard objectives add eden.advancement.redstone.crafted.piston minecraft.crafted:minecraft.piston
 scoreboard objectives add eden.advancement.redstone.crafted.bow minecraft.crafted:minecraft.bow
 scoreboard objectives add eden.advancement.redstone.killed.slime minecraft.killed:minecraft.slime
+scoreboard objectives add eden.players.killed minecraft.killed:minecraft.player
+
+##modify scoreboards
+scoreboard objectives setdisplay list eden.players.killed
 
 ##trigger scoreboards
 scoreboard objectives add sit trigger {"text": "Sit"}
