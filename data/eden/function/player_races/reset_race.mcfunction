@@ -5,6 +5,11 @@ advancement revoke @s only eden:technical/class_chosen
 ##dunesworn
 tag @s remove dunesworn
 attribute @s minecraft:generic.movement_speed modifier remove speed_dunesworn
+attribute @s minecraft:generic.burning_time modifier remove dunesworn_burning_time
+attribute @s minecraft:generic.attack_knockback modifier remove dunesworn_atck_knockback
+attribute @s minecraft:generic.explosion_knockback_resistance modifier remove dunesworn_explosion_knockback
+attribute @s minecraft:generic.knockback_resistance modifier remove dunesworn_knockback_res
+attribute @s minecraft:generic.fall_damage_multiplier modifier remove dunesworn_fall_dmg_multiplier
 
 ##endling
 tag @s remove endling
