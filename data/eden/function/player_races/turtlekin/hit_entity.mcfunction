@@ -1,5 +1,5 @@
 advancement revoke @s only eden:technical/turtlekin/hit_entity
-execute at @s unless predicate eden:entity/in_water run return fail
+execute at @s unless predicate eden:world/in_water run return fail
 
 execute store result score $turtlekin_hit eden.technical run random value 1..3
 

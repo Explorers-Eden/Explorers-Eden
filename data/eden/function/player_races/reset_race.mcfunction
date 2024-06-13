@@ -4,6 +4,7 @@ advancement revoke @s only eden:technical/class_chosen
 
 ##dunesworn
 tag @s remove dunesworn
+attribute @s minecraft:generic.movement_speed modifier remove speed_dunesworn
 
 ##endling
 tag @s remove endling
