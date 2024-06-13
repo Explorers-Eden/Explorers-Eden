@@ -34,7 +34,7 @@
                 "children": [
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:raw_redstone",
+                    "name": "minecraft:redstone",
                     "functions": [
                       {
                         "function": "minecraft:apply_bonus",
@@ -48,7 +48,7 @@
                   },
                   {
                     "type": "minecraft:item",
-                    "name": "minecraft:raw_redstone",
+                    "name": "minecraft:redstone",
                     "functions": [
                       {
                         "function": "minecraft:set_count",

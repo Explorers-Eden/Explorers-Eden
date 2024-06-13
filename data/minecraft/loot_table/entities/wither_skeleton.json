@@ -62,23 +62,29 @@
         ]
       },
       {
-        "rolls": 1,
-        "bonus_rolls": 0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:wither_skeleton_skull"
-          }
-        ],
+        "bonus_rolls": 0.0,
         "conditions": [
           {
             "condition": "minecraft:killed_by_player"
           },
           {
             "condition": "minecraft:random_chance_with_enchanted_bonus",
-            "enchantment": "minecraft:looting"
+            "enchanted_chance": {
+              "type": "minecraft:linear",
+              "base": 0.035,
+              "per_level_above_first": 0.01
+            },
+            "enchantment": "minecraft:looting",
+            "unenchanted_chance": 0.025
           }
-        ]
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wither_skeleton_skull"
+          }
+        ],
+        "rolls": 1.0
       },
       {
         "rolls": 1,
@@ -98,6 +104,7 @@
                 "function": "minecraft:enchanted_count_increase",
                 "enchantment": "minecraft:looting",
                 "count": {
+                  "type": "minecraft:uniform",
                   "min": 0,
                   "max": 3
                 }
