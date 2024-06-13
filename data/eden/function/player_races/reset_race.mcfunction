@@ -13,6 +13,9 @@ attribute @s minecraft:generic.fall_damage_multiplier modifier remove dunesworn_
 
 ##endling
 tag @s remove endling
+attribute @s minecraft:generic.gravity modifier remove endling_gravity
+attribute @s minecraft:generic.step_height modifier remove endling_step_height
+attribute @s minecraft:generic.safe_fall_distance modifier remove endling_safe_fall
 
 ##moonshroud
 tag @s remove moonshroud

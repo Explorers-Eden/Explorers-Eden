@@ -8,14 +8,14 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"frostborne\"]}"
+              "nbt": "{Tags:[\"endling\"]}"
             }
           }
         ],
         "damage": {
           "type": {
             "direct_entity": {
-              "type": "minecraft:snowball"
+              "type": "minecraft:ender_pearl"
             }
           }
         }
@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-      "function": "eden:player_races/frostborne/hit_snowball"
+    "function": "eden:player_races/endling/hit_enderpearl"
   }
 }

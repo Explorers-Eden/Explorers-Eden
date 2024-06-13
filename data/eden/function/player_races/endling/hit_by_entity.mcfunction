@@ -1,0 +1,1 @@
+execute if predicate eden:percentages/10 run effect give @s minecraft:levitation 2 2 true
