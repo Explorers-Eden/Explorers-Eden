@@ -13,6 +13,7 @@ tag @s remove moonshroud
 attribute @s minecraft:generic.attack_damage modifier remove atck_dmg_moonshroud
 attribute @s minecraft:generic.attack_speed modifier remove atck_speed_moonshroud
 attribute @s minecraft:player.sneaking_speed modifier remove sneak_speed_moonshroud
+attribute @s minecraft:generic.safe_fall_distance modifier remove safe_fall_moonshroud
 
 ##frostborne
 tag @s remove frostborne
@@ -29,9 +30,16 @@ attribute @s minecraft:generic.attack_speed modifier remove atck_speed_netherian
 tag @s remove oakhearted
 attribute @s minecraft:generic.burning_time modifier remove burning_time_oakhearted
 attribute @s minecraft:player.block_break_speed modifier remove oakhearted_block_break_speed
+attribute @s minecraft:generic.movement_speed modifier remove buff_speed_oakhearted
+attribute @s minecraft:generic.jump_strength modifier remove jump_strength_oakhearted
 
 ##orebringer
 tag @s remove orebringer
+attribute @s minecraft:player.block_break_speed modifier remove orebringer_block_break_speed
+attribute @s minecraft:generic.attack_damage modifier remove atck_dmg_orebringer
+attribute @s minecraft:generic.attack_speed modifier remove atck_speed_orebringer
+attribute @s minecraft:generic.movement_speed modifier remove move_speed_orebringer
+attribute @s minecraft:generic.jump_strength modifier remove jump_strength_orebringer
 
 ##turtlekin
 tag @s remove turtlekin

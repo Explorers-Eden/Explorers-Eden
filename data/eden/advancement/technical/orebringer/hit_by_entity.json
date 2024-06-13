@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"orebringer\"]}"
+            }
+          }
+        ],
+        "damage": {
+          "source_entity": {
+            "type": "#minecraft:raiders"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "eden:player_races/orebringer/hit_by_entity"
+  }
+}
