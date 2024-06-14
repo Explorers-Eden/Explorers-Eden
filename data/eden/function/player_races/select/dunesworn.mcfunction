@@ -1,3 +1,16 @@
+execute store result score $dunesworn_msg eden.technical run random value 1..10
+
+execute if score $dunesworn_msg eden.technical matches 1 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Hear ye, hear ye! ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":" has joined the noble heritage of the Dunesworn.","color":"#F5E8C9"}]
+execute if score $dunesworn_msg eden.technical matches 2 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Rejoice, Dunesworn! The valiant ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":" has joined our ranks!","color":"#F5E8C9"}]
+execute if score $dunesworn_msg eden.technical matches 3 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Attention, brave souls of Dunesworn! ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":" has joined our fellowship!","color":"#F5E8C9"}]
+execute if score $dunesworn_msg eden.technical matches 4 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Hark! ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":" has arrived to bolster the heritage of the Dunesworn!","color":"#F5E8C9"}]
+execute if score $dunesworn_msg eden.technical matches 5 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Celebrate, mighty warriors! ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":" is now part of the Dunesworn heritage!","color":"#F5E8C9"}]
+execute if score $dunesworn_msg eden.technical matches 6 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Welcome, ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":", to the storied heritage of the Dunesworn!","color":"#F5E8C9"}]
+execute if score $dunesworn_msg eden.technical matches 7 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"A new hero, ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":", graces the halls of the Dunesworn!","color":"#F5E8C9"}]
+execute if score $dunesworn_msg eden.technical matches 8 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Our heritage grows stronger with the addition of ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":"! Welcome to the Dunesworn!","color":"#F5E8C9"}]
+execute if score $dunesworn_msg eden.technical matches 9 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Behold! ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":" has joined the proud heritage of the Dunesworn!","color":"#F5E8C9"}]
+execute if score $dunesworn_msg eden.technical matches 10 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Rejoice, Dunesworn! The valorous ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":" has joined our lineage!","color":"#F5E8C9"}]
+
 function eden:player_races/reset_race
 team join eden.dunesworn @s
 tag @s add dunesworn

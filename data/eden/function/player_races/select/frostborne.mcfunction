@@ -1,3 +1,16 @@
+execute store result score $frostborne_msg eden.technical run random value 1..10
+
+execute if score $frostborne_msg eden.technical matches 1 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Hear ye, hear ye! ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":" has joined the noble heritage of the Frostborne.","color":"#F5E8C9"}]
+execute if score $frostborne_msg eden.technical matches 2 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Rejoice, Frostborne! The valiant ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":" has joined our ranks!","color":"#F5E8C9"}]
+execute if score $frostborne_msg eden.technical matches 3 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Attention, brave souls of Frostborne! ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":" has joined our fellowship!","color":"#F5E8C9"}]
+execute if score $frostborne_msg eden.technical matches 4 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Hark! ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":" has arrived to bolster the heritage of the Frostborne!","color":"#F5E8C9"}]
+execute if score $frostborne_msg eden.technical matches 5 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Celebrate, mighty warriors! ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":" is now part of the Frostborne heritage!","color":"#F5E8C9"}]
+execute if score $frostborne_msg eden.technical matches 6 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Welcome, ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":", to the storied heritage of the Frostborne!","color":"#F5E8C9"}]
+execute if score $frostborne_msg eden.technical matches 7 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"A new hero, ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":", graces the halls of the Frostborne!","color":"#F5E8C9"}]
+execute if score $frostborne_msg eden.technical matches 8 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Our heritage grows stronger with the addition of ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":"! Welcome to the Frostborne!","color":"#F5E8C9"}]
+execute if score $frostborne_msg eden.technical matches 9 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Behold! ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":" has joined the proud heritage of the Frostborne!","color":"#F5E8C9"}]
+execute if score $frostborne_msg eden.technical matches 10 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Rejoice, Frostborne! The valorous ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":" has joined our lineage!","color":"#F5E8C9"}]
+
 function eden:player_races/reset_race
 team join eden.frostborne @s
 tag @s add frostborne
