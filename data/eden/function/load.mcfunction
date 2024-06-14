@@ -55,6 +55,7 @@ scoreboard objectives add eden.skilltree.movespeed minecraft.custom:minecraft.wa
 scoreboard objectives add eden.skilltree.armortoughness minecraft.custom:minecraft.damage_taken
 scoreboard objectives add eden.skilltree.jumpstrength minecraft.used:minecraft.wind_charge
 scoreboard objectives add eden.skilltree.atckdmg minecraft.custom:minecraft.raid_win
+scoreboard objectives add eden.skilltree.luck minecraft.custom:minecraft.fish_caught
 
 ##modify scoreboards
 scoreboard objectives setdisplay list eden.players.killed

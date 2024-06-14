@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+      "title": "Luck IX",
+      "description": "Catch 2250 fish",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "eden:skill_tree/luck_8",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "eden.skilltree.luck": {
+                  "min": 2250,
+                  "max": 2499
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

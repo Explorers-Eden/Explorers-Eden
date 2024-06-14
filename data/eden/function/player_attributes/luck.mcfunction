@@ -1,0 +1,10 @@
+execute as @a[advancements={eden:skill_tree/luck_1=true}] run attribute @s minecraft:generic.luck modifier add skill_luck_1 0.25 add_value
+execute as @a[advancements={eden:skill_tree/luck_2=true}] run attribute @s minecraft:generic.luck modifier add skill_luck_2 0.25 add_value
+execute as @a[advancements={eden:skill_tree/luck_3=true}] run attribute @s minecraft:generic.luck modifier add skill_luck_3 0.25 add_value
+execute as @a[advancements={eden:skill_tree/luck_4=true}] run attribute @s minecraft:generic.luck modifier add skill_luck_4 0.25 add_value
+execute as @a[advancements={eden:skill_tree/luck_5=true}] run attribute @s minecraft:generic.luck modifier add skill_luck_5 0.25 add_value
+execute as @a[advancements={eden:skill_tree/luck_6=true}] run attribute @s minecraft:generic.luck modifier add skill_luck_6 0.25 add_value
+execute as @a[advancements={eden:skill_tree/luck_7=true}] run attribute @s minecraft:generic.luck modifier add skill_luck_7 0.25 add_value
+execute as @a[advancements={eden:skill_tree/luck_8=true}] run attribute @s minecraft:generic.luck modifier add skill_luck_8 0.25 add_value
+execute as @a[advancements={eden:skill_tree/luck_9=true}] run attribute @s minecraft:generic.luck modifier add skill_luck_9 0.25 add_value
+execute as @a[advancements={eden:skill_tree/luck_10=true}] run attribute @s minecraft:generic.luck modifier add skill_luck_10 0.25 add_value
