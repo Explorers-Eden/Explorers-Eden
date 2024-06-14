@@ -4,7 +4,7 @@
         "id": "minecraft:redstone_lamp"
       },
       "title": "Bright Idea!",
-      "description": "Gather 8 Glowstone & 32 Redstone Dust",
+      "description": "gather 8 Glowstone & 32 Redstone Dust",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,

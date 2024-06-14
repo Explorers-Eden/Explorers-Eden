@@ -4,7 +4,7 @@
         "id": "minecraft:hopper"
       },
       "title": "Hop On!",
-      "description": "Craft 3 Chests & Smelt 8 Iron Ingots",
+      "description": "Craft 3 Chests & smelt 8 Iron Ingots",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,

@@ -4,7 +4,7 @@
         "id": "minecraft:piston"
       },
       "title": "Sounds good!",
-      "description": "Smelt 12 Iron Ingots & Kill 3 Witches",
+      "description": "Smelt 12 Iron Ingots & kill 3 Witches",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,

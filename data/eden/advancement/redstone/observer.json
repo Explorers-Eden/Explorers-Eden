@@ -4,7 +4,7 @@
         "id": "minecraft:observer"
       },
       "title": "Kinda Sus!",
-      "description": "Observer A Piglin Brute With Your Spyglass",
+      "description": "Observer a Piglin Brute with your Spyglass",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,

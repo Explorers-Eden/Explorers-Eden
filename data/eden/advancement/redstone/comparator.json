@@ -4,7 +4,7 @@
         "id": "minecraft:comparator"
       },
       "title": "Compared to this..",
-      "description": "Mine 16 Nether Quartz Ores & Craft 16 Redstone Torches",
+      "description": "Mine 16 Nether Quartz Ores & craft 16 Redstone Torches",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,

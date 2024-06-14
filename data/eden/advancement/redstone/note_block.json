@@ -4,7 +4,7 @@
         "id": "minecraft:note_block"
       },
       "title": "Ba-dum tsssh!",
-      "description": "Mine 8 Deepslate Redstone Ores & Gather 32 Wood Planks",
+      "description": "Mine 8 Deepslate Redstone Ores & gather 32 Wood Planks",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,

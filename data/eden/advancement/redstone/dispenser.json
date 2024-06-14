@@ -4,7 +4,7 @@
         "id": "minecraft:dispenser"
       },
       "title": "Dispensator",
-      "description": "Mine 48 Stone Blocks & Craft A Bow",
+      "description": "Mine 48 Stone Blocks & craft a Bow",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,

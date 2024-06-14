@@ -4,7 +4,7 @@
         "id": "minecraft:target"
       },
       "title": "Bullseye!",
-      "description": "Farm 16 Wheat & Kill a skeleton with a bow",
+      "description": "Farm 16 Wheat & kill a skeleton with a bow",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,

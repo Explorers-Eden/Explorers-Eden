@@ -4,7 +4,7 @@
         "id": "minecraft:sticky_piston"
       },
       "title": "eeewww .. sticky!",
-      "description": "Craft 3 Pistons & Kill 8 Slimes",
+      "description": "Craft 3 Pistons & kill 8 Slimes",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,

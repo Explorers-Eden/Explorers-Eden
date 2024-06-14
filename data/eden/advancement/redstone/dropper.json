@@ -4,7 +4,7 @@
         "id": "minecraft:dropper"
       },
       "title": "It looks happy",
-      "description": "Kill A Redstone Ghost",
+      "description": "Kill a Redstone Ghost",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,

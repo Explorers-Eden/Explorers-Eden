@@ -4,7 +4,7 @@
         "id": "minecraft:repeater"
       },
       "title": "On Repeat!",
-      "description": "Mine 32 Stone Blocks & Craft 8 Redstone Torches",
+      "description": "Mine 32 Stone Blocks & craft 8 Redstone Torches",
       "background": "minecraft:textures/block/mushroom_block_inside.png",
       "show_toast": true,
       "announce_to_chat": false,
