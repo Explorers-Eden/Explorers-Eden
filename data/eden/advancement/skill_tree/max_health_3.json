@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "textures",
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc5M2VlZjQ4NDkwNzhkZjRjY2Q0OTgwNTRjNzRlMjE3MWM3NzFmMjczMDk0NDE2NGE4ZWU3YjJkNTYzODMyIn19fQ=="
+            }
+          ]
+        }
+      }
+    },
+      "title": "Increase Max Health III",
+      "description": "Slay 2250 hostile mobs",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "eden:skill_tree/max_health_2",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "eden.skilltree.health": {
+                  "min": 2250,
+                  "max": 2999
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

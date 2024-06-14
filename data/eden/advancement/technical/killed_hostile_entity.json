@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "#nmr:hostile"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "eden:advancements/trigger/killed_hostile_entity"
+    }
+  }
+  

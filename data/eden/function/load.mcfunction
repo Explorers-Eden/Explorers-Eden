@@ -49,6 +49,7 @@ scoreboard objectives add eden.advancement.redstone.crafted.piston minecraft.cra
 scoreboard objectives add eden.advancement.redstone.crafted.bow minecraft.crafted:minecraft.bow
 scoreboard objectives add eden.advancement.redstone.killed.slime minecraft.killed:minecraft.slime
 scoreboard objectives add eden.players.killed minecraft.killed:minecraft.player
+scoreboard objectives add eden.skilltree.health dummy
 
 ##modify scoreboards
 scoreboard objectives setdisplay list eden.players.killed

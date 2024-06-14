@@ -1,0 +1,2 @@
+function eden:player_attributes/max_health
+function eden:player_attributes/movement_speed
