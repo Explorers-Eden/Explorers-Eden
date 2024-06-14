@@ -1,20 +1,15 @@
 {
     "display": {
       "icon": {
-      "id": "minecraft:potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "custom_color": 16728083
-        }
-      }
+      "id": "minecraft:diamond_boots"
     },
-      "title": "Max Health IV",
-      "description": "Slay 3000 hostile mobs",
+      "title": "Max Movement Speed IV",
+      "description": "Walk 40 Kilometres (sprinting not included)",
       "show_toast": true,
       "announce_to_chat": false,
       "hidden": false
     },
-    "parent": "eden:skill_tree/max_health_3",
+    "parent": "eden:skill_tree/move_speed_3",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:location",
@@ -24,9 +19,9 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "eden.skilltree.health": {
-                  "min": 3000,
-                  "max": 3749
+                "eden.skilltree.movespeed": {
+                  "min": 4000000,
+                  "max": 4999999
                 }
               }
             }
@@ -35,4 +30,3 @@
       }
     }
   }
-  

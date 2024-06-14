@@ -11,6 +11,7 @@ scoreboard objectives remove eden.afk.y2
 scoreboard objectives remove eden.afk.z1
 scoreboard objectives remove eden.afk.z2
 scoreboard objectives remove eden.afk.check
+function eden:cleanup
 
 ##init schedules
 function eden:schedules/on_load
@@ -50,6 +51,7 @@ scoreboard objectives add eden.advancement.redstone.crafted.bow minecraft.crafte
 scoreboard objectives add eden.advancement.redstone.killed.slime minecraft.killed:minecraft.slime
 scoreboard objectives add eden.players.killed minecraft.killed:minecraft.player
 scoreboard objectives add eden.skilltree.health dummy
+scoreboard objectives add eden.skilltree.movespeed minecraft.custom:minecraft.walk_one_cm
 
 ##modify scoreboards
 scoreboard objectives setdisplay list eden.players.killed

@@ -1,2 +1,4 @@
-function eden:player_attributes/max_health
+function eden:player_attributes/skill_health
+function eden:player_attributes/skill_speed
+function eden:player_attributes/skill_jump
 function eden:player_attributes/movement_speed

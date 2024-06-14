@@ -1,20 +1,14 @@
 {
     "display": {
       "icon": {
-      "id": "minecraft:player_head",
+      "id": "minecraft:potion",
       "components": {
-        "minecraft:profile": {
-          "name": "textures",
-          "properties": [
-            {
-              "name": "textures",
-              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc5M2VlZjQ4NDkwNzhkZjRjY2Q0OTgwNTRjNzRlMjE3MWM3NzFmMjczMDk0NDE2NGE4ZWU3YjJkNTYzODMyIn19fQ=="
-            }
-          ]
+        "minecraft:potion_contents": {
+          "custom_color": 16728083
         }
       }
     },
-      "title": "Increase Max Health X",
+      "title": "Max Health X",
       "description": "Slay 7500 hostile mobs",
       "show_toast": true,
       "announce_to_chat": false,
