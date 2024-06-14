@@ -52,6 +52,8 @@ scoreboard objectives add eden.advancement.redstone.killed.slime minecraft.kille
 scoreboard objectives add eden.players.killed minecraft.killed:minecraft.player
 scoreboard objectives add eden.skilltree.health dummy
 scoreboard objectives add eden.skilltree.movespeed minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add eden.skilltree.armortoughness minecraft.custom:minecraft.damage_taken
+scoreboard objectives add eden.skilltree.jumpstrength minecraft.used:minecraft.wind_charge
 
 ##modify scoreboards
 scoreboard objectives setdisplay list eden.players.killed

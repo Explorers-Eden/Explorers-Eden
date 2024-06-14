@@ -1,0 +1,10 @@
+execute as @a[advancements={eden:skill_tree/armor_toughness_1=true}] run attribute @s minecraft:generic.armor_toughness modifier add skill_armor_toughness_1 0.5 add_value
+execute as @a[advancements={eden:skill_tree/armor_toughness_2=true}] run attribute @s minecraft:generic.armor_toughness modifier add skill_armor_toughness_2 0.5 add_value
+execute as @a[advancements={eden:skill_tree/armor_toughness_3=true}] run attribute @s minecraft:generic.armor_toughness modifier add skill_armor_toughness_3 0.5 add_value
+execute as @a[advancements={eden:skill_tree/armor_toughness_4=true}] run attribute @s minecraft:generic.armor_toughness modifier add skill_armor_toughness_4 0.5 add_value
+execute as @a[advancements={eden:skill_tree/armor_toughness_5=true}] run attribute @s minecraft:generic.armor_toughness modifier add skill_armor_toughness_5 0.5 add_value
+execute as @a[advancements={eden:skill_tree/armor_toughness_6=true}] run attribute @s minecraft:generic.armor_toughness modifier add skill_armor_toughness_6 0.5 add_value
+execute as @a[advancements={eden:skill_tree/armor_toughness_7=true}] run attribute @s minecraft:generic.armor_toughness modifier add skill_armor_toughness_7 0.5 add_value
+execute as @a[advancements={eden:skill_tree/armor_toughness_8=true}] run attribute @s minecraft:generic.armor_toughness modifier add skill_armor_toughness_8 0.5 add_value
+execute as @a[advancements={eden:skill_tree/armor_toughness_9=true}] run attribute @s minecraft:generic.armor_toughness modifier add skill_armor_toughness_9 0.5 add_value
+execute as @a[advancements={eden:skill_tree/armor_toughness_10=true}] run attribute @s minecraft:generic.armor_toughness modifier add skill_armor_toughness_10 0.5 add_value

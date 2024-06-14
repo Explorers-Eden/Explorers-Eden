@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+      "title": "Armor Toughness III",
+      "description": "Take 1500 Hearts of damage",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "eden:skill_tree/armor_toughness_2",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "eden.skilltree.armortoughness": {
+                  "min": 30000,
+                  "max": 39999
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  
