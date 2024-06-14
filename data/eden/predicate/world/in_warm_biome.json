@@ -24,15 +24,6 @@
       "entity": "this",
       "predicate": {
         "location": {
-          "biomes": "minecraft:sparse_jungle"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "location": {
           "biomes": "minecraft:jungle"
         }
       }
@@ -159,7 +150,7 @@
       "entity": "this",
       "predicate": {
         "location": {
-          "biomes": "terralith:sparse_jungle"
+          "biomes": "minecraft:sparse_jungle"
         }
       }
     },
@@ -223,15 +214,6 @@
       "predicate": {
         "location": {
           "biomes": "terralith:savanna_badlands"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "location": {
-          "biomes": "terralith:ashen_brushland"
         }
       }
     }

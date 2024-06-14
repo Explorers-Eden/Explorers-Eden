@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+      "id": "minecraft:wind_charge"
+    },
+      "title": "Jump Strength II",
+      "description": "Use 256 Wind Charges",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "eden:skill_tree/jump_strength_1",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "eden.skilltree.jumpstrength": {
+                  "min": 256,
+                  "max": 383
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  
