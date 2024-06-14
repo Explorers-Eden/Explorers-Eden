@@ -1,0 +1,10 @@
+execute as @a[advancements={eden:skill_tree/attack_damage_1=true}] run attribute @s minecraft:generic.attack_damage modifier add skill_attack_damage_1 0.5 add_value
+execute as @a[advancements={eden:skill_tree/attack_damage_2=true}] run attribute @s minecraft:generic.attack_damage modifier add skill_attack_damage_2 0.5 add_value
+execute as @a[advancements={eden:skill_tree/attack_damage_3=true}] run attribute @s minecraft:generic.attack_damage modifier add skill_attack_damage_3 0.5 add_value
+execute as @a[advancements={eden:skill_tree/attack_damage_4=true}] run attribute @s minecraft:generic.attack_damage modifier add skill_attack_damage_4 0.5 add_value
+execute as @a[advancements={eden:skill_tree/attack_damage_5=true}] run attribute @s minecraft:generic.attack_damage modifier add skill_attack_damage_5 0.5 add_value
+execute as @a[advancements={eden:skill_tree/attack_damage_6=true}] run attribute @s minecraft:generic.attack_damage modifier add skill_attack_damage_6 0.5 add_value
+execute as @a[advancements={eden:skill_tree/attack_damage_7=true}] run attribute @s minecraft:generic.attack_damage modifier add skill_attack_damage_7 0.5 add_value
+execute as @a[advancements={eden:skill_tree/attack_damage_8=true}] run attribute @s minecraft:generic.attack_damage modifier add skill_attack_damage_8 0.5 add_value
+execute as @a[advancements={eden:skill_tree/attack_damage_9=true}] run attribute @s minecraft:generic.attack_damage modifier add skill_attack_damage_9 0.5 add_value
+execute as @a[advancements={eden:skill_tree/attack_damage_10=true}] run attribute @s minecraft:generic.attack_damage modifier add skill_attack_damage_10 0.5 add_value

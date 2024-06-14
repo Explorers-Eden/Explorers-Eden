@@ -1,6 +1,7 @@
 execute as @a if score @s eden.skilltree.movespeed matches 30000000.. run scoreboard players reset @s eden.skilltree.movespeed
 execute as @a if score @s eden.skilltree.armortoughness matches 110000.. run scoreboard players reset @s eden.skilltree.armortoughness
 execute as @a if score @s eden.skilltree.jumpstrength matches 1500.. run scoreboard players reset @s eden.skilltree.jumpstrength
+execute as @a if score @s eden.skilltree.atckdmg matches 350.. run scoreboard players reset @s eden.skilltree.atckdmg
 execute as @a[advancements={eden:skill_tree/max_health_10=true}] run scoreboard players reset @s eden.skilltree.health
 execute as @a if score @s eden.advancement.redstone.mined.redstone_ore matches 100.. run scoreboard players reset @s eden.advancement.redstone.mined.redstone_ore
 execute as @a if score @s eden.advancement.redstone.mined.deepslate_redstone_ore matches 100.. run scoreboard players reset @s eden.advancement.redstone.mined.deepslate_redstone_ore
