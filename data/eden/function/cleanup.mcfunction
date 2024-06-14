@@ -4,6 +4,7 @@ execute as @a[advancements={eden:skill_tree/jump_strength_10=true}] run scoreboa
 execute as @a[advancements={eden:skill_tree/attack_damage_10=true}] run scoreboard players reset @s eden.skilltree.atckdmg
 execute as @a[advancements={eden:skill_tree/luck_10=true}] run scoreboard players reset @s eden.skilltree.luck
 execute as @a[advancements={eden:skill_tree/max_health_10=true}] run scoreboard players reset @s eden.skilltree.health
+execute as @a[advancements={eden:skill_tree/block_break_speed_10=true}] run scoreboard players reset @s eden.skilltree.blockbreakspeed
 execute as @a if score @s eden.advancement.redstone.mined.redstone_ore matches 100.. run scoreboard players reset @s eden.advancement.redstone.mined.redstone_ore
 execute as @a if score @s eden.advancement.redstone.mined.deepslate_redstone_ore matches 100.. run scoreboard players reset @s eden.advancement.redstone.mined.deepslate_redstone_ore
 execute as @a if score @s eden.advancement.redstone.mined.wheat matches 100.. run scoreboard players reset @s eden.advancement.redstone.mined.wheat

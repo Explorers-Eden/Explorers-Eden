@@ -56,6 +56,7 @@ scoreboard objectives add eden.skilltree.armortoughness minecraft.custom:minecra
 scoreboard objectives add eden.skilltree.jumpstrength minecraft.used:minecraft.wind_charge
 scoreboard objectives add eden.skilltree.atckdmg minecraft.custom:minecraft.raid_win
 scoreboard objectives add eden.skilltree.luck minecraft.custom:minecraft.fish_caught
+scoreboard objectives add eden.skilltree.blockbreakspeed minecraft.mined:minecraft.coal_ore
 
 ##modify scoreboards
 scoreboard objectives setdisplay list eden.players.killed

@@ -1,0 +1,10 @@
+execute as @a[advancements={eden:skill_tree/block_break_speed_1=true}] run attribute @s minecraft:player.block_break_speed modifier add skill_block_break_speed_1 0.025 add_value
+execute as @a[advancements={eden:skill_tree/block_break_speed_2=true}] run attribute @s minecraft:player.block_break_speed modifier add skill_block_break_speed_2 0.025 add_value
+execute as @a[advancements={eden:skill_tree/block_break_speed_3=true}] run attribute @s minecraft:player.block_break_speed modifier add skill_block_break_speed_3 0.025 add_value
+execute as @a[advancements={eden:skill_tree/block_break_speed_4=true}] run attribute @s minecraft:player.block_break_speed modifier add skill_block_break_speed_4 0.025 add_value
+execute as @a[advancements={eden:skill_tree/block_break_speed_5=true}] run attribute @s minecraft:player.block_break_speed modifier add skill_block_break_speed_5 0.025 add_value
+execute as @a[advancements={eden:skill_tree/block_break_speed_6=true}] run attribute @s minecraft:player.block_break_speed modifier add skill_block_break_speed_6 0.025 add_value
+execute as @a[advancements={eden:skill_tree/block_break_speed_7=true}] run attribute @s minecraft:player.block_break_speed modifier add skill_block_break_speed_7 0.025 add_value
+execute as @a[advancements={eden:skill_tree/block_break_speed_8=true}] run attribute @s minecraft:player.block_break_speed modifier add skill_block_break_speed_8 0.025 add_value
+execute as @a[advancements={eden:skill_tree/block_break_speed_9=true}] run attribute @s minecraft:player.block_break_speed modifier add skill_block_break_speed_9 0.025 add_value
+execute as @a[advancements={eden:skill_tree/block_break_speed_10=true}] run attribute @s minecraft:player.block_break_speed modifier add skill_block_break_speed_10 0.025 add_value
