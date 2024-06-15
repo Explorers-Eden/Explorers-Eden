@@ -1,4 +1,4 @@
-$execute positioned $(posx) ~ $(posz) run spreadplayers ~ ~ 100 100 false @s
+$execute positioned $(posx) ~ $(posz) run spreadplayers ~ ~ 128 128 under $(ylimit) false @s
 
 execute at @s run playsound minecraft:entity.enderman.teleport neutral @a ~ ~ ~ .5 0.5
 particle minecraft:reverse_portal ~ ~.5 ~ .3 .7 .3 0 100
