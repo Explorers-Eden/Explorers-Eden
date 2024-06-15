@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " X",
+      "X#X",
+      " X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:gold_nugget"
+      },
+      "#": {
+        "item": "minecraft:blackstone"
+      }
+    },
+    "result": {
+      "id": "minecraft:gilded_blackstone",
+      "count": 1
+    }
+  }
+  

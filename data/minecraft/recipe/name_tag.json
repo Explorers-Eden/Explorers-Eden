@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "X  ",
+      " # ",
+      "  #"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:string"
+      },
+      "#": {
+        "item": "minecraft:paper"
+      }
+    },
+    "result": {
+      "id": "minecraft:name_tag"
+    }
+  }
+  
