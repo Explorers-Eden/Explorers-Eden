@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "group": "bundles",
+    "ingredients": [
+      {
+        "item": "minecraft:light_blue_dye"
+      },
+      {
+        "item": "minecraft:bundle"
+      }
+    ],
+    "result": {
+      "id": "minecraft:bundle",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 10006
+      }
+    }
+  }
+  

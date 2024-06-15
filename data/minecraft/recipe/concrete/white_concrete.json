@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+      "PPP",
+      "PWP",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:white_concrete_powder"
+      },
+      "W": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    "result": {
+      "id": "minecraft:white_concrete",
+      "count": 8
+    }
+  }
+  
