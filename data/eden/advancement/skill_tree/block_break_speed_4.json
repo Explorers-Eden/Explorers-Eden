@@ -5,7 +5,7 @@
     },
       "title": "Block Break Speed IV",
       "description": "Mine 2000 Coal Ore",
-      "show_toast": true,
+      "show_toast": false,
       "announce_to_chat": false,
       "hidden": false
     },
@@ -28,6 +28,9 @@
           ]
         }
       }
+    },
+    "rewards": {
+      "function": "eden:advancements/skill_tree/block_break_speed"
     }
   }
   

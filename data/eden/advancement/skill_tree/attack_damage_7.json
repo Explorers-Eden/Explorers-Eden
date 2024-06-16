@@ -5,7 +5,7 @@
     },
       "title": "Attack Damage VII",
       "description": "Win 224 Raids",
-      "show_toast": true,
+      "show_toast": false,
       "announce_to_chat": false,
       "hidden": false
     },
@@ -28,6 +28,9 @@
           ]
         }
       }
+    },
+    "rewards": {
+      "function": "eden:advancements/skill_tree/attack_damage"
     }
   }
   

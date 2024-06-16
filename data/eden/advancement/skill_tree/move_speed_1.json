@@ -3,9 +3,9 @@
       "icon": {
       "id": "minecraft:diamond_boots"
     },
-      "title": "Max Movement Speed I",
+      "title": "Movement Speed I",
       "description": "Walk 10 Kilometres (sprinting not included)",
-      "show_toast": true,
+      "show_toast": false,
       "announce_to_chat": false,
       "hidden": false
     },
@@ -28,6 +28,9 @@
           ]
         }
       }
+    },
+    "rewards": {
+      "function": "eden:advancements/skill_tree/move_speed"
     }
   }
   

@@ -5,7 +5,7 @@
     },
       "title": "Armor Toughness VIII",
       "description": "Take 4000 Hearts of damage",
-      "show_toast": true,
+      "show_toast": false,
       "announce_to_chat": false,
       "hidden": false
     },
@@ -28,6 +28,9 @@
           ]
         }
       }
+    },
+    "rewards": {
+      "function": "eden:advancements/skill_tree/armor_toughness"
     }
   }
   

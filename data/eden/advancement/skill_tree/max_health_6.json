@@ -10,7 +10,7 @@
     },
       "title": "Max Health VI",
       "description": "Slay 4500 hostile mobs",
-      "show_toast": true,
+      "show_toast": false,
       "announce_to_chat": false,
       "hidden": false
     },
@@ -33,6 +33,9 @@
           ]
         }
       }
+    },
+    "rewards": {
+      "function": "eden:advancements/skill_tree/max_health"
     }
   }
   
