@@ -51,6 +51,15 @@
         "entity": "this",
         "predicate": {
           "location": {
+            "biomes": "minecraft:dark_forest"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
             "biomes": "minecraft:sparse_jungle"
           }
         }
