@@ -1,0 +1,14 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:glow_squid}}}}] at @s run function eden:fishing/glow_squid
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:drowned}}}}] at @s run function eden:fishing/drowned
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:salmon}}}}] at @s run function eden:fishing/salmon
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:cod}}}}] at @s run function eden:fishing/cod
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:pufferfish}}}}] at @s run function eden:fishing/pufferfish
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:tropical_fish}}}}] at @s run function eden:fishing/tropical_fish
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:tadpole}}}}] at @s run function eden:fishing/tadpole
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:squid}}}}] at @s run function eden:fishing/squid
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:guardian}}}}] at @s run function eden:fishing/guardian
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:axolotl_lucy}}}}] at @s run function eden:fishing/axolotl_lucy
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:axolotl_wild}}}}] at @s run function eden:fishing/axolotl_wild
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:axolotl_gold}}}}] at @s run function eden:fishing/axolotl_gold
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:axolotl_cyan}}}}] at @s run function eden:fishing/axolotl_cyan
+execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:axolotl_blue}}}}] at @s run function eden:fishing/axolotl_blue
