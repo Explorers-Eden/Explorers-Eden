@@ -1,0 +1,1 @@
+scoreboard players enable @a chat_coordinates

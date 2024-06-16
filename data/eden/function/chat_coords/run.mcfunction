@@ -1,0 +1,1 @@
+execute as @a[scores={chat_coordinates=1..}] run function eden:chat_coords/get_coords

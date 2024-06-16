@@ -55,7 +55,7 @@ scoreboard objectives add eden.skilltree.movespeed minecraft.custom:minecraft.wa
 scoreboard objectives add eden.skilltree.armortoughness minecraft.custom:minecraft.damage_taken
 scoreboard objectives add eden.skilltree.jumpstrength minecraft.used:minecraft.wind_charge
 scoreboard objectives add eden.skilltree.atckdmg minecraft.custom:minecraft.raid_win
-scoreboard objectives add eden.skilltree.luck minecraft.custom:minecraft.fish_caught
+scoreboard objectives add eden.skilltree.luck dummy
 scoreboard objectives add eden.skilltree.blockbreakspeed minecraft.mined:minecraft.coal_ore
 scoreboard objectives add durability_ping_msg_on dummy
 scoreboard objectives add durability_ping_msg_off dummy
@@ -68,6 +68,7 @@ scoreboard objectives add sit trigger {"text": "Sit"}
 scoreboard objectives add rtp trigger {"text": "RTP"}
 scoreboard objectives add equip_hat trigger {"text": "Equip Hat"}
 scoreboard objectives add durability_ping trigger {"text": "Durability Ping"}
+scoreboard objectives add chat_coordinates trigger {"text": "Chat Coordinates"}
 
 ##add teams
 team add eden.afk "AFK Players"
