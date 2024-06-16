@@ -11,6 +11,8 @@ execute if score $frostborne_msg eden.technical matches 8 run tellraw @a[team=ed
 execute if score $frostborne_msg eden.technical matches 9 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Behold! ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":" has joined the proud heritage of the Frostborne!","color":"#F5E8C9"}]
 execute if score $frostborne_msg eden.technical matches 10 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Rejoice, Frostborne! The valorous ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":" has joined our lineage!","color":"#F5E8C9"}]
 
+execute as @a[team=eden.frostborne] at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
+
 function eden:player_races/reset_race
 team join eden.frostborne @s
 tag @s add frostborne

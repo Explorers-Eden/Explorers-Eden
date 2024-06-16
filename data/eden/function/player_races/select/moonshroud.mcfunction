@@ -11,6 +11,8 @@ execute if score $moonshroud_msg eden.technical matches 8 run tellraw @a[team=ed
 execute if score $moonshroud_msg eden.technical matches 9 run tellraw @a[team=eden.moonshroud] [{"text":"❤ ","color":"blue"},{"text":"Behold! ","color":"#F5E8C9"},{"selector":"@s","color":"blue"},{"text":" has joined the proud heritage of the Moonshroud!","color":"#F5E8C9"}]
 execute if score $moonshroud_msg eden.technical matches 10 run tellraw @a[team=eden.moonshroud] [{"text":"❤ ","color":"blue"},{"text":"Rejoice, Moonshroud! The valorous ","color":"#F5E8C9"},{"selector":"@s","color":"blue"},{"text":" has joined our lineage!","color":"#F5E8C9"}]
 
+execute as @a[team=eden.moonshroud] at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
+
 function eden:player_races/reset_race
 team join eden.moonshroud @s
 tag @s add moonshroud

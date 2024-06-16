@@ -11,6 +11,8 @@ execute if score $endling_msg eden.technical matches 8 run tellraw @a[team=eden.
 execute if score $endling_msg eden.technical matches 9 run tellraw @a[team=eden.endling] [{"text":"❤ ","color":"dark_purple"},{"text":"Behold! ","color":"#F5E8C9"},{"selector":"@s","color":"dark_purple"},{"text":" has joined the proud heritage of the Endling!","color":"#F5E8C9"}]
 execute if score $endling_msg eden.technical matches 10 run tellraw @a[team=eden.endling] [{"text":"❤ ","color":"dark_purple"},{"text":"Rejoice, Endling! The valorous ","color":"#F5E8C9"},{"selector":"@s","color":"dark_purple"},{"text":" has joined our lineage!","color":"#F5E8C9"}]
 
+execute as @a[team=eden.endling] at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
+
 function eden:player_races/reset_race
 team join eden.endling @s
 tag @s add endling

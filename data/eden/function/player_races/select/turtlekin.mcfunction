@@ -11,6 +11,8 @@ execute if score $turtlekin_msg eden.technical matches 8 run tellraw @a[team=ede
 execute if score $turtlekin_msg eden.technical matches 9 run tellraw @a[team=eden.turtlekin] [{"text":"❤ ","color":"dark_aqua"},{"text":"Behold! ","color":"#F5E8C9"},{"selector":"@s","color":"dark_aqua"},{"text":" has joined the proud heritage of the Turtlekin!","color":"#F5E8C9"}]
 execute if score $turtlekin_msg eden.technical matches 10 run tellraw @a[team=eden.turtlekin] [{"text":"❤ ","color":"dark_aqua"},{"text":"Rejoice, Turtlekin! The valorous ","color":"#F5E8C9"},{"selector":"@s","color":"dark_aqua"},{"text":" has joined our lineage!","color":"#F5E8C9"}]
 
+execute as @a[team=eden.turtlekin] at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
+
 function eden:player_races/reset_race
 team join eden.turtlekin @s
 tag @s add turtlekin

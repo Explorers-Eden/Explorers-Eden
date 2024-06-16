@@ -11,6 +11,8 @@ execute if score $dunesworn_msg eden.technical matches 8 run tellraw @a[team=ede
 execute if score $dunesworn_msg eden.technical matches 9 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Behold! ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":" has joined the proud heritage of the Dunesworn!","color":"#F5E8C9"}]
 execute if score $dunesworn_msg eden.technical matches 10 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Rejoice, Dunesworn! The valorous ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":" has joined our lineage!","color":"#F5E8C9"}]
 
+execute as @a[team=eden.dunesworn] at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
+
 function eden:player_races/reset_race
 team join eden.dunesworn @s
 tag @s add dunesworn
