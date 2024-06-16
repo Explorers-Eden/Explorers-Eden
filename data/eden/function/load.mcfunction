@@ -57,6 +57,8 @@ scoreboard objectives add eden.skilltree.jumpstrength minecraft.used:minecraft.w
 scoreboard objectives add eden.skilltree.atckdmg minecraft.custom:minecraft.raid_win
 scoreboard objectives add eden.skilltree.luck minecraft.custom:minecraft.fish_caught
 scoreboard objectives add eden.skilltree.blockbreakspeed minecraft.mined:minecraft.coal_ore
+scoreboard objectives add durability_ping_msg_on dummy
+scoreboard objectives add durability_ping_msg_off dummy
 
 ##modify scoreboards
 scoreboard objectives setdisplay list eden.players.killed
@@ -65,6 +67,7 @@ scoreboard objectives setdisplay list eden.players.killed
 scoreboard objectives add sit trigger {"text": "Sit"}
 scoreboard objectives add rtp trigger {"text": "RTP"}
 scoreboard objectives add equip_hat trigger {"text": "Equip Hat"}
+scoreboard objectives add durability_ping trigger {"text": "Durability Ping"}
 
 ##add teams
 team add eden.afk "AFK Players"
