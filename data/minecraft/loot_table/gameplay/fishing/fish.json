@@ -73,17 +73,6 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:cod",
-            "weight": 13,
-            "functions": [
-              {
-                "function": "minecraft:set_custom_data",
-                "tag": "{fishing:squid}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cod",
             "weight": 3,
             "functions": [
               {
@@ -144,27 +133,6 @@
               {
                 "function": "minecraft:set_custom_data",
                 "tag": "{fishing:drowned}"
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:time_check",
-                "value": {
-                  "min": 14000,
-                  "max": 22000
-                },
-                "period": 24000
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cod",
-            "weight": 25,
-            "functions": [
-              {
-                "function": "minecraft:set_custom_data",
-                "tag": "{fishing:glow_squid}"
               }
             ],
             "conditions": [
