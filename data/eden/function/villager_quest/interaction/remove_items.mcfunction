@@ -1,0 +1,4 @@
+$item replace entity @s weapon.mainhand with $(interaction_item) $(reduced_item_count)
+execute as @e[type=interaction,tag=villager_quest_interaction] at @s if data entity @s interaction if score @s eden.villager.quest.completed.count matches 8.. run particle minecraft:poof ~ ~-1 ~ .5 1 .5 0.01 100
+execute as @e[type=interaction,tag=villager_quest_interaction] at @s if data entity @s interaction if score @s eden.villager.quest.completed.count matches 8.. run data modify entity @n[type=villager,tag=quest_set,nbt={VillagerData:{profession:"minecraft:nitwit"}}] VillagerData.profession set value "minecraft:none" 
+execute as @e[type=interaction,tag=villager_quest_interaction] at @s if data entity @s interaction if score @s eden.villager.quest.completed.count matches 8.. run kill @s

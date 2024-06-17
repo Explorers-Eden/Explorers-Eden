@@ -1,0 +1,1 @@
+$execute if items entity @s weapon.mainhand $(interaction_item) if score @s eden.villager.quest.item.count matches $(interaction_count).. run function eden:villager_quest/interaction/payout with storage eden:villager
