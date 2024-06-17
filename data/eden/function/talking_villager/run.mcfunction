@@ -1,0 +1,1 @@
+execute as @e[type=villager,tag=!mood_set] run function eden:talking_villager/tag_villager

@@ -1,0 +1,1 @@
+$tellraw @s [{"bold":false,"color":"green","italic":false,"text":"Villager: "},{"bold":false,"color":"gray","italic":true,"text":"$(talking)"}]
