@@ -57,4 +57,6 @@ tellraw @a [\
 
 execute at @a run playsound minecraft:entity.chicken.egg neutral @a ~ ~ ~ .6 2
 
+effect give @s minecraft:glowing 30 0 true
+
 scoreboard players set @s chat_coordinates 0

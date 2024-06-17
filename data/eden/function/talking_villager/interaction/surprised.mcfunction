@@ -1,3 +1,5 @@
+execute at @s run data modify storage eden:villager display_name set from entity @e[type=villager,limit=1,sort=nearest,tag=mood_surprised] CustomName
+
 function eden:talking_villager/messages/surprised
 function eden:talking_villager/interaction/send_msg with storage eden:villager
 
