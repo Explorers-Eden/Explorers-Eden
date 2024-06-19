@@ -14,16 +14,16 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:food": {
-                    "nutrition": 2,
-                    "saturation": 2,
-                    "eat_seconds": 3
-                  },
-                  "minecraft:custom_model_data": 10010,
-                  "minecraft:custom_data": "{food:fried_egg}",
-                  "minecraft:item_name": "{\"text\":\"Fried Egg\"}",
-                  "minecraft:max_stack_size": 16
-                }
+        "minecraft:item_name": "{\"text\":\"Fried Egg\"}",
+        "minecraft:custom_model_data": 10010,
+        "minecraft:custom_data": "{food:fried_egg}",
+        "minecraft:food": {
+          "nutrition": 2,
+          "saturation": 2,
+          "eat_seconds": 3
+        },
+        "minecraft:max_stack_size": 16
+      }
               }
             ]
           }

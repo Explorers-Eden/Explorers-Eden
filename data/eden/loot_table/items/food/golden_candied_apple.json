@@ -14,18 +14,18 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:food": {
-                    "nutrition": 1,
-                    "saturation": 5,
-                    "eat_seconds": 2,
-                    "using_converts_to": {
-                      "id": "minecraft:stick"
-                    }
-                  },
-                  "minecraft:custom_model_data": 10013,
-                  "minecraft:custom_data": "{food:golden_candied_apple}",
-                  "minecraft:item_name": "{\"text\":\"Golden Candied Apple\"}"
-                }
+        "minecraft:item_name": "{\"text\":\"Golden Candied Apple\"}",
+        "minecraft:custom_model_data": 10013,
+        "minecraft:custom_data": "{food:golden_candied_apple}",
+        "minecraft:food": {
+          "nutrition": 1,
+          "saturation": 5,
+          "eat_seconds": 2,
+          "using_converts_to": {
+            "id": "minecraft:stick"
+          }
+        }
+      }
               }
             ]
           }

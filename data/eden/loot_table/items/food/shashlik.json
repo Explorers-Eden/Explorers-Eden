@@ -14,18 +14,19 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:food": {
-                    "nutrition": 2,
-                    "saturation": 5,
-                    "eat_seconds": 3,
-                    "using_converts_to": {
-                      "id": "minecraft:stick"
-                    }
-                  },
-                  "minecraft:custom_model_data": 10022,
-                  "minecraft:custom_data": "{food:shashlik}",
-                  "minecraft:item_name": "{\"text\":\"Shashlik\"}"
-                }
+        "minecraft:item_name": "{\"text\":\"Shashlik\"}",
+        "minecraft:custom_model_data": 10022,
+        "minecraft:custom_data": "{food:shashlik}",
+        "minecraft:food": {
+          "nutrition": 2,
+          "saturation": 5,
+          "eat_seconds": 3,
+          "using_converts_to": {
+            "id": "minecraft:stick"
+          }
+        },
+        "minecraft:max_stack_size": 64
+      }
               }
             ]
           }

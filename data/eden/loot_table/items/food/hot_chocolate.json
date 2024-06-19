@@ -14,17 +14,17 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:food": {
-                    "nutrition": 2,
-                    "saturation": 3,
-                    "can_always_eat": true,
-                    "eat_seconds": 3
-                  },
-                  "minecraft:custom_model_data": 10003,
-                  "minecraft:custom_data": "{food:hot_chocolate}",
-                  "minecraft:item_name": "{\"text\":\"Hot Chocolate\"}",
-                  "minecraft:max_stack_size": 16
-                }
+        "minecraft:item_name": "{\"text\":\"Hot Chocolate\"}",
+        "minecraft:custom_model_data": 10003,
+        "minecraft:custom_data": "{food:hot_chocolate}",
+        "minecraft:food": {
+          "nutrition": 2,
+          "saturation": 3,
+          "can_always_eat": true,
+          "eat_seconds": 3
+        },
+        "minecraft:max_stack_size": 16
+      }
               }
             ]
           }

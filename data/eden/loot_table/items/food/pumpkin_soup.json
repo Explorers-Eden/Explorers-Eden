@@ -14,19 +14,19 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:food": {
-                    "nutrition": 3,
-                    "saturation": 3,
-                    "eat_seconds": 3,
-                    "using_converts_to": {
-                      "id": "minecraft:bowl"
-                    }
-                  },
-                  "minecraft:custom_model_data": 10019,
-                  "minecraft:custom_data": "{food:pumpkin_soup}",
-                  "minecraft:item_name": "{\"text\":\"Pumpkin Soup\"}",
-                  "minecraft:max_stack_size": 16
-                }
+        "minecraft:item_name": "{\"text\":\"Pumpkin Soup\"}",
+        "minecraft:custom_model_data": 10019,
+        "minecraft:custom_data": "{food:pumpkin_soup}",
+        "minecraft:food": {
+          "nutrition": 3,
+          "saturation": 3,
+          "eat_seconds": 3,
+          "using_converts_to": {
+            "id": "minecraft:bowl"
+          }
+        },
+        "minecraft:max_stack_size": 16
+      }
               }
             ]
           }

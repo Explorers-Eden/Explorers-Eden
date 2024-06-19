@@ -14,15 +14,15 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:food": {
-                    "nutrition": 6,
-                    "saturation": 6,
-                    "eat_seconds": 3
-                  },
-                  "minecraft:custom_model_data": 10000,
-                  "minecraft:custom_data": "{food:baked_fish}",
-                  "minecraft:item_name": "{\"text\":\"Baked Fish\"}"
-                }
+        "minecraft:item_name": "{\"text\":\"Baked Fish\"}",
+        "minecraft:custom_model_data": 10000,
+        "minecraft:custom_data": "{food:baked_fish}",
+        "minecraft:food": {
+          "nutrition": 6,
+          "saturation": 6,
+          "eat_seconds": 3
+        }
+      }
               }
             ]
           }
