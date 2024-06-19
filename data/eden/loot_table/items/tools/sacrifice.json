@@ -1,0 +1,28 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Sacrifice\"}",
+                  "minecraft:custom_data": "{tools:sacrifice}",
+                  "minecraft:custom_model_data": 10003,
+                  "minecraft:max_stack_size": 1,
+                  "minecraft:damage": 0,
+                  "minecraft:max_damage": 3500,
+                  "minecraft:rarity": "epic"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

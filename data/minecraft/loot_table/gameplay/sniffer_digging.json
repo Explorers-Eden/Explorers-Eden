@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:gift",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:torchflower_seeds"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pitcher_pod"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/sniffer_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/sniffer_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/sniffer_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/sniffer_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/sniffer_sword"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.15
+          },
+          {
+            "condition": "minecraft:killed_by_player"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/sniffer_digging"
+  }
+  
