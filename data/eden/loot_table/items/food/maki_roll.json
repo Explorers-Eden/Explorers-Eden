@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_foot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 2,
+                    "saturation": 2,
+                    "eat_seconds": 2
+                  },
+                  "minecraft:custom_model_data": 10016,
+                  "minecraft:custom_data": "{food:maki_roll}",
+                  "minecraft:item_name": "{\"text\":\"Maki Roll\"}",
+                  "minecraft:max_stack_size": 64
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

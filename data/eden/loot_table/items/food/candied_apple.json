@@ -1,0 +1,36 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_foot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 1,
+                    "saturation": 3,
+                    "eat_seconds": 3,
+                    "using_converts_to": {
+                      "id": "minecraft:stick"
+                    }
+                  },
+                  "minecraft:custom_model_data": 10003,
+                  "minecraft:custom_data": "{food:candied_apple}",
+                  "minecraft:item_name": "{\"text\":\"Candied Apple\"}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

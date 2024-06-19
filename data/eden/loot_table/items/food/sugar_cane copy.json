@@ -1,0 +1,33 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_foot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 1,
+                    "saturation": 1,
+                    "eat_seconds": 2
+                  },
+                  "minecraft:custom_model_data": 10024,
+                  "minecraft:custom_data": "{food:sugar_cane}",
+                  "minecraft:item_name": "{\"text\":\"Sugar Cane\"}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "minecraft:pumpkin"
+      }
+    ],
+    "result": {
+      "id": "minecraft:rabbit_foot",
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Pumpkin Soup\"}",
+        "minecraft:custom_model_data": 10019,
+        "minecraft:custom_data": "{food:pumpkin_soup}",
+        "minecraft:food": {
+          "nutrition": 3,
+          "saturation": 3,
+          "eat_seconds": 3,
+          "using_converts_to": {
+            "id": "minecraft:bowl"
+          }
+        },
+        "minecraft:max_stack_size": 16
+      }
+    }
+  }
+  

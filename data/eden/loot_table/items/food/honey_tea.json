@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:honey_bottle",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 2,
+                    "saturation": 3,
+                    "can_always_eat": true,
+                    "eat_seconds": 3
+                  },
+                  "minecraft:custom_model_data": 10002,
+                  "minecraft:custom_data": "{food:honey_tea}",
+                  "minecraft:item_name": "{\"text\":\"Honey Tea\"}",
+                  "minecraft:max_stack_size": 16
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

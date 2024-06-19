@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_foot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 3,
+                    "saturation": 3,
+                    "eat_seconds": 3
+                  },
+                  "minecraft:custom_model_data": 10027,
+                  "minecraft:custom_data": "{food:xmas_bread}",
+                  "minecraft:item_name": "{\"text\":\"Christmas Bread\"}",
+                  "minecraft:max_stack_size": 64
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

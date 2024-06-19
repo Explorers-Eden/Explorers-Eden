@@ -1,0 +1,33 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_foot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:food": {
+                    "nutrition": 1,
+                    "saturation": 1,
+                    "eat_seconds": 1
+                  },
+                  "minecraft:custom_model_data": 10005,
+                  "minecraft:custom_data": "{food:candy}",
+                  "minecraft:item_name": "{\"text\":\"Candy\"}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

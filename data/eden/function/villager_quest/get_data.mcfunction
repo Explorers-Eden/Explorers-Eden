@@ -1,5 +1,5 @@
 tag @s add quest_set
-execute unless predicate eden:percentages/15 run return fail
+execute unless predicate eden:percentages/10 run return fail
 
 execute store result storage eden:villager uuid_0 int 1 run data get entity @s UUID[0]
 execute store result storage eden:villager uuid_1 int 1 run data get entity @s UUID[1]

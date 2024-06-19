@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "tag": "eden:ink_sacs"
+      },
+      {
+        "tag": "eden:ink_sacs"
+      }
+    ],
+    "result": {
+      "id": "minecraft:rabbit_foot",
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Squid Ink Ravioli\"}",
+        "minecraft:custom_model_data": 10023,
+        "minecraft:custom_data": "{food:squid_ink_ravioli}",
+        "minecraft:food": {
+          "nutrition": 4,
+          "saturation": 4,
+          "eat_seconds": 3,
+          "using_converts_to": {
+            "id": "minecraft:bowl"
+          }
+        },
+        "minecraft:max_stack_size": 16
+      }
+    }
+  }
+  

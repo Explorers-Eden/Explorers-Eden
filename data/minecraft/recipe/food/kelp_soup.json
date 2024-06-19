@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+      {
+        "item": "minecraft:kelp"
+      },
+      {
+        "item": "minecraft:kelp"
+      },
+      {
+        "item": "minecraft:kelp"
+      },
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "result": {
+      "id": "minecraft:rabbit_foot",
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Kelp Soup\"}",
+        "minecraft:custom_model_data": 10015,
+        "minecraft:custom_data": "{food:kelp_soup}",
+        "minecraft:food": {
+          "nutrition": 2,
+          "saturation": 3,
+          "eat_seconds": 3,
+          "using_converts_to": {
+            "id": "minecraft:bowl"
+          }
+        },
+        "minecraft:max_stack_size": 16
+      }
+    }
+  }
+  
