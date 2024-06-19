@@ -58,6 +58,10 @@
           {
             "type": "minecraft:loot_table",
             "value": "eden:items/tools/phantom_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/phantom_hat"
           }
         ],
         "conditions": [

@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/desert_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/farmer_hat_2"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/farmer_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/fisherman_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/fishing_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/savanna_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/snow_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/swamp_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/villager_mask"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.15
+          },
+          {
+            "condition": "minecraft:killed_by_player"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:entities/villager"
+  }
+  

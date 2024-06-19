@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Apple With Arrow\"}",
+                  "minecraft:custom_data": "{hats:apple_with_arrow}",
+                  "minecraft:custom_model_data": 100032,
+                  "minecraft:max_stack_size": 1,
+                  "minecraft:rarity": "uncommon"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
