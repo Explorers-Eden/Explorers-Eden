@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "eden:items/hats/bee"
+            "value": "eden:items/hats/bee_hat"
           },
           {
             "type": "minecraft:loot_table",

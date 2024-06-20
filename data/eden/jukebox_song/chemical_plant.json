@@ -1,0 +1,11 @@
+{
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.chemical_plant"
+  },
+    "description": {
+      "text": "Masato Nakamura - Chemical Plant Zone"
+    },
+    "length_in_seconds": 95.0,
+    "comparator_output": 2
+  }
+  

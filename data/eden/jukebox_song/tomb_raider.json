@@ -1,0 +1,11 @@
+{
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.tr1_theme"
+  },
+    "description": {
+      "text": "Nathan McCree - Tomb Raider Theme"
+    },
+    "length_in_seconds": 200.0,
+    "comparator_output": 1
+  }
+  

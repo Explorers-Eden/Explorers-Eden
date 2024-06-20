@@ -1,0 +1,11 @@
+{
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.stardew_overture"
+  },
+    "description": {
+      "text": "ConcernedApe - Stardew Valley Overture"
+    },
+    "length_in_seconds": 150.0,
+    "comparator_output": 15
+  }
+  

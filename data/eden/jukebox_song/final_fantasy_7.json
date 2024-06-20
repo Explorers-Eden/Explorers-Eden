@@ -1,0 +1,11 @@
+{
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.ff7_theme"
+  },
+    "description": {
+      "text": "Nobuo Uematsu - Nightfall in the Undercity"
+    },
+    "length_in_seconds": 150.0,
+    "comparator_output": 7
+  }
+  

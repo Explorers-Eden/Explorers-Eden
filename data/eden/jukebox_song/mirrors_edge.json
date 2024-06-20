@@ -1,0 +1,11 @@
+{
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.mirrors_edge_menu_theme"
+  },
+    "description": {
+      "text": "Solar Fields - Introduction"
+    },
+    "length_in_seconds": 115.0,
+    "comparator_output": 1
+  }
+  

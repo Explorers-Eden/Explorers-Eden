@@ -1,0 +1,11 @@
+{
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.song_of_the_ancients"
+  },
+    "description": {
+      "text": "Keiichi Okabe - Song of the Ancients"
+    },
+    "length_in_seconds": 190.0,
+    "comparator_output": 10
+  }
+  

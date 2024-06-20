@@ -1,0 +1,11 @@
+{
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.down_by_the_river"
+  },
+    "description": {
+      "text": "Borislav Slavov - Down by the River"
+    },
+    "length_in_seconds": 140.0,
+    "comparator_output": 3
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.balduran"
+  },
+    "description": {
+      "text": "Borislav Slavov - Ale of Balduran"
+    },
+    "length_in_seconds": 150.0,
+    "comparator_output": 3
+  }
+  

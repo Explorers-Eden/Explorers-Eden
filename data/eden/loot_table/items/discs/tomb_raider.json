@@ -1,0 +1,30 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_5",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Music Disc\"}",
+                  "minecraft:custom_data": "{music:tomb_raider}",
+                  "minecraft:custom_model_data": 10009,
+                  "minecraft:max_stack_size": 1,
+                  "minecraft:rarity": "rare",
+                  "minecraft:jukebox_playable": {
+                    "song": "eden:tomb_raider",
+                    "show_in_tooltip": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
