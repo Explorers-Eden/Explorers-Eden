@@ -74,14 +74,14 @@
       "minecraft:nether_1",
       "minecraft:nether_portal",
       "minecraft:night_pyramid",
-      "minecraft:night_sky",
+      "minecraft:nightsky",
       "minecraft:night_tent",
       "minecraft:painting_void",
       "minecraft:pharaoh",
       "minecraft:pinboard_2",
       "minecraft:pinboard",
       "minecraft:pink_bubbles",
-      "minecraft:pink_flowers",
+      "minecraft:pink_flower",
       "minecraft:potion",
       "minecraft:potions",
       "minecraft:purple_sky",
@@ -105,4 +105,3 @@
       "minecraft:zombies"
     ]
   }
-  
