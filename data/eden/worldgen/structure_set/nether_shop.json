@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 300,
+        "separation": 150,
+        "salt": 46147894,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "eden:nether_shop",
+        "weight": 1
+    }]
+}

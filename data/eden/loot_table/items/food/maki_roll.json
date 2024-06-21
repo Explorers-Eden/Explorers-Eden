@@ -21,8 +21,7 @@
           "nutrition": 2,
           "saturation": 2,
           "eat_seconds": 2
-        },
-        "minecraft:max_stack_size": 64
+        }
       }
               }
             ]

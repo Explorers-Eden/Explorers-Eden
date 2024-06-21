@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=wandering_shop] at @s if entity @a[distance=..24] run function eden:wandering_shops/spawn_trader

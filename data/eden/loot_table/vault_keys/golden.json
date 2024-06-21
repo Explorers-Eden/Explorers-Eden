@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:trial_key",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Golden Key\"}",
+                  "minecraft:rarity": "epic",
+                  "minecraft:custom_model_data": 10000,
+                  "minecraft:custom_data": "{key:golden}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

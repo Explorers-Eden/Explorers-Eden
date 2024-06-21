@@ -22,8 +22,7 @@
           "using_converts_to": {
             "id": "minecraft:stick"
           }
-        },
-        "minecraft:max_stack_size": 64
+        }
       }
     }
   }
