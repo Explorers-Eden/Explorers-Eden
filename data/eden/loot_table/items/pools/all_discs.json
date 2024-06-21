@@ -1,0 +1,54 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/balduran"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/chemical_plant"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/dearly_beloved"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/down_by_the_river"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/final_fantasy_7"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/mirrors_edge"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/re4_save_room"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/song_of_the_ancients"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/stardew_valley_overture"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/tomb_raider"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/windwaker"
+          }
+        ]
+      }
+    ]
+  }
+  

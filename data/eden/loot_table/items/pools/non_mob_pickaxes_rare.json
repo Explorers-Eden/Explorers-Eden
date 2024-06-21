@@ -1,0 +1,62 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cherry_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cottage_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/festive_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/frost_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/glow_berry_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/halloween_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/honey_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/ice_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/infernal_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/mangrove_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/mushroom_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/rascal_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/royal_pickaxe"
+          }
+        ]
+      }
+    ]
+  }
+  

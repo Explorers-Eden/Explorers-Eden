@@ -1,0 +1,142 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/baked_fish"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/beer"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/beetroot_salad"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/blue_jelly_bean"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/bota_bag"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/candied_apple"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/candy_bar"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/chocolate_bar"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/cider"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/fish_taco"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/fish_stew"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/fried_egg"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/fruit_salad"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/gingerbread_man"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/golden_candied_apple"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/golden_sugar_cane"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/honey_tea"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/hot_chocolate"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/kelp_soup"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/maki_roll"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/pancake"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/pink_jelly_bean"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/pumpkin_soup"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/rotten_sugar_cane"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/salad"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/shashlik"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/squid_ink_ravioli"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/sugar_cane"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/survival_burger"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/sweet_berry_pie"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/xmas_bread"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/xmas_cake"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/xmas_milk"
+          }
+        ]
+      }
+    ]
+  }
+  

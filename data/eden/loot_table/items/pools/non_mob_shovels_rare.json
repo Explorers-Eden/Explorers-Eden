@@ -1,0 +1,62 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cherry_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cottage_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/festive_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/frost_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/glow_berry_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/halloween_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/honey_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/ice_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/infernal_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/mangrove_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/mushroom_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/rascal_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/royal_shovel"
+          }
+        ]
+      }
+    ]
+  }
+  

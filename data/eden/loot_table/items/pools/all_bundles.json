@@ -1,0 +1,78 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/black_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/blue_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/brown_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/cyan_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/gray_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/green_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/halloween_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/light_blue_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/light_gray_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/lime_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/magenta_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/orange_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/pink_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/purple_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/red_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/white_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/yellow_bundle"
+          }
+        ]
+      }
+    ]
+  }
+  

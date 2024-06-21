@@ -1,0 +1,62 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cherry_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cottage_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/festive_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/frost_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/glow_berry_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/halloween_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/honey_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/ice_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/infernal_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/mangrove_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/mushroom_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/rascal_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/royal_axe"
+          }
+        ]
+      }
+    ]
+  }
+  

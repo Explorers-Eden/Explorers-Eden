@@ -1,0 +1,178 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 3,
+          "max": 8
+        },
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:blue_ice"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:snow_block",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potato",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 7
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 4
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:beetroot_seeds",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 5
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:beetroot_soup"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:furnace"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 4
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:snowball",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 7
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 4
+                },
+                "add": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 1,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lodestone"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:compass"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clock"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:recovery_compass"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:goat_horn",
+            "functions": [
+              {
+                "function": "minecraft:set_instrument",
+                "options": "#minecraft:goat_horns"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/all_hats",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:chests/village/village_snowy_house"
+  }
+  

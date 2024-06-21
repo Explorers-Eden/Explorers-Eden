@@ -1,0 +1,62 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cherry_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cottage_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/festive_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/frost_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/glow_berry_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/halloween_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/honey_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/ice_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/infernal_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/mangrove_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/mushroom_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/rascal_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/royal_sword"
+          }
+        ]
+      }
+    ]
+  }
+  

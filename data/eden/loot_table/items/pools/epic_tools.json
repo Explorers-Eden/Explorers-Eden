@@ -1,0 +1,66 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/blazing"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/celestial_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/celestial_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/celestial_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/celestial_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/celestial_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/chilling"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/hefty"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/life_ender"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/sacrifice"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/scarlet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/serpents_tongue"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/thormometer"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/withersbane"
+          }
+        ]
+      }
+    ]
+  }
+  

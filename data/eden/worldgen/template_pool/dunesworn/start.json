@@ -1,0 +1,14 @@
+{
+    "name": "eden:dunesworn/start",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "location": "eden:dunesworn_start",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

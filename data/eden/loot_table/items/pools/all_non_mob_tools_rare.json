@@ -1,0 +1,30 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/non_mob_axes_rare"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/non_mob_hoes_rare"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/non_mob_pickaxes_rare"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/non_mob_shovels_rare"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/non_mob_swords_rare"
+          }
+        ]
+      }
+    ]
+  }
+  

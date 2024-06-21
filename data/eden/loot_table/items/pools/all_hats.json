@@ -1,0 +1,302 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/3d_goggles"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/altyn_helmet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/apple_with_arrow"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/astronaut_helmet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/bear_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/bee_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/beekeeper_mask"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/cake_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/candlestick_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/cardboard_box"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/chef_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/chest_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/cluckshroom_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/cowboy_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/crown_2"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/crown"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/desert_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/detective_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/disguise"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/diving_helmet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/easter_ears"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/elf_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/explorer_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/fancy_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/farmer_hat_2"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/farmer_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/fire_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/fisherman_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/fishing_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/fox_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/frog_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/golden_tophat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/graduation_cap"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/guzzler_helmet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/headphones"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/horns_1"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/horns_2"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/joker_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/kabuto"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/melon_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/merchant_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/mushroom_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/nimbus"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/phantom_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/piglin_ears"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/plague_doc_mask"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/propeller_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/racoon_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/red_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/reindeer_antlers"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/respirator"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/safety_helmet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/santa_claus"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/savanna_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/seashell_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/snow_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/sombrero"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/soul_fire_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/sunflower_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/swamp_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/top_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/training_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/tv_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/ushanka"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/very_fancy_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/villager_mask"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/vr_headset"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/welder_helmet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/wig"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/witch_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/wizard_hat_green"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/wizard_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/yanker_hat"
+          }
+        ]
+      }
+    ]
+  }
+  

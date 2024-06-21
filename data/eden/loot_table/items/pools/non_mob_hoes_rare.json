@@ -1,0 +1,62 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cherry_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cottage_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/festive_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/frost_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/glow_berry_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/halloween_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/honey_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/ice_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/infernal_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/mangrove_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/mushroom_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/rascal_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/royal_hoe"
+          }
+        ]
+      }
+    ]
+  }
+  
