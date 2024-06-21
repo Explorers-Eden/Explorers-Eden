@@ -87,25 +87,33 @@ team add eden.endling {"bold":false,"color":"dark_purple","italic":false,"text":
 team modify eden.afk color dark_gray
 team modify eden.frostborne friendlyFire false
 team modify eden.frostborne seeFriendlyInvisibles true
-team modify eden.frostborne color aqua
+team modify eden.frostborne color white
+team modify eden.frostborne prefix [{"text":"Frostborne","color":"aqua"},{"text":" | ","color":"dark_gray"}]
 team modify eden.moonshroud friendlyFire false
 team modify eden.moonshroud seeFriendlyInvisibles true
-team modify eden.moonshroud color blue
+team modify eden.moonshroud color white
+team modify eden.moonshroud prefix [{"text":"Moonshroud","color":"blue"},{"text":" | ","color":"dark_gray"}]
 team modify eden.netherian friendlyFire false
 team modify eden.netherian seeFriendlyInvisibles true
-team modify eden.netherian color dark_red
+team modify eden.netherian color white
+team modify eden.netherian prefix [{"text":"Netherian","color":"dark_red"},{"text":" | ","color":"dark_gray"}]
 team modify eden.oakhearted friendlyFire false
 team modify eden.oakhearted seeFriendlyInvisibles true
-team modify eden.oakhearted color dark_green
+team modify eden.oakhearted color white
+team modify eden.oakhearted prefix [{"text":"Oakhearted","color":"dark_green"},{"text":" | ","color":"dark_gray"}]
 team modify eden.orebringer friendlyFire false
 team modify eden.orebringer seeFriendlyInvisibles true
-team modify eden.orebringer color gray
+team modify eden.orebringer color white
+team modify eden.orebringer prefix [{"text":"Orebringer","color":"gray"},{"text":" | ","color":"dark_gray"}]
 team modify eden.turtlekin friendlyFire false
 team modify eden.turtlekin seeFriendlyInvisibles true
-team modify eden.turtlekin color dark_aqua
+team modify eden.turtlekin color white
+team modify eden.turtlekin prefix [{"text":"Turtlekin","color":"dark_aqua"},{"text":" | ","color":"dark_gray"}]
 team modify eden.dunesworn friendlyFire false
 team modify eden.dunesworn seeFriendlyInvisibles true
-team modify eden.dunesworn color gold
+team modify eden.dunesworn color white
+team modify eden.dunesworn prefix [{"text":"Dunesworn","color":"gold"},{"text":" | ","color":"dark_gray"}]
 team modify eden.endling friendlyFire false
 team modify eden.endling seeFriendlyInvisibles true
-team modify eden.endling color dark_purple
+team modify eden.endling color white
+team modify eden.endling prefix [{"text":"Endling","color":"dark_purple"},{"text":" | ","color":"dark_gray"}]

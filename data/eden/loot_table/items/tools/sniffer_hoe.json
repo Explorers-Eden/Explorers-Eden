@@ -10,8 +10,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Rascal Hoe\"}",
-                  "minecraft:custom_data": "{tools:rascal_hoe}",
+                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Sniffer Hoe\"}",
+                  "minecraft:custom_data": "{tools:sniffer_hoe}",
                   "minecraft:custom_model_data": 10018,
                   "minecraft:max_stack_size": 1,
                   "minecraft:damage": 0,

@@ -10,8 +10,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Rascal Sword\"}",
-                  "minecraft:custom_data": "{tools:rascal_sword}",
+                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Sniffer Sword\"}",
+                  "minecraft:custom_data": "{tools:sniffer_sword}",
                   "minecraft:custom_model_data": 10018,
                   "minecraft:max_stack_size": 1,
                   "minecraft:damage": 0,

@@ -1,0 +1,20 @@
+{
+  "values": [
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:podzol",
+    "minecraft:coarse_dirt",
+    "minecraft:rooted_dirt",
+    "minecraft:moss_block",
+    "minecraft:mud",
+    "minecraft:sand",
+    "minecraft:soul_sand",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:netherrack",
+    "minecraft:end_stone",
+    "minecraft:sculk",
+    "minecraft:mycelium",
+    "minecraft:muddy_mangrove_roots"
+  ]
+}
