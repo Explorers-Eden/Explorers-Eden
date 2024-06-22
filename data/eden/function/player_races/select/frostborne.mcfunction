@@ -1,3 +1,5 @@
+function eden:player_races/reset_race
+
 execute store result score $frostborne_msg eden.technical run random value 1..10
 
 execute if score $frostborne_msg eden.technical matches 1 run tellraw @a[team=eden.frostborne] [{"text":"❤ ","color":"aqua"},{"text":"Hear ye, hear ye! ","color":"#F5E8C9"},{"selector":"@s","color":"aqua"},{"text":" has joined the noble heritage of the Frostborne.","color":"#F5E8C9"}]
@@ -13,7 +15,6 @@ execute if score $frostborne_msg eden.technical matches 10 run tellraw @a[team=e
 
 execute as @a[team=eden.frostborne] at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 
-function eden:player_races/reset_race
 team join eden.frostborne @s
 tag @s add frostborne
 advancement grant @s only eden:technical/class_chosen

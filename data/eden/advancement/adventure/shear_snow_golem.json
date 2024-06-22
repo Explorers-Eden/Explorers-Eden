@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shears"
+    },
+    "title": {
+      "text": "Don't Hide Behind That Mask"
+    },
+    "description": {
+      "text": "Remove a Snow Golems' pumpkin with shears"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eden:adventure/freeze_in_powder_snow",
+  "criteria": {
+    "shear_off_pumpkin": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shears"
+        },
+        "entity": {
+          "type": "minecraft:snow_golem"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

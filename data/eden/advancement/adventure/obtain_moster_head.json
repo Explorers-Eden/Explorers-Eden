@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": "Heads Up!",
+    "description": "Obtain any skull of an Overworld monster",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eden:adventure/loot_treasure",
+  "criteria": {
+    "skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {}
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:creeper_head",
+              "minecraft:zombie_head",
+              "minecraft:skeleton_skull"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

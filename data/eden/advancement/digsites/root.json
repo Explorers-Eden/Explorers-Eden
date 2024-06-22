@@ -1,11 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:clock"
+        "id": "minecraft:chest"
       },
-      "title": "Work, Sleep, Repeat",
-      "description": "These tasks can be done periodically",
-      "background": "minecraft:textures/block/mushroom_block_inside.png",
+      "title": "Dig Site Treasures",
+      "description": "Diggin' straight down!",
       "show_toast": false,
       "announce_to_chat": false,
       "hidden": false
@@ -15,7 +14,6 @@
       "requirement": {
         "trigger": "minecraft:location"
       }
-    },
-    "rewards": {}
+    }
   }
   

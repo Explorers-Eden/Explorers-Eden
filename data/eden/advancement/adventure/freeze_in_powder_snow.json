@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "text": "Bbrrr... Chilly..."
+    },
+    "description": {
+      "text": "Freeze in Powder Snow"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eden:adventure/root",
+  "criteria": {
+    "powder_snow": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "nbt": "{TicksFrozen:140}"
+            }
+          }
+        ],
+        "block": "minecraft:powder_snow"
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

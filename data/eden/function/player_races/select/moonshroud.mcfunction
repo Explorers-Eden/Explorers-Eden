@@ -1,3 +1,5 @@
+function eden:player_races/reset_race
+
 execute store result score $moonshroud_msg eden.technical run random value 1..10
 
 execute if score $moonshroud_msg eden.technical matches 1 run tellraw @a[team=eden.moonshroud] [{"text":"❤ ","color":"blue"},{"text":"Hear ye, hear ye! ","color":"#F5E8C9"},{"selector":"@s","color":"blue"},{"text":" has joined the noble heritage of the Moonshroud.","color":"#F5E8C9"}]
@@ -13,7 +15,6 @@ execute if score $moonshroud_msg eden.technical matches 10 run tellraw @a[team=e
 
 execute as @a[team=eden.moonshroud] at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 
-function eden:player_races/reset_race
 team join eden.moonshroud @s
 tag @s add moonshroud
 advancement grant @s only eden:technical/class_chosen

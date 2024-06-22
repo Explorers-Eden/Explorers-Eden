@@ -1,3 +1,5 @@
+team leave @s
+
 execute store result score $join_msg eden.technical run random value 1..33
 
 execute if score $join_msg eden.technical matches 1 run tellraw @a [{"text":"â˜€ ","color":"yellow"},{"text":"Welcome ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":". to the realm of Explorers Eden!","color":"#F5E8C9"}]
@@ -36,3 +38,12 @@ execute if score $join_msg eden.technical matches 33 run tellraw @a [{"text":"â˜
 
 execute as @a at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 scoreboard players set @s eden.joined.game 0
+
+execute as @s[tag=dunesworn] run team join eden.dunesworn @s
+execute as @s[tag=endling] run team join eden.endling @s
+execute as @s[tag=frostborne] run team join eden.frostborne @s
+execute as @s[tag=moonshroud] run team join eden.moonshroud @s
+execute as @s[tag=netherian] run team join eden.netherian @s
+execute as @s[tag=oakhearted] run team join eden.oakhearted @s
+execute as @s[tag=orebringer] run team join eden.orebringer @s
+execute as @s[tag=turtlekin] run team join eden.turtlekin @s

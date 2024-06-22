@@ -1,3 +1,5 @@
+function eden:player_races/reset_race
+
 execute store result score $endling_msg eden.technical run random value 1..10
 
 execute if score $endling_msg eden.technical matches 1 run tellraw @a[team=eden.endling] [{"text":"❤ ","color":"dark_purple"},{"text":"Hear ye, hear ye! ","color":"#F5E8C9"},{"selector":"@s","color":"dark_purple"},{"text":" has joined the noble heritage of the Endling.","color":"#F5E8C9"}]
@@ -13,7 +15,6 @@ execute if score $endling_msg eden.technical matches 10 run tellraw @a[team=eden
 
 execute as @a[team=eden.endling] at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 
-function eden:player_races/reset_race
 team join eden.endling @s
 tag @s add endling
 advancement grant @s only eden:technical/class_chosen

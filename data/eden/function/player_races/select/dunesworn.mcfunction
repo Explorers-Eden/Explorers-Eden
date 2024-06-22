@@ -1,3 +1,5 @@
+function eden:player_races/reset_race
+
 execute store result score $dunesworn_msg eden.technical run random value 1..10
 
 execute if score $dunesworn_msg eden.technical matches 1 run tellraw @a[team=eden.dunesworn] [{"text":"❤ ","color":"gold"},{"text":"Hear ye, hear ye! ","color":"#F5E8C9"},{"selector":"@s","color":"gold"},{"text":" has joined the noble heritage of the Dunesworn.","color":"#F5E8C9"}]
@@ -13,7 +15,6 @@ execute if score $dunesworn_msg eden.technical matches 10 run tellraw @a[team=ed
 
 execute as @a[team=eden.dunesworn] at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 
-function eden:player_races/reset_race
 team join eden.dunesworn @s
 tag @s add dunesworn
 advancement grant @s only eden:technical/class_chosen

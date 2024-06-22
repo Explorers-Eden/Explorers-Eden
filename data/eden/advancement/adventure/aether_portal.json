@@ -1,0 +1,621 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket",
+      "count": 1
+    },
+    "title": {
+      "text": "Only If..."
+    },
+    "description": {
+      "text": "Create and try to activate the Aether portal"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eden:adventure/ancient_wonders",
+  "criteria": {
+    "x_axis_neg": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:water",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "offsetY": 2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 3,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "offsetY": 3,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 3,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": 3,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "x_axis_pos": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:water",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "offsetY": 2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": 2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -2,
+            "offsetY": 3,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": 3,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 3,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 3,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "z_axis_neg": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:water",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "offsetZ": 2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "offsetZ": 2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 2,
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 2,
+            "offsetZ": 2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 3,
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 3,
+            "offsetZ": 2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 3,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 3,
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "z_axis_pos": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:water",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "offsetZ": -2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "offsetZ": -2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 2,
+            "offsetZ": -2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 2,
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 3,
+            "offsetZ": -2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 3,
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 3,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 3,
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:glowstone"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "x_axis_pos",
+      "x_axis_neg",
+      "z_axis_neg",
+      "z_axis_pos"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

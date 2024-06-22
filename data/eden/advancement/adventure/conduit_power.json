@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "text": "Reviving Atlantis"
+    },
+    "description": {
+      "text": "Get the Conduit Power effect"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eden:adventure/loot_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_swimming": true
+              },
+              "effects": {
+                "minecraft:conduit_power": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

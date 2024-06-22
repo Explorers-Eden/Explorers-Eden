@@ -1,4 +1,5 @@
-##insert tp here when spawn is finished
+##TP to spawn
+execute at @s run tp 1 2 3
 
 function eden:player_races/reset_race
 advancement revoke @s everything

@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_banner",
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "pattern": "minecraft:skull",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    "title": "Aaaarrgghhh!",
+    "description": "Get onto a shipwreck with a parrot on your shoulder and a spyglass in hand",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eden:adventure/root",
+  "criteria": {
+    "get_on_shipwreck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{ShoulderEntityLeft:{id:\"minecraft:parrot\"}}",
+                  "location": {
+                    "structures": "#minecraft:shipwreck"
+                  },
+                  "slots": {
+                    "weapon.*": {
+                      "items": "minecraft:spyglass"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{ShoulderEntityRight:{id:\"minecraft:parrot\"}}",
+                  "location": {
+                    "structures": "#minecraft:shipwreck"
+                  },
+                  "slots": {
+                    "weapon.*": {
+                      "items": "minecraft:spyglass"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_on_shipwreck"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

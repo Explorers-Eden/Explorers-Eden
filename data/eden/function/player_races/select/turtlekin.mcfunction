@@ -1,3 +1,5 @@
+function eden:player_races/reset_race
+
 execute store result score $turtlekin_msg eden.technical run random value 1..10
 
 execute if score $turtlekin_msg eden.technical matches 1 run tellraw @a[team=eden.turtlekin] [{"text":"❤ ","color":"dark_aqua"},{"text":"Hear ye, hear ye! ","color":"#F5E8C9"},{"selector":"@s","color":"dark_aqua"},{"text":" has joined the noble heritage of the Turtlekin.","color":"#F5E8C9"}]
@@ -13,7 +15,6 @@ execute if score $turtlekin_msg eden.technical matches 10 run tellraw @a[team=ed
 
 execute as @a[team=eden.turtlekin] at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 
-function eden:player_races/reset_race
 team join eden.turtlekin @s
 tag @s add turtlekin
 advancement grant @s only eden:technical/class_chosen

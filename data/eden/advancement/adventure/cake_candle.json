@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_candle"
+    },
+    "title": "Happy Birthday",
+    "description": "For the good of all of us",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eden:adventure/cake",
+  "criteria": {
+    "light": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:black_candle_cake",
+                  "minecraft:blue_candle_cake",
+                  "minecraft:brown_candle_cake",
+                  "minecraft:candle_cake",
+                  "minecraft:cyan_candle_cake",
+                  "minecraft:gray_candle_cake",
+                  "minecraft:green_candle_cake",
+                  "minecraft:light_blue_candle_cake",
+                  "minecraft:light_gray_candle_cake",
+                  "minecraft:lime_candle_cake",
+                  "minecraft:magenta_candle_cake",
+                  "minecraft:orange_candle_cake",
+                  "minecraft:pink_candle_cake",
+                  "minecraft:purple_candle_cake",
+                  "minecraft:red_candle_cake",
+                  "minecraft:white_candle_cake",
+                  "minecraft:yellow_candle_cake"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:flint_and_steel"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

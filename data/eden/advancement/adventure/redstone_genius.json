@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "text": "Redstone Genius?"
+    },
+    "description": {
+      "text": "Place a lever on a Piston and activate it"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "eden:adventure/root",
+  "criteria": {
+    "place_lever_on_piston": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:piston_head",
+                  "minecraft:piston",
+                  "minecraft:moving_piston",
+                  "minecraft:sticky_piston"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:lever"
+            }
+          }
+        ]
+      }
+    },
+    "pull_lever": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:lever",
+            "properties": {}
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

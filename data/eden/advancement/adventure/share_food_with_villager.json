@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "text": "Sharing is Caring"
+    },
+    "description": {
+      "text": "Share your food with a villager"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eden:adventure/root",
+  "criteria": {
+    "share_food": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager"
+        },
+        "item": {
+          "items": [
+            "minecraft:potato",
+            "minecraft:beetroot",
+            "minecraft:bread",
+            "minecraft:carrot"
+          ]
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

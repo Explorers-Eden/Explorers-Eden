@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_5",
+      "count": 1
+    },
+    "title": {
+      "text": "Ancient Dance Moves"
+    },
+    "description": {
+      "text": "Play Disc 5 in an Ancient City"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eden:adventure/ancient_wonders",
+  "criteria": {
+    "play_jukebox_in_ancient_city": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:ancient_city",
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:music_disc_5"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "play_jukebox_in_ancient_city"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
