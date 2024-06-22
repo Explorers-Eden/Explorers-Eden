@@ -73,7 +73,14 @@ scoreboard objectives add durability_ping trigger {"text": "Durability Ping"}
 scoreboard objectives add chat_coordinates trigger {"text": "Chat Coordinates"}
 
 ##add teams
-team add eden.afk "AFK Players"
+team add eden.afk.dunesworn "AFK Players"
+team add eden.afk.endling "AFK Players"
+team add eden.afk.frostborne "AFK Players"
+team add eden.afk.moonshroud "AFK Players"
+team add eden.afk.netherian "AFK Players"
+team add eden.afk.oakhearted "AFK Players"
+team add eden.afk.orebringer "AFK Players"
+team add eden.afk.turtlekin "AFK Players"
 team add eden.frostborne {"bold":false,"color":"aqua","italic":false,"text":"Frostborne"}
 team add eden.moonshroud {"bold":false,"color":"blue","italic":false,"text":"Moonshroud"}
 team add eden.netherian {"bold":false,"color":"red","italic":false,"text":"Netherian"}
@@ -84,7 +91,6 @@ team add eden.dunesworn {"bold":false,"color":"gold","italic":false,"text":"Dune
 team add eden.endling {"bold":false,"color":"dark_purple","italic":false,"text":"Endling"}
 
 ##modify teams
-team modify eden.afk color dark_gray
 team modify eden.frostborne friendlyFire false
 team modify eden.frostborne seeFriendlyInvisibles true
 team modify eden.frostborne color white
@@ -117,3 +123,40 @@ team modify eden.endling friendlyFire false
 team modify eden.endling seeFriendlyInvisibles true
 team modify eden.endling color white
 team modify eden.endling prefix [{"text":"Endling","color":"dark_purple"},{"text":" | ","color":"dark_gray"}]
+
+team modify eden.afk.frostborne color white
+team modify eden.afk.frostborne prefix [{"text":"Frostborne","color":"aqua"},{"text":" | ","color":"dark_gray"}]
+team modify eden.afk.frostborne suffix {"text":" AFK","color":"dark_gray"}
+team modify eden.afk.moonshroud color white
+team modify eden.afk.moonshroud prefix [{"text":"Moonshroud","color":"blue"},{"text":" | ","color":"dark_gray"}]
+team modify eden.afk.moonshroud suffix {"text":" AFK","color":"dark_gray"}
+team modify eden.afk.netherian color white
+team modify eden.afk.netherian prefix [{"text":"Netherian","color":"dark_red"},{"text":" | ","color":"dark_gray"}]
+team modify eden.afk.netherian suffix {"text":" AFK","color":"dark_gray"}
+team modify eden.afk.oakhearted color white
+team modify eden.afk.oakhearted prefix [{"text":"Oakhearted","color":"dark_green"},{"text":" | ","color":"dark_gray"}]
+team modify eden.afk.oakhearted suffix {"text":" AFK","color":"dark_gray"}
+team modify eden.afk.orebringer color white
+team modify eden.afk.orebringer prefix [{"text":"Orebringer","color":"gray"},{"text":" | ","color":"dark_gray"}]
+team modify eden.afk.orebringer suffix {"text":" AFK","color":"dark_gray"}
+team modify eden.afk.turtlekin color white
+team modify eden.afk.turtlekin prefix [{"text":"Turtlekin","color":"dark_aqua"},{"text":" | ","color":"dark_gray"}]
+team modify eden.afk.turtlekin suffix {"text":" AFK","color":"dark_gray"}
+team modify eden.afk.dunesworn color white
+team modify eden.afk.dunesworn prefix [{"text":"Dunesworn","color":"gold"},{"text":" | ","color":"dark_gray"}]
+team modify eden.afk.dunesworn suffix {"text":" AFK","color":"dark_gray"}
+team modify eden.afk.endling color white
+team modify eden.afk.endling prefix [{"text":"Endling","color":"dark_purple"},{"text":" | ","color":"dark_gray"}]
+team modify eden.afk.endling suffix {"text":" AFK","color":"dark_gray"}
+
+##set gamerules
+difficulty normal
+gamerule disableElytraMovementCheck true
+gamerule doFireTick false
+gamerule globalSoundEvents false
+gamerule waterSourceConversion true
+gamerule snowAccumulationHeight 4
+gamerule lavaSourceConversion true
+gamerule playersNetherPortalDefaultDelay 1
+gamerule playersSleepingPercentage 111
+gamerule sendCommandFeedback false
