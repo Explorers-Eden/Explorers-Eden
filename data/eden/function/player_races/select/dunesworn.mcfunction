@@ -22,7 +22,7 @@ advancement grant @s only eden:technical/class_chosen
 particle minecraft:poof ~ ~.6 ~ .5 .5 .5 0 100
 particle minecraft:end_rod ~ ~.6 ~ 1 1 1 0.01 50
 particle minecraft:scrape ~ ~.6 ~ .8 .8 .8 0.3 50
-execute at @s run playsound minecraft:ui.toast.challenge_complete master @a ~ ~ ~ 0.5 0.5 1
+execute at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 0.5 0.5 1
 clear @s minecraft:written_book[minecraft:custom_data={book:dunesworn}]
 
 loot give @s loot eden:items/pools/all_food
