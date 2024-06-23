@@ -9,7 +9,7 @@
               "entity": "this",
               "predicate": {
                 "type": "minecraft:interaction",
-                "nbt": "{Tags:[\"spawn_netherian_choice\"]}"
+                "nbt": "{Tags:[\"spawn_netherian_display\"]}"
               }
             }
           ]
