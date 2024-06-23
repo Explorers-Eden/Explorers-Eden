@@ -40,6 +40,7 @@ tag @s remove oakhearted
 attribute @s minecraft:generic.burning_time modifier remove burning_time_oakhearted
 attribute @s minecraft:player.block_break_speed modifier remove oakhearted_block_break_speed
 attribute @s minecraft:generic.movement_speed modifier remove buff_speed_oakhearted
+attribute @s minecraft:generic.movement_speed modifier remove debuff_speed_oakhearted
 attribute @s minecraft:generic.jump_strength modifier remove jump_strength_oakhearted
 
 ##orebringer

@@ -1,5 +1,5 @@
 ##TP to spawn
-execute at @s run tp 1 2 3
+execute in minecraft:overworld run tp @s -216 -56 407 -90 0
 
 function eden:player_races/reset_race
 advancement revoke @s everything

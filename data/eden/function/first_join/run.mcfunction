@@ -1,5 +1,5 @@
 ##TP to spawn
-execute at @s run tp 1 2 3
+execute in minecraft:overworld run tp @s -216 -56 407 -90 0
 
 execute store result storage eden:first_join player_uuid_0 int 1 run data get entity @s UUID[0]
 execute store result storage eden:first_join player_uuid_1 int 1 run data get entity @s UUID[1]
