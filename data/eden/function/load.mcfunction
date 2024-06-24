@@ -161,4 +161,3 @@ gamerule playersNetherPortalDefaultDelay 1
 gamerule playersSleepingPercentage 111
 gamerule sendCommandFeedback false
 gamerule commandBlockOutput false
-gamerule reducedDebugInfo true

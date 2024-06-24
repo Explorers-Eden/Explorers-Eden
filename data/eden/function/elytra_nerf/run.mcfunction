@@ -6,6 +6,4 @@ execute as @a[nbt={FallFlying:0b},scores={eden.elytra.flying=..1199}] run advanc
 execute as @a[nbt={FallFlying:0b},scores={eden.elytra.flying=..0}] run advancement grant @s only eden:technical/elytra_nerf_rested
 execute as @a[nbt={FallFlying:0b},scores={eden.elytra.flying=300..600}] run advancement revoke @s only eden:technical/elytra_nerf_rested
 
-execute as @a[nbt={FallFlying:1b},scores={eden.elytra.flying=1200..1800}] run function eden:elytra_nerf/light_nerf
-execute as @a[nbt={FallFlying:1b},scores={eden.elytra.flying=1801..}] run function eden:elytra_nerf/heavy_nerf
-execute as @a[nbt={FallFlying:1b},scores={eden.elytra.flying=2200..}] run function eden:elytra_nerf/darkness_nerf
+execute as @a[nbt={FallFlying:1b},scores={eden.elytra.flying=1200..}] run function eden:elytra_nerf/start_nerf
