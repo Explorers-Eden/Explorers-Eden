@@ -3,6 +3,7 @@ execute in minecraft:overworld run tp @s -216 -56 407 -90 0
 
 function eden:player_races/reset_race
 advancement revoke @s everything
+clear @s
 
 attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_1
 attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_2
