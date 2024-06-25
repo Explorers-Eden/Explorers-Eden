@@ -1,4 +1,4 @@
-execute as @a at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
+execute as @s at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 
 tellraw @s {"text":" ","color":"#FFE6B5","bold":false,"italic":false}
 tellraw @s [{"text":"Info: ","color":"aqua","bold":true,"italic":false},{"text":"Ever felt like Recovery Compasses are way underutilized? Now they can not just point you in the direction of your last death but also teleport you there. They do break by doing so tho.","color":"#FFE6B5","bold":false,"italic":false}]

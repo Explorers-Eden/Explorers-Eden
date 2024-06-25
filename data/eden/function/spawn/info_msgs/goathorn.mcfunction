@@ -1,4 +1,4 @@
-execute as @a at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
+execute as @s at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 
 tellraw @s {"text":" ","color":"#FFE6B5","bold":false,"italic":false}
 tellraw @s [{"text":"Info: ","color":"aqua","bold":true,"italic":false},{"text":"Goathorns are fun and noisy in a good way. They also can open a rift to which other players playing their horns can teleport to.","color":"#FFE6B5","bold":false,"italic":false}]

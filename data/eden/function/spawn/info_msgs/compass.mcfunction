@@ -1,4 +1,4 @@
-execute as @a at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
+execute as @s at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 
 tellraw @s {"text":" ","color":"#FFE6B5","bold":false,"italic":false}
 tellraw @s [{"text":"Info: ","color":"aqua","bold":true,"italic":false},{"text":"Compasses generally point you in the right direction but they also can teleport you right back to the loadstone they are linked with.","color":"#FFE6B5","bold":false,"italic":false}]

@@ -1,4 +1,4 @@
-execute as @a at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
+execute as @s at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 
 tellraw @s {"text":" ","color":"#FFE6B5","bold":false,"italic":false}
 tellraw @s [{"text":"Info: ","color":"aqua","bold":true,"italic":false},{"text":"Clocks are not just for pure looks! In fact you can use them to teleport back to your respawn point (bed/respawn anchor) from anywhere on this server. But they do have a 50% chance of breaking when doing so.","color":"#FFE6B5","bold":false,"italic":false}]

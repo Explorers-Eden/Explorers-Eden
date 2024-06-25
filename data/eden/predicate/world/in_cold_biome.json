@@ -123,15 +123,6 @@
         "entity": "this",
         "predicate": {
           "location": {
-            "biomes": "terralith:alpine_highlands"
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "location": {
             "biomes": "terralith:siberian_grove"
           }
         }

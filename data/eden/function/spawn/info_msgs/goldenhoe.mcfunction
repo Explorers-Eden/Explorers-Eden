@@ -1,4 +1,4 @@
-execute as @a at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
+execute as @s at @s run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 
 tellraw @s {"text":" ","color":"#FFE6B5","bold":false,"italic":false}
 tellraw @s [{"text":"Info: ","color":"aqua","bold":true,"italic":false},{"text":"Golden Hoes are the go-to tool to create a claim for all your stuff so nobody can steal from you. It also comes with the super handy ","color":"#FFE6B5","bold":false,"italic":false},{"text":"/flan ","color":"green","bold":false,"italic":false},{"text":"command.","color":"#FFE6B5","bold":false,"italic":false}]
