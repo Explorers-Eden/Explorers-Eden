@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "CCC",
+      "CSC",
+      "CNC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "S": {
+        "item": "minecraft:blaze_rod"
+      },
+      "N": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "id": "minecraft:rabbit_foot",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Clear Weather Token\"}",
+                  "minecraft:custom_data": "{items:clear_weather_token}",
+                  "minecraft:custom_model_data": 10031,
+                  "minecraft:max_stack_size": 16
+      }
+    }
+  }
+  

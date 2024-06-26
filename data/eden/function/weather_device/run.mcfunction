@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,tag=weather_device_spawner] at @s if entity @e[type=interaction,tag=weather_device,distance=..8] run function eden:weather_device/invalid_position
+execute as @e[type=armor_stand,tag=weather_device_spawner] at @s unless entity @e[type=interaction,tag=weather_device,distance=..8] run function eden:weather_device/summon

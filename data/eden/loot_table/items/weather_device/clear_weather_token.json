@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_foot",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Clear Weather Token\"}",
+                  "minecraft:custom_data": "{items:clear_weather_token}",
+                  "minecraft:custom_model_data": 10031,
+                  "minecraft:max_stack_size": 16
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -193,6 +193,11 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/pools/all_weather_device_items",
+          "weight": 10
         }
       ]
     }

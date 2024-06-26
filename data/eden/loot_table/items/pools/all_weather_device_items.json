@@ -1,0 +1,30 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/weather_device/weather_device"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/weather_device/clear_weather_token"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/weather_device/rain_weather_token"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/weather_device/daytime_token"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/weather_device/nighttime_token"
+          }
+        ]
+      }
+    ]
+  }
+  
