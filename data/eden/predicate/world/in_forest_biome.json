@@ -141,6 +141,42 @@
         "entity": "this",
         "predicate": {
           "location": {
+            "biomes": "terralith:yosemite_lowlands"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "biomes": "terralith:yosemite_cliffs"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "biomes": "terralith:blooming_plateau"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "biomes": "terralith:blooming_valley"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
             "biomes": "terralith:snowy_maple_forest"
           }
         }
