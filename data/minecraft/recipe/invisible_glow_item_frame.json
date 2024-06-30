@@ -10,7 +10,7 @@
       }
     ],
     "result": {
-      "id": "minecraft:item_frame",
+      "id": "minecraft:glow_item_frame",
       "count": 1,
       "components": {
         "minecraft:item_name": "{\"bold\":false,\"color\":\"white\",\"italic\":false,\"text\":\"Invisible Glow Item Frame\"}",

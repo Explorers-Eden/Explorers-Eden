@@ -49,11 +49,23 @@
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:items/tools/rascal_sword"
+            "value": "eden:items/tools/royal_sword"
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:items/tools/royal_sword"
+            "value": "eden:items/tools/jade_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/minty_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/overgrown_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/ruby_sword"
           }
         ]
       }

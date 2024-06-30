@@ -49,7 +49,7 @@
                 "condition": "minecraft:match_tool",
                 "predicate": {
                   "components": {
-                    "minecraft:custom_model_data": 1500
+                    "minecraft:custom_model_data": 10013
                   }
                 }
               }

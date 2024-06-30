@@ -1,6 +1,7 @@
 ##call functions
 function eden:join_messages/run
 function eden:rtp/run
+function eden:heritage_harbor/run
 function eden:talking_villager/run
 function eden:villager_quest/run
 function eden:wandering_shops/run

@@ -13,4 +13,4 @@ execute if score @s eden.skilltree.blockbreakspeed matches 5000..9999 run title 
 
 particle minecraft:end_rod ~ ~.6 ~ 1 1 1 0.04 10
 particle minecraft:trial_spawner_detection_ominous ~ ~.6 ~ .5 .5 .5 0 50
-execute at @s run playsound minecraft:ui.toast.challenge_complete master @a ~ ~ ~ 0.5 2 1
+execute at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 0.5 2 1

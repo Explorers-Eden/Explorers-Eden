@@ -69,6 +69,7 @@ scoreboard objectives setdisplay list eden.players.killed
 scoreboard objectives add sit trigger {"text": "Sit"}
 scoreboard objectives add rtp trigger {"text": "RTP"}
 scoreboard objectives add equip_hat trigger {"text": "Equip Hat"}
+scoreboard objectives add tp_heritage_harbor trigger {"text": "Heritage Harbor"}
 scoreboard objectives add durability_ping trigger {"text": "Durability Ping"}
 scoreboard objectives add chat_coordinates trigger {"text": "Chat Coordinates"}
 

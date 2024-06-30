@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cupid_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cupid_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cupid_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cupid_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/cupid_sword"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.3
+          },
+          {
+            "condition": "minecraft:killed_by_player"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:entities/player"
+  }
+  

@@ -49,11 +49,23 @@
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:items/tools/rascal_shovel"
+            "value": "eden:items/tools/royal_shovel"
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:items/tools/royal_shovel"
+            "value": "eden:items/tools/jade_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/minty_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/overgrown_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/ruby_shovel"
           }
         ]
       }

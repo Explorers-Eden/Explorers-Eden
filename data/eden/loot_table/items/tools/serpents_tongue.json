@@ -12,7 +12,7 @@
                 "components": {
                   "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Serpents Tongue\"}",
                   "minecraft:custom_data": "{tools:serpents_tongue}",
-                  "minecraft:custom_model_data": 10005,
+                  "minecraft:custom_model_data": 60005,
                   "minecraft:max_stack_size": 1,
                   "minecraft:damage": 0,
                   "minecraft:max_damage": 3500,

@@ -1,0 +1,229 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 2,
+          "max": 6
+        },
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 5
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_ingot",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 7
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bamboo",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 4,
+                  "max": 6
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rotten_flesh",
+            "weight": 16,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 7
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:saddle",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_horse_armor"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_horse_armor"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_horse_armor"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30,
+                "options": "#minecraft:on_random_loot"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wild_armor_trim_smithing_template",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2,
+                "add": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/aztec_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/aztec_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/aztec_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/aztec_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/aztec_sword"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/maya_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/maya_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/maya_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/maya_shovel"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/maya_sword"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.3
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:chests/jungle_temple"
+  }
+  

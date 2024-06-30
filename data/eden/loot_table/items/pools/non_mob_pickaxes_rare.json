@@ -49,11 +49,23 @@
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:items/tools/rascal_pickaxe"
+            "value": "eden:items/tools/royal_pickaxe"
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:items/tools/royal_pickaxe"
+            "value": "eden:items/tools/jade_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/minty_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/overgrown_pickaxe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/ruby_pickaxe"
           }
         ]
       }

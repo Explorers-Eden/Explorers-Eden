@@ -49,11 +49,23 @@
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:items/tools/rascal_hoe"
+            "value": "eden:items/tools/royal_hoe"
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:items/tools/royal_hoe"
+            "value": "eden:items/tools/jade_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/minty_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/overgrown_hoe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/ruby_hoe"
           }
         ]
       }

@@ -49,11 +49,23 @@
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:items/tools/rascal_axe"
+            "value": "eden:items/tools/royal_axe"
           },
           {
             "type": "minecraft:loot_table",
-            "value": "eden:items/tools/royal_axe"
+            "value": "eden:items/tools/jade_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/minty_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/overgrown_axe"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/tools/ruby_axe"
           }
         ]
       }
