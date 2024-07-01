@@ -1,7 +1,7 @@
 particle minecraft:poof ~ ~.6 ~ .5 .5 .5 0 100
 particle minecraft:end_rod ~ ~.6 ~ 1 1 1 0 50
 particle minecraft:wax_off ~ ~.6 ~ .8 .8 .8 0 50
-execute at @s run playsound minecraft:entity.firework_rocket.blast ambient @a ~ ~ ~ 
+execute at @s run playsound minecraft:entity.firework_rocket.blast ambient @a ~ ~ ~
 
 scoreboard players add @s eden.digsite.container.opened.common 1
 scoreboard players add @s eden.digsite.container.opened.total 1
