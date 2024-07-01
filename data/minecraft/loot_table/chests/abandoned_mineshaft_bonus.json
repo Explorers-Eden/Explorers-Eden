@@ -343,48 +343,6 @@
           "chance": 0.3
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "minecraft:chests/abandoned_mineshaft_bonus"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:any_of",
-          "terms": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "components": {
-                      "minecraft:custom_model_data": 10016
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "equipment": {
-                  "offhand": {
-                    "components": {
-                      "minecraft:custom_model_data": 10016
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        }
-      ]
     }
   ],
   "random_sequence": "minecraft:chests/abandoned_mineshaft"
