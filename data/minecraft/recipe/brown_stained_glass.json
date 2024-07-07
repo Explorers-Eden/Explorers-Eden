@@ -4,7 +4,7 @@
   "group": "stained_glass",
   "key": {
     "#": {
-      "tag": "purpur:dyeable_glass"
+      "tag": "eden:dyeable_glass"
     },
     "X": {
       "item": "minecraft:brown_dye"

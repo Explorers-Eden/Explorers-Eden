@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "stained_glass_pane",
+  "category": "building",
+  "group": "stained_glass",
   "key": {
     "#": {
-      "tag": "eden:dyeable_glass_panes"
+      "tag": "eden:dyeable_glass"
     },
     "$": {
-      "item": "minecraft:brown_dye"
+      "item": "minecraft:magenta_dye"
     }
   },
   "pattern": [
@@ -17,7 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "id": "minecraft:brown_stained_glass_pane"
+    "id": "minecraft:magenta_stained_glass"
   },
   "show_notification": true
 }
