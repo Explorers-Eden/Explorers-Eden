@@ -58,6 +58,7 @@ scoreboard objectives add equip_hat trigger {"text": "Equip Hat"}
 scoreboard objectives add tp_heritage_harbor trigger {"text": "Heritage Harbor"}
 scoreboard objectives add durability_ping trigger {"text": "Durability Ping"}
 scoreboard objectives add chat_coordinates trigger {"text": "Chat Coordinates"}
+scoreboard objectives add villager_inv trigger {"text": "Villager Inventory"}
 
 ##add teams
 team add eden.afk.dunesworn "AFK Players"
