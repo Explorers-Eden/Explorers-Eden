@@ -1,5 +1,4 @@
 ##call functions
-function eden:modify_villager/run
 function eden:sit/run
 
 ##minor things which don't need an extra function

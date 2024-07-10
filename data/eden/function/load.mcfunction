@@ -1,7 +1,6 @@
 ##del scoreboards as garbage collection
 scoreboard objectives remove eden.digsite.placed
 scoreboard objectives remove eden.digsite.attempts
-scoreboard objectives remove eden.elytra.flying
 scoreboard objectives remove eden.rtp.cooldown
 scoreboard objectives remove eden.rtp.counter
 scoreboard objectives remove eden.afk.x1
@@ -26,7 +25,6 @@ scoreboard objectives add eden.digsite.placed dummy
 scoreboard objectives add eden.digsite.attempts dummy
 scoreboard objectives add eden.digsite.age dummy
 scoreboard objectives add eden.technical dummy
-scoreboard objectives add eden.elytra.flying dummy
 scoreboard objectives add eden.joined.game minecraft.custom:minecraft.leave_game
 scoreboard objectives add eden.afk.x1 dummy
 scoreboard objectives add eden.afk.x2 dummy
@@ -37,18 +35,6 @@ scoreboard objectives add eden.afk.z2 dummy
 scoreboard objectives add eden.afk.check dummy
 scoreboard objectives add eden.rtp.cooldown dummy
 scoreboard objectives add eden.rtp.counter dummy
-scoreboard objectives add eden.advancement.redstone.mined.redstone_ore minecraft.mined:minecraft.redstone_ore
-scoreboard objectives add eden.advancement.redstone.mined.deepslate_redstone_ore minecraft.mined:minecraft.deepslate_redstone_ore
-scoreboard objectives add eden.advancement.redstone.mined.wheat minecraft.mined:minecraft.wheat
-scoreboard objectives add eden.advancement.redstone.mined.stone minecraft.mined:minecraft.stone
-scoreboard objectives add eden.advancement.redstone.crafted.redstone_torch minecraft.crafted:minecraft.redstone_torch
-scoreboard objectives add eden.advancement.redstone.mined.nether_quartz_ore minecraft.mined:minecraft.nether_quartz_ore
-scoreboard objectives add eden.advancement.redstone.crafted.iron_ingot minecraft.crafted:minecraft.iron_ingot
-scoreboard objectives add eden.advancement.redstone.crafted.chest minecraft.crafted:minecraft.chest
-scoreboard objectives add eden.advancement.redstone.killed.witch minecraft.killed:minecraft.witch
-scoreboard objectives add eden.advancement.redstone.crafted.piston minecraft.crafted:minecraft.piston
-scoreboard objectives add eden.advancement.redstone.crafted.bow minecraft.crafted:minecraft.bow
-scoreboard objectives add eden.advancement.redstone.killed.slime minecraft.killed:minecraft.slime
 scoreboard objectives add eden.players.killed minecraft.killed:minecraft.player
 scoreboard objectives add eden.skilltree.health dummy
 scoreboard objectives add eden.skilltree.movespeed minecraft.custom:minecraft.walk_one_cm
@@ -151,7 +137,7 @@ team modify eden.afk.endling prefix [{"text":"Endling","color":"dark_purple"},{"
 team modify eden.afk.endling suffix {"text":" AFK","color":"dark_gray"}
 
 ##set gamerules
-difficulty normal
+difficulty hard
 gamerule disableElytraMovementCheck true
 gamerule doFireTick false
 gamerule globalSoundEvents false

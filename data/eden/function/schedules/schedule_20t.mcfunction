@@ -1,6 +1,5 @@
 ##call functions
 function eden:digsites/run
-function eden:elytra_nerf/run
 function eden:afk/run
 function eden:chat_coords/run
 

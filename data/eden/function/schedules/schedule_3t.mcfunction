@@ -1,4 +1,3 @@
-function eden:digsites/run
 function eden:player_races/run
 function eden:player_attributes/run
 function eden:trigger/run

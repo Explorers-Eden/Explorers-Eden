@@ -227,7 +227,7 @@
         "conditions": [
           {
             "condition": "minecraft:random_chance",
-            "chance": 0.4
+            "chance": 0.15
           },
           {
             "condition": "minecraft:killed_by_player"

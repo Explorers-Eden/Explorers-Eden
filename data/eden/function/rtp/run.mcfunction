@@ -1,4 +1,4 @@
-scoreboard players enable @a rtp
+scoreboard players enable @a[predicate=eden:entity/has_heritage] rtp
 scoreboard players add @a eden.rtp.cooldown 0
 
 execute as @a[scores={eden.rtp.cooldown=1}] run scoreboard players add @s eden.rtp.counter 1

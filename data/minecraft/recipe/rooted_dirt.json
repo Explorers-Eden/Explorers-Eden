@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+      [
+        {
+          "item": "minecraft:dirt"
+        },
+        {
+          "item": "minecraft:grass_block"
+        },
+        {
+          "item": "minecraft:mycelium"
+        },
+        {
+          "item": "minecraft:podzol"
+        },
+        {
+          "item": "minecraft:coarse_dirt"
+        }
+      ],
+      {
+        "item": "minecraft:hanging_roots"
+      }
+    ],
+    "result": {
+      "id": "minecraft:rooted_dirt",
+      "count": 1
+    }
+  }
+  

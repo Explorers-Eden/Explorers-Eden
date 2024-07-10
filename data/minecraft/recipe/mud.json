@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+      "DDD",
+      "DWD",
+      "DDD"
+    ],
+    "key": {
+      "D": [
+        {
+          "item": "minecraft:dirt"
+        },
+        {
+          "item": "minecraft:coarse_dirt"
+        },
+        {
+            "item": "minecraft:podzol"
+        },
+        {
+          "item": "minecraft:mycelium"
+        },
+        {
+          "item": "minecraft:grass_block"
+        },
+        {
+          "item": "minecraft:rooted_dirt"
+        }
+      ],
+      "W": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    "result": {
+      "id": "minecraft:mud",
+      "count": 8
+    }
+  }
+  
