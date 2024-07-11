@@ -24,6 +24,7 @@ scoreboard objectives add eden.digsite.container.opened.total dummy
 scoreboard objectives add eden.digsite.placed dummy
 scoreboard objectives add eden.digsite.attempts dummy
 scoreboard objectives add eden.digsite.age dummy
+scoreboard objectives add eden.digsite.type dummy
 scoreboard objectives add eden.technical dummy
 scoreboard objectives add eden.joined.game minecraft.custom:minecraft.leave_game
 scoreboard objectives add eden.afk.x1 dummy
