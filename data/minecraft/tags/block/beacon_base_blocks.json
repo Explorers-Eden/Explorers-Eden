@@ -1,8 +1,11 @@
 {
-    "values": [
-      "minecraft:raw_copper_block",
-      "minecraft:raw_gold_block",
-      "minecraft:raw_iron_block"
-    ]
-  }
-  
+  "values": [
+    "minecraft:raw_copper_block",
+    "minecraft:raw_gold_block",
+    "minecraft:raw_iron_block",
+    "minecraft:waxed_copper_block",
+    "minecraft:waxed_exposed_copper",
+    "minecraft:waxed_oxidized_copper",
+    "minecraft:waxed_weathered_copper"
+  ]
+}

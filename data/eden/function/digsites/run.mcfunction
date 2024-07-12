@@ -1,5 +1,5 @@
-execute as @e[type=player,tag=!at_digsite] at @s if entity @e[type=marker,predicate=eden:entity/is_digsite,distance=..32] run function eden:digsites/location/entering
-execute as @e[type=player,tag=!not_at_digsite] at @s unless entity @e[type=marker,predicate=eden:entity/is_digsite,distance=..32] run function eden:digsites/location/exiting
+execute as @e[type=player,tag=!at_digsite] at @s if entity @e[type=marker,predicate=eden:entity/is_digsite,distance=..24] run function eden:digsites/location/entering
+execute as @e[type=player,tag=!not_at_digsite] at @s unless entity @e[type=marker,predicate=eden:entity/is_digsite,distance=..24] run function eden:digsites/location/exiting
 
 execute as @e[type=marker,predicate=eden:entity/is_digsite,tag=!digsite_finished] at @s run scoreboard players add @s eden.digsite.attempts 0
 execute as @e[type=marker,predicate=eden:entity/is_digsite,tag=!digsite_finished] at @s run scoreboard players add @s eden.digsite.placed 0
