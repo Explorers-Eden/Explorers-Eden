@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:nautilus_shell",
+            "components": {
+              "minecraft:custom_data": "{hats:has_armor}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "eden:equip_hat/equip"
+    }
+  }
+  
