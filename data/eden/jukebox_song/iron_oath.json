@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.iron_oath_laudividni"
+},
+  "description": {
+    "text": "Laudividni - Iron Oath"
+  },
+  "length_in_seconds": 122.0,
+  "comparator_output": 8
+}

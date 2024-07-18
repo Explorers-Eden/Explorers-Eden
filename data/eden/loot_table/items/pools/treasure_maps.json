@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "nmr:maps/amemasu"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "nmr:maps/celestial_watcher"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "nmr:maps/treasure_pig"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/maps/heritages"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/maps/wandering_shops"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/maps/digsites"
+          }
+        ]
+      }
+    ]
+  }
+  

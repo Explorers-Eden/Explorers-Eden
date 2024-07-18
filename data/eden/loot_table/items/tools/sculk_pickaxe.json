@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Sculk Pickaxe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Sculk Pickaxe\",\"translate\":\"tools.eden.pickaxe.sculk\"}",
                   "minecraft:custom_data": "{tools:sculk_pickaxe}",
                   "minecraft:custom_model_data": 100006,
                   "minecraft:max_stack_size": 1,

@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:shell",
+  "description": {
+    "translate": "trim_pattern.trims.shell"
+  },
+  "template_item": "minecraft:armadillo_scute"
+}

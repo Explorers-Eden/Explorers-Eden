@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Aztec Hoe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Aztec Hoe\",\"translate\":\"tools.eden.hoe.aztec\"}",
                   "minecraft:custom_data": "{tools:aztec_hoe}",
                   "minecraft:custom_model_data": 100008,
                   "minecraft:max_stack_size": 1,

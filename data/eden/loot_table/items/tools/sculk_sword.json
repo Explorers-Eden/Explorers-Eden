@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Sculk Sword\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Sculk Sword\",\"translate\":\"tools.eden.sword.sculk\"}",
                   "minecraft:custom_data": "{tools:sculk_sword}",
                   "minecraft:custom_model_data": 100006,
                   "minecraft:max_stack_size": 1,

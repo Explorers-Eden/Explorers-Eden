@@ -1,0 +1,54 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/air"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/earth"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/fire"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/flame"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/flower"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/nature"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/nocturnal"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/pure"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/sabrewing"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/thunder"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/vengeful"
+          }
+        ]
+      }
+    ]
+  }
+  

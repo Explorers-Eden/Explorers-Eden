@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:triumvirate",
+  "description": {
+    "translate": "trim_pattern.trims.triumvirate"
+  },
+  "template_item": "minecraft:nether_star"
+}

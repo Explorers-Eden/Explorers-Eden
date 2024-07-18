@@ -36,6 +36,16 @@
             ]
           },
           {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/misc_rare_bows",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/misc_uncommon_bows",
+            "weight": 10
+          },
+          {
             "type": "minecraft:item",
             "name": "minecraft:crimson_planks",
             "weight": 10,

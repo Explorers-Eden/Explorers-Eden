@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:wart",
+  "description": {
+    "translate": "trim_pattern.trims.wart"
+  },
+  "template_item": "minecraft:nether_wart_block"
+}

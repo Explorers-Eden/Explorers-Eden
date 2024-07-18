@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:fool",
+  "description": {
+    "translate": "trim_pattern.trims.fool"
+  },
+  "template_item": "minecraft:diamond_block"
+}

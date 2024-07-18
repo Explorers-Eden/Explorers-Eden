@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Overgrown Hoe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Overgrown Hoe\",\"translate\":\"tools.eden.hoe.overgrown\"}",
                   "minecraft:custom_data": "{tools:overgrown_hoe}",
                   "minecraft:custom_model_data": 10027,
                   "minecraft:max_stack_size": 1,

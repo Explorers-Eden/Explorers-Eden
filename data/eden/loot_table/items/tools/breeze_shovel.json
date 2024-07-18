@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Breeze Shovel\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Breeze Shovel\",\"translate\":\"tools.eden.shovel.breeze\"}",
                   "minecraft:custom_data": "{tools:breeze_shovel}",
                   "minecraft:custom_model_data": 100001,
                   "minecraft:max_stack_size": 1,

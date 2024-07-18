@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Ruby Shovel\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Ruby Shovel\",\"translate\":\"tools.eden.shovel.ruby\"}",
                   "minecraft:custom_data": "{tools:ruby_shovel}",
                   "minecraft:custom_model_data": 10028,
                   "minecraft:max_stack_size": 1,

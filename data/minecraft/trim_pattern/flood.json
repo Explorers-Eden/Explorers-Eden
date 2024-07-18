@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:flood",
+  "description": {
+    "translate": "trim_pattern.trims.flood"
+  },
+  "template_item": "minecraft:fishing_rod"
+}

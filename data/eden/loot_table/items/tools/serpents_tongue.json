@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Serpents Tongue\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Serpents Tongue\",\"translate\":\"tools.eden.serpents_tongue\"}",
                   "minecraft:custom_data": "{tools:serpents_tongue}",
                   "minecraft:custom_model_data": 60005,
                   "minecraft:max_stack_size": 1,

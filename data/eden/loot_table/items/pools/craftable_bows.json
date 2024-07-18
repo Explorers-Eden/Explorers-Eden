@@ -1,0 +1,50 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/acacia"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/bamboo"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/birch"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/cherry"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/crimson"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/dark_oak"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/jungle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/mangrove"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/spruce"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/warped"
+          }
+        ]
+      }
+    ]
+  }
+  

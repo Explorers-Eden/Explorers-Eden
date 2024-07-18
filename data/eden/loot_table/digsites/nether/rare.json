@@ -36,6 +36,16 @@
             ]
           },
           {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/craftable_bows",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/all_crossbows",
+            "weight": 10
+          },
+          {
             "type": "minecraft:item",
             "name": "minecraft:warped_planks",
             "weight": 10,
@@ -90,6 +100,11 @@
                 }
               }
             ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/all_totems",
+            "weight": 15
           },
           {
             "type": "minecraft:item",

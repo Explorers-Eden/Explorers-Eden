@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Cottage Pickaxe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Cottage Pickaxe\",\"translate\":\"tools.eden.pickaxe.cottage\"}",
                   "minecraft:custom_data": "{tools:cottage_pickaxe}",
                   "minecraft:custom_model_data": 10010,
                   "minecraft:max_stack_size": 1,

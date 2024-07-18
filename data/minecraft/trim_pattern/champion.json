@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:champion",
+  "description": {
+    "translate": "trim_pattern.trims.champion"
+  },
+  "template_item": "minecraft:totem_of_undying"
+}

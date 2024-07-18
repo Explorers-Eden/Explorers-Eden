@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Ruby Sword\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Ruby Sword\",\"translate\":\"tools.eden.sword.ruby\"}",
                   "minecraft:custom_data": "{tools:ruby_sword}",
                   "minecraft:custom_model_data": 10028,
                   "minecraft:max_stack_size": 1,

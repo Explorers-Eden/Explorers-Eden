@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "###",
+      "#X#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:gold_nugget"
+      },
+      "X": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "result": {
+      "id": "minecraft:rabbit_foot",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"fallback\":\"Golden Potato\",\"translate\":\"food.eden.golden_potato\"}",
+        "minecraft:custom_model_data": 10035,
+        "minecraft:custom_data": "{food:golden_potato}",
+        "minecraft:food": {
+          "nutrition": 7,
+          "saturation": 7,
+          "eat_seconds": 3
+        }
+      }
+    }
+  }
+  

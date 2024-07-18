@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Copper Pickaxe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Copper pickaxe\",\"translate\":\"tools.eden.pickaxe.copper\"}",
                   "minecraft:custom_data": "{tools:copper_pickaxe}",
                   "minecraft:custom_model_data": 10001,
                   "minecraft:max_stack_size": 1,

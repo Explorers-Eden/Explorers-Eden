@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "###",
+      "#X#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:gold_nugget"
+      },
+      "X": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "result": {
+      "id": "minecraft:rabbit_foot",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"fallback\":\"Golden Beetroot\",\"translate\":\"food.eden.golden_beetroot\"}",
+        "minecraft:custom_model_data": 10033,
+        "minecraft:custom_data": "{food:golden_beetroot}",
+        "minecraft:food": {
+          "nutrition": 7,
+          "saturation": 7,
+          "eat_seconds": 3
+        }
+      }
+    }
+  }
+  

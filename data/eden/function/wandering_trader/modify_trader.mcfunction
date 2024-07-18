@@ -1,5 +1,8 @@
-execute store result storage eden:wandering_trader price int 1 run random value 12..36
+execute store result storage eden:wandering_trader price int 1 run random value 8..24
 function eden:wandering_trader/add_bundle_trade with storage eden:wandering_trader
+
+execute store result storage eden:wandering_trader price int 1 run random value 8..36
+function eden:wandering_trader/add_totem_trade with storage eden:wandering_trader
 
 execute store result storage eden:wandering_trader trade int 1 run random value 1..5
 execute store result storage eden:wandering_trader price int 1 run random value 1..9

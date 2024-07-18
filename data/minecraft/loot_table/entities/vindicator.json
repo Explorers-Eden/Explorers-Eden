@@ -35,6 +35,24 @@
           "condition": "minecraft:killed_by_player"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/totems/illager_of_undying"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:entities/vindicator"

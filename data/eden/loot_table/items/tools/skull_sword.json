@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Skull Sword\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Skull Sword\",\"translate\":\"tools.eden.sword.skull\"}",
                   "minecraft:custom_data": "{tools:skull_sword}",
                   "minecraft:custom_model_data": 100011,
                   "minecraft:max_stack_size": 1,

@@ -50,6 +50,11 @@
             ]
           },
           {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/craftable_bows",
+            "weight": 10
+          },
+          {
             "type": "minecraft:item",
             "name": "minecraft:bread",
             "weight": 10,
@@ -167,6 +172,21 @@
               {
                 "condition": "minecraft:random_chance",
                 "chance": 0.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/pools/all_totems",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
               }
             ]
           }

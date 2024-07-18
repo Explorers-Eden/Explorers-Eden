@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Skull Hoe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Skull Hoe\",\"translate\":\"tools.eden.hoe.skull\"}",
                   "minecraft:custom_data": "{tools:skull_hoe}",
                   "minecraft:custom_model_data": 100011,
                   "minecraft:max_stack_size": 1,

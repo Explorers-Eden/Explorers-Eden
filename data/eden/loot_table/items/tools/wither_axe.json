@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Wither Axe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Wither Axe\",\"translate\":\"tools.eden.axe.wither\"}",
                   "minecraft:custom_data": "{tools:wither_axe}",
                   "minecraft:custom_model_data": 100007,
                   "minecraft:max_stack_size": 1,

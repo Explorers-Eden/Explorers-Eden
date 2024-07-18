@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Blazing\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Blazing\",\"translate\":\"tools.eden.blazing\"}",
                   "minecraft:custom_data": "{tools:blazing}",
                   "minecraft:custom_model_data": 20000,
                   "minecraft:max_stack_size": 1,

@@ -18,7 +18,7 @@
       "id": "minecraft:iron_hoe",
       "count": 1,
       "components": {
-        "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Amethyst Hoe\"}",
+        "minecraft:item_name": "{\"fallback\":\"Amethyst Hoe\",\"translate\":\"tools.eden.hoe.amethyst\"}",
         "minecraft:custom_data": "{tools:amethyst_hoe}",
         "minecraft:custom_model_data": 10008,
         "minecraft:max_stack_size": 1,

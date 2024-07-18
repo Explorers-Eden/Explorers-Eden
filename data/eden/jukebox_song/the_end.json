@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.the_end_laudividni"
+},
+  "description": {
+    "text": "Laudividni - The End"
+  },
+  "length_in_seconds": 160.0,
+  "comparator_output": 10
+}

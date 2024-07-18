@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:worker",
+  "description": {
+    "translate": "trim_pattern.trims.worker"
+  },
+  "template_item": "minecraft:emerald_block"
+}

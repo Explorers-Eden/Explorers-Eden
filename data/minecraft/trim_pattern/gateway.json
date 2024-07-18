@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:gateway",
+  "description": {
+    "translate": "trim_pattern.trims.gateway"
+  },
+  "template_item": "minecraft:crying_obsidian"
+}

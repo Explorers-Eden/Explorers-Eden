@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Blaze Axe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Blaze Axe\",\"translate\":\"tools.eden.axe.blaze\"}",
                   "minecraft:custom_data": "{tools:blaze_axe}",
                   "minecraft:custom_model_data": 10024,
                   "minecraft:max_stack_size": 1,

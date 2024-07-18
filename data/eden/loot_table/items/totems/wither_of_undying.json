@@ -1,0 +1,23 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:totem_of_undying",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 10015,
+                  "minecraft:item_name": "{\"fallback\":\"Wither of Undying\",\"translate\":\"totems.eden.wither\"}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

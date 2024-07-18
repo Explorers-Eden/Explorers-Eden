@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:creeper_drop_music_discs",
+          "expand": true
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/discs/above"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/discs/click"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/discs/zen_garden"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "type": "#minecraft:skeletons"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/tools/creeper_axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/tools/creeper_hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/tools/creeper_pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/tools/creeper_shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/tools/creeper_sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/bundles/creeper_bundle"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/totems/creeper_of_undying"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.01
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/creeper"
+}

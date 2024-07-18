@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Minty Hoe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Minty Hoe\",\"translate\":\"tools.eden.hoe.minty\"}",
                   "minecraft:custom_data": "{tools:minty_hoe}",
                   "minecraft:custom_model_data": 10026,
                   "minecraft:max_stack_size": 1,

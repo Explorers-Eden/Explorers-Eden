@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:wanderer",
+  "description": {
+    "translate": "trim_pattern.trims.wanderer"
+  },
+  "template_item": "minecraft:lead"
+}

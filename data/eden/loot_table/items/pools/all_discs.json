@@ -46,6 +46,58 @@
           {
             "type": "minecraft:loot_table",
             "value": "eden:items/discs/windwaker"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/above"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/click"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/copper"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/elder_guardian"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/evoker"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/final_stage"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/first_night"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/forest"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/iron_oath"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/renren"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/the_end"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/tiny_paws"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/discs/zen_garden"
           }
         ]
       }

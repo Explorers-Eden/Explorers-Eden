@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Halloween Hoe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Halloween Hoe\",\"translate\":\"tools.eden.hoe.halloween\"}",
                   "minecraft:custom_data": "{tools:halloween_hoe}",
                   "minecraft:custom_model_data": 10021,
                   "minecraft:max_stack_size": 1,

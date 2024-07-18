@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.final_stage_laudividni"
+},
+  "description": {
+    "text": "Laudividni - Final Stage"
+  },
+  "length_in_seconds": 125.0,
+  "comparator_output": 5
+}

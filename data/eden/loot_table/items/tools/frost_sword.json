@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Frost Sword\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Frost Sword\",\"translate\":\"tools.eden.sword.frost\"}",
                   "minecraft:custom_data": "{tools:frost_sword}",
                   "minecraft:custom_model_data": 10003,
                   "minecraft:max_stack_size": 1,

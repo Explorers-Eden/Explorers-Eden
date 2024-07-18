@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Infernal Sword\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Infernal Sword\",\"translate\":\"tools.eden.sword.infernal\"}",
                   "minecraft:custom_data": "{tools:infernal_sword}",
                   "minecraft:custom_model_data": 10005,
                   "minecraft:max_stack_size": 1,

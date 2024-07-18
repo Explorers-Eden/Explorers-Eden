@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.evoker_zoomolga"
+},
+  "description": {
+    "text": "zooMolga - Evoker"
+  },
+  "length_in_seconds": 95.0,
+  "comparator_output": 4
+}

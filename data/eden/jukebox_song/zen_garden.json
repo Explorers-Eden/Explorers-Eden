@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.zen_garden_snakeysongs"
+},
+  "description": {
+    "text": "SnakeySongs - Zen Garden"
+  },
+  "length_in_seconds": 115.0,
+  "comparator_output": 12
+}

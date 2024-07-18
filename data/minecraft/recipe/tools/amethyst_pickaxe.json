@@ -18,7 +18,7 @@
       "id": "minecraft:iron_pickaxe",
       "count": 1,
       "components": {
-        "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Amethyst Pickaxe\"}",
+        "minecraft:item_name": "{\"fallback\":\"Amethyst Pickaxe\",\"translate\":\"tools.eden.pickaxe.amethyst\"}",
         "minecraft:custom_data": "{tools:amethyst_pickaxe}",
         "minecraft:custom_model_data": 10008,
         "minecraft:max_stack_size": 1,

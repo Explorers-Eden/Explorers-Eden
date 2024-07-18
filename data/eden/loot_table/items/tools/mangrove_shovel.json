@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Mangrove Shovel\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Mangrove Shovel\",\"translate\":\"tools.eden.shovel.mangrove\"}",
                   "minecraft:custom_data": "{tools:mangrove_shovel}",
                   "minecraft:custom_model_data": 10006,
                   "minecraft:max_stack_size": 1,

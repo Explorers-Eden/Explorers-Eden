@@ -134,6 +134,22 @@
           {
             "type": "minecraft:loot_table",
             "value": "eden:items/food/xmas_milk"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/golden_potato"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/golden_chorus_fruit"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/golden_sweet_berries"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/food/golden_chorus_fruit"
           }
         ]
       }

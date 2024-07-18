@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Withersbane\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Withersbane\",\"translate\":\"tools.eden.withersbane\"}",
                   "minecraft:custom_data": "{tools:withersbane}",
                   "minecraft:custom_model_data": 60004,
                   "minecraft:max_stack_size": 1,

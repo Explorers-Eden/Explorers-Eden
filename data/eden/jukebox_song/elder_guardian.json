@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.elder_guardian_white_wicks"
+},
+  "description": {
+    "text": "White Wicks - Elder Guardian"
+  },
+  "length_in_seconds": 190.0,
+  "comparator_output": 3
+}

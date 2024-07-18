@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Maya Shovel\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Maya Shovel\",\"translate\":\"tools.eden.shovel.maya\"}",
                   "minecraft:custom_data": "{tools:maya_shovel}",
                   "minecraft:custom_model_data": 100010,
                   "minecraft:max_stack_size": 1,

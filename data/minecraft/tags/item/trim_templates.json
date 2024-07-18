@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond_block",
+    "minecraft:lead",
+    "minecraft:snow_block",
+    "minecraft:bone_block",
+    "minecraft:nether_wart_block",
+    "minecraft:water_bucket",
+    "minecraft:emerald_block",
+    "minecraft:totem_of_undying",
+    "minecraft:fishing_rod",
+    "minecraft:heart_of_the_sea",
+    "minecraft:armadillo_scute",
+    "minecraft:tnt",
+    "minecraft:chain",
+    "minecraft:iron_pickaxe",
+    "minecraft:nether_star",
+    "minecraft:crying_obsidian",
+    "minecraft:amethyst_block",
+    "minecraft:dragon_breath"
+  ]
+}

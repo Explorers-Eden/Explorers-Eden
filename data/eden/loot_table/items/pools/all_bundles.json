@@ -70,6 +70,10 @@
           {
             "type": "minecraft:loot_table",
             "value": "eden:items/bundles/yellow_bundle"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bundles/creeper_bundle"
           }
         ]
       }

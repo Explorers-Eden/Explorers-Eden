@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Wither Hoe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Wither Hoe\",\"translate\":\"tools.eden.hoe.wither\"}",
                   "minecraft:custom_data": "{tools:wither_hoe}",
                   "minecraft:custom_model_data": 100007,
                   "minecraft:max_stack_size": 1,

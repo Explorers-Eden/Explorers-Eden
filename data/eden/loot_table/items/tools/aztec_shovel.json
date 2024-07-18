@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Aztec Shovel\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Aztec Shovel\",\"translate\":\"tools.eden.shovel.aztec\"}",
                   "minecraft:custom_data": "{tools:aztec_shovel}",
                   "minecraft:custom_model_data": 100008,
                   "minecraft:max_stack_size": 1,

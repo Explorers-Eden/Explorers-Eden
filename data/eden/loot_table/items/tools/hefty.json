@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Hefty\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Hefty\",\"translate\":\"tools.eden.hefty\"}",
                   "minecraft:custom_data": "{tools:hefty}",
                   "minecraft:custom_model_data": 40000,
                   "minecraft:max_stack_size": 1,

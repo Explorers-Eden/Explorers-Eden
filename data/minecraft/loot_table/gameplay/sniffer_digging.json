@@ -1014,12 +1014,16 @@
         {
           "type": "minecraft:loot_table",
           "value": "eden:items/tools/sniffer_sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/discs/tiny_paws"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.05
+          "chance": 0.02
         }
       ]
     }

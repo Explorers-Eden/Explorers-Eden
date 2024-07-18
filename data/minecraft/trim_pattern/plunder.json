@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:plunder",
+  "description": {
+    "translate": "trim_pattern.trims.plunder"
+  },
+  "template_item": "minecraft:heart_of_the_sea"
+}

@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Glow Berry Hoe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Glow Berry Hoe\",\"translate\":\"tools.eden.hoe.glow_berry\"}",
                   "minecraft:custom_data": "{tools:glow_berry_hoe}",
                   "minecraft:custom_model_data": 10011,
                   "minecraft:max_stack_size": 1,

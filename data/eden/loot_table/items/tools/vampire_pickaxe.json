@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Vampire Pickaxe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Vampire Pickaxe\",\"translate\":\"tools.eden.pickaxe.vampire\"}",
                   "minecraft:custom_data": "{tools:vampire_pickaxe}",
                   "minecraft:custom_model_data": 10023,
                   "minecraft:max_stack_size": 1,

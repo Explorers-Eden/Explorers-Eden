@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:bone",
+  "description": {
+    "translate": "trim_pattern.trims.bone"
+  },
+  "template_item": "minecraft:bone_block"
+}

@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Rascal Shovel\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Rascal Shovel\",\"translate\":\"tools.eden.shovel.rascal\"}",
                   "minecraft:custom_data": "{tools:rascal_shovel}",
                   "minecraft:custom_model_data": 10016,
                   "minecraft:max_stack_size": 1,

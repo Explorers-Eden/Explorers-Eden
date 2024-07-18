@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Royal Axe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Royal Axe\",\"translate\":\"tools.eden.axe.royal\"}",
                   "minecraft:custom_data": "{tools:royal_axe}",
                   "minecraft:custom_model_data": 100005,
                   "minecraft:max_stack_size": 1,

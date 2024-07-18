@@ -1,0 +1,22 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/bow_of_the_lost_souls"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/elite_power"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/bows/red_snake"
+          }
+        ]
+      }
+    ]
+  }
+  

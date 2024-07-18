@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:dragon",
+  "description": {
+    "translate": "trim_pattern.trims.dragon"
+  },
+  "template_item": "minecraft:dragon_breath"
+}

@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Cherry Sword\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Cherry Sword\",\"translate\":\"tools.eden.sword.cherry\"}",
                   "minecraft:custom_data": "{tools:cherry_sword}",
                   "minecraft:custom_model_data": 10000,
                   "minecraft:max_stack_size": 1,

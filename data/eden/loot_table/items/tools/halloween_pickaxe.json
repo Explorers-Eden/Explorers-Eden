@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Halloween Pickaxe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Halloween Pickaxe\",\"translate\":\"tools.eden.pickaxe.halloween\"}",
                   "minecraft:custom_data": "{tools:halloween_pickaxe}",
                   "minecraft:custom_model_data": 10021,
                   "minecraft:max_stack_size": 1,

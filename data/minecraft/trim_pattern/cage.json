@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:cage",
+  "description": {
+    "translate": "trim_pattern.trims.cage"
+  },
+  "template_item": "minecraft:chain"
+}

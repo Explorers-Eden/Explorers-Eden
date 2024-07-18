@@ -1,0 +1,33 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_foot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+        "minecraft:item_name": "{\"fallback\":\"Golden Chorus Fruit\",\"translate\":\"food.eden.golden_chorus_fruit\"}",
+        "minecraft:custom_model_data": 10034,
+        "minecraft:custom_data": "{food:golden_chorus_fruit}",
+        "minecraft:food": {
+          "nutrition": 7,
+          "saturation": 7,
+          "eat_seconds": 3
+        }
+      }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

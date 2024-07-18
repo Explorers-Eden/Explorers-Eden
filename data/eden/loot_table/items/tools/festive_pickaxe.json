@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Festive Pickaxe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Festive Pickaxe\",\"translate\":\"tools.eden.pickaxe.festive\"}",
                   "minecraft:custom_data": "{tools:festive_pickaxe}",
                   "minecraft:custom_model_data": 10002,
                   "minecraft:max_stack_size": 1,

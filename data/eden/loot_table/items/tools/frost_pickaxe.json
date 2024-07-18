@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Frost Pickaxe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Frost Pickaxe\",\"translate\":\"tools.eden.pickaxe.frost\"}",
                   "minecraft:custom_data": "{tools:frost_pickaxe}",
                   "minecraft:custom_model_data": 10003,
                   "minecraft:max_stack_size": 1,

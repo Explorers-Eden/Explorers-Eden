@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Gilded Axe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Gilded Axe\",\"translate\":\"tools.eden.axe.gilded\"}",
                   "minecraft:custom_data": "{tools:gilded_axe}",
                   "minecraft:custom_model_data": 100003,
                   "minecraft:max_stack_size": 1,

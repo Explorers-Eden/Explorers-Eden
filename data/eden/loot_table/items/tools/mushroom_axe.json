@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Mushroom Axe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Mushroom Axe\",\"translate\":\"tools.eden.axe.mushroom\"}",
                   "minecraft:custom_data": "{tools:mushroom_axe}",
                   "minecraft:custom_model_data": 10014,
                   "minecraft:max_stack_size": 1,

@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:oasis",
+  "description": {
+    "translate": "trim_pattern.trims.oasis"
+  },
+  "template_item": "minecraft:water_bucket"
+}

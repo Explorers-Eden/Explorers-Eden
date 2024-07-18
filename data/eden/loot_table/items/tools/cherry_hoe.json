@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Cherry Hoe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Cherry Hoe\",\"translate\":\"tools.eden.hoe.cherry\"}",
                   "minecraft:custom_data": "{tools:cherry_hoe}",
                   "minecraft:custom_model_data": 10000,
                   "minecraft:max_stack_size": 1,

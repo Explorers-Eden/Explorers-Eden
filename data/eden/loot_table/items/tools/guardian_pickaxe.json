@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Guardian Pickaxe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Guardian Pickaxe\",\"translate\":\"tools.eden.pickaxe.guardian\"}",
                   "minecraft:custom_data": "{tools:guardian_pickaxe}",
                   "minecraft:custom_model_data": 100004,
                   "minecraft:max_stack_size": 1,

@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Jade Sword\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Jade Sword\",\"translate\":\"tools.eden.sword.jade\"}",
                   "minecraft:custom_data": "{tools:jade_sword}",
                   "minecraft:custom_model_data": 100009,
                   "minecraft:max_stack_size": 1,

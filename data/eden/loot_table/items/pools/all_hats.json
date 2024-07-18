@@ -294,6 +294,26 @@
           {
             "type": "minecraft:loot_table",
             "value": "eden:items/hats/yanker_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/deer_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/bunny_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/racoon_hat_2"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/whale_hat"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "eden:items/hats/siff_hat"
           }
         ]
       }

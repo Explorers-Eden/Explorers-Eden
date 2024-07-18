@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Music Disc\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Music Disc\",\"translate\":\"discs.eden.music_disc\"}",
                   "minecraft:custom_data": "{music:final_fantasy_7}",
                   "minecraft:custom_model_data": 10004,
                   "minecraft:max_stack_size": 1,

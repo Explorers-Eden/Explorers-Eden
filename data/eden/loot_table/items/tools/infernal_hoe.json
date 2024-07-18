@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Infernal Hoe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Infernal Hoe\",\"translate\":\"tools.eden.hoe.infernal\"}",
                   "minecraft:custom_data": "{tools:infernal_hoe}",
                   "minecraft:custom_model_data": 10005,
                   "minecraft:max_stack_size": 1,

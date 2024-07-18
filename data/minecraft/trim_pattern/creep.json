@@ -1,0 +1,7 @@
+{
+  "asset_id": "trims:creep",
+  "description": {
+    "translate": "trim_pattern.trims.creep"
+  },
+  "template_item": "minecraft:tnt"
+}

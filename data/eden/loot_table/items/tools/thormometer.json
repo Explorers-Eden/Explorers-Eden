@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Thormometer\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Thormometer\",\"translate\":\"tools.eden.Thormometer\"}",
                   "minecraft:custom_data": "{tools:thormometer}",
                   "minecraft:custom_model_data": 70000,
                   "minecraft:max_stack_size": 1,

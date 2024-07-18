@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Sniffer Shovel\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Sniffer Shovel\",\"translate\":\"tools.eden.shovel.sniffer\"}",
                   "minecraft:custom_data": "{tools:sniffer_shovel}",
                   "minecraft:custom_model_data": 10018,
                   "minecraft:max_stack_size": 1,

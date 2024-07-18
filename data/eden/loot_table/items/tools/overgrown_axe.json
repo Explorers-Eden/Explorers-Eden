@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "{\"bold\":false,\"italic\":false,\"text\":\"Overgrown Axe\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Overgrown Axe\",\"translate\":\"tools.eden.axe.overgrown\"}",
                   "minecraft:custom_data": "{tools:overgrown_axe}",
                   "minecraft:custom_model_data": 10027,
                   "minecraft:max_stack_size": 1,

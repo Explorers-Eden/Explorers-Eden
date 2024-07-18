@@ -385,6 +385,19 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "eden:items/discs/copper"
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:chests/abandoned_mineshaft"

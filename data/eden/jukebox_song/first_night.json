@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.first_night_haerken"
+},
+  "description": {
+    "text": "Haerken - First Night"
+  },
+  "length_in_seconds": 85.0,
+  "comparator_output": 6
+}
