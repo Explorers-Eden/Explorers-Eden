@@ -1,5 +1,5 @@
 {
-    "biomes": "minecraft:ice_spikes",
+    "biomes": "#eden:has_structure/ice",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",

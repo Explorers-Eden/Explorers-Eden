@@ -117,6 +117,33 @@
             "biomes": "terralith:ashen_savanna"
           }
         }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "biomes": "eden:desert"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "biomes": "eden:savanna_plateau"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "biomes": "eden:savanna"
+          }
+        }
       }
     ]
   }

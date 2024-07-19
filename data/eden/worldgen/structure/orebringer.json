@@ -1,5 +1,5 @@
 {
-  "biomes": "stony_peaks",
+  "biomes": "#eden:has_structure/stone",
   "adapt_noise": false,
   "spawn_overrides": {},
   "type": "minecraft:jigsaw",

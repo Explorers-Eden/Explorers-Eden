@@ -1,5 +1,5 @@
 {
-    "biomes": "minecraft:dark_forest",
+    "biomes": "#eden:has_structure/forest",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",

@@ -5,6 +5,9 @@
         { "id": "minecraft:windswept_forest","required": false},
         { "id": "terralith:haze_mountain","required": false},
         { "id": "terralith:windswept_spires","required": false},
-        { "id": "terralith:windswept_savanna","required": false}
+        { "id": "terralith:windswept_savanna","required": false},
+        { "id": "eden:windswept_gravelly_hills","required": false},
+        { "id": "eden:windswept_hills","required": false},
+        { "id": "eden:windswept_forest","required": false}
     ]
 }

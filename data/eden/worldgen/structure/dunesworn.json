@@ -1,5 +1,5 @@
 {
-    "biomes": "minecraft:desert",
+    "biomes": "#eden:has_structure/sand",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",

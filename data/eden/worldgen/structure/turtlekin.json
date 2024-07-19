@@ -1,5 +1,5 @@
 {
-    "biomes": "minecraft:warm_ocean",
+    "biomes": "#eden:has_structure/water",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",

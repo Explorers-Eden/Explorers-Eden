@@ -1,5 +1,5 @@
 {
-    "biomes": "minecraft:meadow",
+    "biomes": "#eden:has_structure/grass",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",

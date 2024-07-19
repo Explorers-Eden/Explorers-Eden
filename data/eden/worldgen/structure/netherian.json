@@ -1,5 +1,5 @@
 {
-  "biomes": "nether_wastes",
+  "biomes": "#eden:has_structure/nether",
   "adapt_noise": false,
   "spawn_overrides": {},
   "type": "minecraft:jigsaw",

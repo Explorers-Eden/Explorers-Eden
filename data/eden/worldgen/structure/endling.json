@@ -1,5 +1,5 @@
 {
-    "biomes": "minecraft:end_highlands",
+    "biomes": "#eden:has_structure/end",
     "adapt_noise": false,
     "spawn_overrides": {},
     "type": "minecraft:jigsaw",
