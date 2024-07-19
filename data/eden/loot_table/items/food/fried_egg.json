@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Fried Egg\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Fried Egg\",\"translate\":\"food.eden.fried_egg\"}",
         "minecraft:custom_model_data": 10010,
         "minecraft:custom_data": "{food:fried_egg}",
         "minecraft:food": {

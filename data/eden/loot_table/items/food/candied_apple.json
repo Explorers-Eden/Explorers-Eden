@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Candied Apple\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Candied Apple\",\"translate\":\"food.eden.candied_apple\"}",
         "minecraft:custom_model_data": 10003,
         "minecraft:custom_data": "{food:candied_apple}",
         "minecraft:food": {

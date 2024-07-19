@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Shashlik\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Shashlik\",\"translate\":\"food.eden.shashlik\"}",
         "minecraft:custom_model_data": 10022,
         "minecraft:custom_data": "{food:shashlik}",
         "minecraft:food": {

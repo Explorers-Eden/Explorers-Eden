@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Sweet Berry Pie\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Sweet Berry Pie\",\"translate\":\"food.eden.sweet_berry_pie\"}",
         "minecraft:custom_model_data": 10026,
         "minecraft:custom_data": "{food:sweet_berry_pie}",
         "minecraft:food": {

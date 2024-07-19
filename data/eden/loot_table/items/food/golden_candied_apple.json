@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Golden Candied Apple\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Golden Candied Apple\",\"translate\":\"food.eden.golden_candied_apple\"}",
         "minecraft:custom_model_data": 10013,
         "minecraft:custom_data": "{food:golden_candied_apple}",
         "minecraft:food": {

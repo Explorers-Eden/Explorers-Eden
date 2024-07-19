@@ -22,7 +22,7 @@
                   },
                   "minecraft:custom_model_data": 10004,
                   "minecraft:custom_data": "{food:xmas_milk}",
-                  "minecraft:item_name": "{\"text\":\"Christmas Milk\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Christmas Milk\",\"translate\":\"food.eden.xmas_milk\"}",
                   "minecraft:max_stack_size": 16
                 }
               }

@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Maki Roll\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Maki Roll\",\"translate\":\"food.eden.maki_roll\"}",
         "minecraft:custom_model_data": 10016,
         "minecraft:custom_data": "{food:maki_roll}",
         "minecraft:food": {

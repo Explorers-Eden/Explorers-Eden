@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Honey Tea\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Honey Tea\",\"translate\":\"food.eden.honey_tea\"}",
         "minecraft:custom_model_data": 10002,
         "minecraft:custom_data": "{food:honey_tea}",
         "minecraft:food": {

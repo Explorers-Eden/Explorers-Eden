@@ -21,7 +21,7 @@
                   },
                   "minecraft:custom_model_data": 10012,
                   "minecraft:custom_data": "{food:gingerbread_man}",
-                  "minecraft:item_name": "{\"text\":\"Gingerbread Man\"}"
+                  "minecraft:item_name": "{\"fallback\":\"Gingerbread Man\",\"translate\":\"food.eden.gingerbread_man\"}"
                 }
               }
             ]

@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Hot Chocolate\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Hot Chocolate\",\"translate\":\"food.eden.hot_chocolate\"}",
         "minecraft:custom_model_data": 10003,
         "minecraft:custom_data": "{food:hot_chocolate}",
         "minecraft:food": {

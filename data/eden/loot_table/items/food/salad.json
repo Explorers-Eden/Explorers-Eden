@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Salad\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Salad\",\"translate\":\"food.eden.salad\"}",
         "minecraft:custom_model_data": 10021,
         "minecraft:custom_data": "{food:salad}",
         "minecraft:food": {

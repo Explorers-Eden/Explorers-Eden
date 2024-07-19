@@ -21,7 +21,7 @@
                   },
                   "minecraft:custom_model_data": 10002,
                   "minecraft:custom_data": "{food:blue_jelly_bean}",
-                  "minecraft:item_name": "{\"text\":\"Blue Jelly Bean\"}"
+                  "minecraft:item_name": "{\"fallback\":\"Blue Jelly Bean\",\"translate\":\"food.eden.blue_jelly_bean\"}"
                 }
               }
             ]

@@ -21,7 +21,7 @@
                   },
                   "minecraft:custom_model_data": 10006,
                   "minecraft:custom_data": "{food:chocolate_bar}",
-                  "minecraft:item_name": "{\"text\":\"Chocolate Bar\"}"
+                  "minecraft:item_name": "{\"fallback\":\"Chocolate Bar\",\"translate\":\"food.eden.chocolate_bar\"}"
                 }
               }
             ]

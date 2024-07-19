@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Pancake\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Pancake\",\"translate\":\"food.eden.pancake\"}",
         "minecraft:custom_model_data": 10017,
         "minecraft:custom_data": "{food:pancake}",
         "minecraft:food": {

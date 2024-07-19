@@ -22,7 +22,7 @@
                   },
                   "minecraft:custom_model_data": 10005,
                   "minecraft:custom_data": "{food:bota_bag}",
-                  "minecraft:item_name": "{\"text\":\"Bota Bag\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Bota Bag\",\"translate\":\"food.eden.bota_bag\"}",
                   "minecraft:max_stack_size": 16
                 }
               }

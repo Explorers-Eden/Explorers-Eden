@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Fish Stew\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Fish Stew\",\"translate\":\"food.eden.fish_stew\"}",
         "minecraft:custom_model_data": 10008,
         "minecraft:custom_data": "{food:fish_stew}",
         "minecraft:food": {

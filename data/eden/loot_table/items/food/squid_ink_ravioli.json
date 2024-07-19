@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Squid Ink Ravioli\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Squid Ink Ravioli\",\"translate\":\"food.eden.squid_ink_ravioli\"}",
         "minecraft:custom_model_data": 10023,
         "minecraft:custom_data": "{food:squid_ink_ravioli}",
         "minecraft:food": {

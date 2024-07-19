@@ -21,7 +21,7 @@
                   },
                   "minecraft:custom_model_data": 10018,
                   "minecraft:custom_data": "{food:pink_jelly_bean}",
-                  "minecraft:item_name": "{\"text\":\"Pink Jelly Bean\"}"
+                  "minecraft:item_name": "{\"fallback\":\"Pink Jelly Bean\",\"translate\":\"food.eden.pink_jelly_bean\"}"
                 }
               }
             ]

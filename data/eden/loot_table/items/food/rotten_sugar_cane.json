@@ -34,7 +34,7 @@
                   },
                   "minecraft:custom_model_data": 10020,
                   "minecraft:custom_data": "{food:rotten_sugar_cane}",
-                  "minecraft:item_name": "{\"text\":\"Rotten Sugar Cane\"}"
+                  "minecraft:item_name": "{\"fallback\":\"Rotten Sugar Cane\",\"translate\":\"food.eden.rotten_sugar_cane\"}"
                 }
               }
             ]

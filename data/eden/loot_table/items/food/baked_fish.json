@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Baked Fish\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Baked Fish\",\"translate\":\"food.eden.baked_fish\"}",
         "minecraft:custom_model_data": 10000,
         "minecraft:custom_data": "{food:baked_fish}",
         "minecraft:food": {

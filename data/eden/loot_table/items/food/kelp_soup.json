@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Kelp Soup\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Kelp Soup\",\"translate\":\"food.eden.kelp_soup\"}",
         "minecraft:custom_model_data": 10015,
         "minecraft:custom_data": "{food:kelp_soup}",
         "minecraft:food": {

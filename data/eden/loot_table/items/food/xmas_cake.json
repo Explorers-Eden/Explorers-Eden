@@ -21,7 +21,7 @@
                   },
                   "minecraft:custom_model_data": 10028,
                   "minecraft:custom_data": "{food:xmas_cake}",
-                  "minecraft:item_name": "{\"text\":\"Christmas Cake\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Christmas Cake\",\"translate\":\"food.eden.xmas_cake\"}",
                   "minecraft:max_stack_size": 64
                 }
               }

@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-        "minecraft:item_name": "{\"text\":\"Survival Burger\"}",
+                  "minecraft:item_name": "{\"fallback\":\"Survival Burger\",\"translate\":\"food.eden.survival_burger\"}",
         "minecraft:custom_model_data": 10025,
         "minecraft:custom_data": "{food:survival_burger}",
         "minecraft:food": {
