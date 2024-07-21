@@ -430,7 +430,7 @@
                       "if_true": {
                         "type": "minecraft:biome",
                         "biome_is": [
-                          "minecraft:wooded_badlands"
+                          "eden:wooded_badlands"
                         ]
                       },
                       "then_run": {
@@ -529,7 +529,7 @@
                       "if_true": {
                         "type": "minecraft:biome",
                         "biome_is": [
-                          "minecraft:swamp"
+                          "eden:swamp"
                         ]
                       },
                       "then_run": {
@@ -581,7 +581,7 @@
                       "if_true": {
                         "type": "minecraft:biome",
                         "biome_is": [
-                          "minecraft:mangrove_swamp"
+                          "eden:mangrove_swamp"
                         ]
                       },
                       "then_run": {
@@ -636,9 +636,9 @@
                 "if_true": {
                   "type": "minecraft:biome",
                   "biome_is": [
-                    "minecraft:badlands",
-                    "minecraft:eroded_badlands",
-                    "minecraft:wooded_badlands"
+                    "eden:badlands",
+                    "eden:eroded_badlands",
+                    "eden:wooded_badlands"
                   ]
                 },
                 "then_run": {
@@ -936,8 +936,8 @@
                         "if_true": {
                           "type": "minecraft:biome",
                           "biome_is": [
-                            "minecraft:frozen_ocean",
-                            "minecraft:deep_frozen_ocean"
+                            "eden:frozen_ocean",
+                            "eden:deep_frozen_ocean"
                           ]
                         },
                         "then_run": {
@@ -996,7 +996,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:frozen_peaks"
+                                "eden:frozen_peaks"
                               ]
                             },
                             "then_run": {
@@ -1067,7 +1067,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:snowy_slopes"
+                                "eden:snowy_slopes"
                               ]
                             },
                             "then_run": {
@@ -1132,7 +1132,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:jagged_peaks"
+                                "eden:jagged_peaks"
                               ]
                             },
                             "then_run": {
@@ -1173,7 +1173,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:grove"
+                                "eden:grove"
                               ]
                             },
                             "then_run": {
@@ -1229,7 +1229,7 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:stony_peaks"
+                                    "eden:stony_peaks"
                                   ]
                                 },
                                 "then_run": {
@@ -1264,7 +1264,7 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:stony_shore"
+                                    "eden:stony_shore"
                                   ]
                                 },
                                 "then_run": {
@@ -1320,7 +1320,7 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:windswept_hills"
+                                    "eden:windswept_hills"
                                   ]
                                 },
                                 "then_run": {
@@ -1344,9 +1344,9 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:warm_ocean",
-                                    "minecraft:beach",
-                                    "minecraft:snowy_beach"
+                                    "eden:warm_ocean",
+                                    "eden:beach",
+                                    "eden:snowy_beach"
                                   ]
                                 },
                                 "then_run": {
@@ -1382,7 +1382,7 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:desert"
+                                    "eden:desert"
                                   ]
                                 },
                                 "then_run": {
@@ -1418,7 +1418,7 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:dripstone_caves"
+                                    "eden:dripstone_caves"
                                   ]
                                 },
                                 "then_run": {
@@ -1435,7 +1435,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:windswept_savanna"
+                                "eden:windswept_savanna"
                               ]
                             },
                             "then_run": {
@@ -1479,7 +1479,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:windswept_gravelly_hills"
+                                "eden:windswept_gravelly_hills"
                               ]
                             },
                             "then_run": {
@@ -1609,8 +1609,8 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:old_growth_pine_taiga",
-                                "minecraft:old_growth_spruce_taiga"
+                                "eden:old_growth_pine_taiga",
+                                "eden:old_growth_spruce_taiga"
                               ]
                             },
                             "then_run": {
@@ -1657,7 +1657,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:ice_spikes"
+                                "eden:ice_spikes"
                               ]
                             },
                             "then_run": {
@@ -1681,7 +1681,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:mangrove_swamp"
+                                "eden:mangrove_swamp"
                               ]
                             },
                             "then_run": {
@@ -1696,7 +1696,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:mushroom_fields"
+                                "eden:mushroom_fields"
                               ]
                             },
                             "then_run": {
@@ -1769,8 +1769,8 @@
                         "if_true": {
                           "type": "minecraft:biome",
                           "biome_is": [
-                            "minecraft:frozen_ocean",
-                            "minecraft:deep_frozen_ocean"
+                            "eden:frozen_ocean",
+                            "eden:deep_frozen_ocean"
                           ]
                         },
                         "then_run": {
@@ -1807,7 +1807,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:frozen_peaks"
+                                "eden:frozen_peaks"
                               ]
                             },
                             "then_run": {
@@ -1878,7 +1878,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:snowy_slopes"
+                                "eden:snowy_slopes"
                               ]
                             },
                             "then_run": {
@@ -1943,7 +1943,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:jagged_peaks"
+                                "eden:jagged_peaks"
                               ]
                             },
                             "then_run": {
@@ -1958,7 +1958,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:grove"
+                                "eden:grove"
                               ]
                             },
                             "then_run": {
@@ -2005,7 +2005,7 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:stony_peaks"
+                                    "eden:stony_peaks"
                                   ]
                                 },
                                 "then_run": {
@@ -2040,7 +2040,7 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:stony_shore"
+                                    "eden:stony_shore"
                                   ]
                                 },
                                 "then_run": {
@@ -2096,7 +2096,7 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:windswept_hills"
+                                    "eden:windswept_hills"
                                   ]
                                 },
                                 "then_run": {
@@ -2120,9 +2120,9 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:warm_ocean",
-                                    "minecraft:beach",
-                                    "minecraft:snowy_beach"
+                                    "eden:warm_ocean",
+                                    "eden:beach",
+                                    "eden:snowy_beach"
                                   ]
                                 },
                                 "then_run": {
@@ -2158,7 +2158,7 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:desert"
+                                    "eden:desert"
                                   ]
                                 },
                                 "then_run": {
@@ -2194,7 +2194,7 @@
                                 "if_true": {
                                   "type": "minecraft:biome",
                                   "biome_is": [
-                                    "minecraft:dripstone_caves"
+                                    "eden:dripstone_caves"
                                   ]
                                 },
                                 "then_run": {
@@ -2211,7 +2211,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:windswept_savanna"
+                                "eden:windswept_savanna"
                               ]
                             },
                             "then_run": {
@@ -2235,7 +2235,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:windswept_gravelly_hills"
+                                "eden:windswept_gravelly_hills"
                               ]
                             },
                             "then_run": {
@@ -2342,7 +2342,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:mangrove_swamp"
+                                "eden:mangrove_swamp"
                               ]
                             },
                             "then_run": {
@@ -2366,9 +2366,9 @@
                       "if_true": {
                         "type": "minecraft:biome",
                         "biome_is": [
-                          "minecraft:warm_ocean",
-                          "minecraft:beach",
-                          "minecraft:snowy_beach"
+                          "eden:warm_ocean",
+                          "eden:beach",
+                          "eden:snowy_beach"
                         ]
                       },
                       "then_run": {
@@ -2393,7 +2393,7 @@
                       "if_true": {
                         "type": "minecraft:biome",
                         "biome_is": [
-                          "minecraft:desert"
+                          "eden:desert"
                         ]
                       },
                       "then_run": {
@@ -2433,8 +2433,8 @@
                       "if_true": {
                         "type": "minecraft:biome",
                         "biome_is": [
-                          "minecraft:frozen_peaks",
-                          "minecraft:jagged_peaks"
+                          "eden:frozen_peaks",
+                          "eden:jagged_peaks"
                         ]
                       },
                       "then_run": {
@@ -2449,9 +2449,9 @@
                       "if_true": {
                         "type": "minecraft:biome",
                         "biome_is": [
-                          "minecraft:warm_ocean",
-                          "minecraft:lukewarm_ocean",
-                          "minecraft:deep_lukewarm_ocean"
+                          "eden:warm_ocean",
+                          "eden:lukewarm_ocean",
+                          "eden:deep_lukewarm_ocean"
                         ]
                       },
                       "then_run": {

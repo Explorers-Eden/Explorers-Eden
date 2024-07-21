@@ -36,24 +36,24 @@
                   "minecraft:custom_model_data": 10002
                 }
               }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "components": {
+                  "minecraft:custom_model_data": 10003
+                }
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "components": {
+                  "minecraft:custom_model_data": 10004
+                }
+              }
             }
           ]
-        },
-        {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "components": {
-              "minecraft:custom_model_data": 10003
-            }
-          }
-        },
-        {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "components": {
-              "minecraft:custom_model_data": 10004
-            }
-          }
         }
       ]
     }

@@ -7,17 +7,6 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:cod",
-            "weight": 1,
-            "functions": [
-              {
-                "function": "minecraft:set_custom_data",
-                "tag": "{fishing:axolotl_blue}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cod",
             "weight": 3,
             "functions": [
               {

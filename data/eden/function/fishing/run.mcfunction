@@ -9,4 +9,3 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:cus
 execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:axolotl_wild}}}}] at @s run function eden:fishing/axolotl_wild
 execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:axolotl_gold}}}}] at @s run function eden:fishing/axolotl_gold
 execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:axolotl_cyan}}}}] at @s run function eden:fishing/axolotl_cyan
-execute as @e[type=item,nbt={Item:{id:"minecraft:cod",components:{"minecraft:custom_data":{fishing:axolotl_blue}}}}] at @s run function eden:fishing/axolotl_blue
