@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "hanging_sign",
+    "pattern": [
+      "X X",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:dark_oak_planks"
+      },
+      "X": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "id": "minecraft:dark_oak_hanging_sign",
+      "count": 3
+    }
+  }
+  

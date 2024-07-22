@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "hanging_sign",
+    "pattern": [
+      "X X",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:bamboo_block"
+      },
+      "X": {
+        "item": "minecraft:chain"
+      }
+    },
+    "result": {
+      "id": "minecraft:bamboo_hanging_sign",
+      "count": 3
+    }
+  }
+  
