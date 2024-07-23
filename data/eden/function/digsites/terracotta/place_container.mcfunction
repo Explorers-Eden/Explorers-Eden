@@ -1,5 +1,5 @@
 execute if score @s eden.digsite.attempts matches 999.. run tag @s add digsite_finished
-execute if score @s eden.digsite.placed matches 31.. run tag @s add digsite_finished
+execute if score @s eden.digsite.placed matches 41.. run tag @s add digsite_finished
 scoreboard players add @s eden.digsite.attempts 1
 
 execute unless predicate eden:percentages/30 run return fail
@@ -12,7 +12,7 @@ unless block ~1 ~ ~ #eden:not_valid_for_container \
 unless block ~ ~ ~1 #eden:not_valid_for_container \
 unless block ~-1 ~ ~ #eden:not_valid_for_container \
 unless block ~ ~ ~-1 #eden:not_valid_for_container \
-run setblock ~ ~ ~ barrel[facing=up]{LootTable:"eden:digsites/terracotta/common",CustomName:'[{"bold":false,"color":"#AD8F66","italic":false,"text":"⛏"},{"bold":false,"color":"white","italic":false,"text":" Common Crate"}]'} replace
+run setblock ~ ~ ~ barrel[facing=north]{LootTable:"eden:digsites/terracotta/common",CustomName:'[{"bold":false,"color":"#AD8F66","italic":false,"text":"⛏"},{"bold":false,"color":"white","italic":false,"text":" Common Crate"}]'} replace
 
 $execute \
 if score @s eden.digsite.type matches 66..95 \
@@ -23,7 +23,7 @@ unless block ~1 ~ ~ #eden:not_valid_for_container \
 unless block ~ ~ ~1 #eden:not_valid_for_container \
 unless block ~-1 ~ ~ #eden:not_valid_for_container \
 unless block ~ ~ ~-1 #eden:not_valid_for_container \
-run setblock ~ ~ ~ barrel[facing=up]{LootTable:"eden:digsites/terracotta/rare",CustomName:'[{"bold":false,"color":"#AD8F66","italic":false,"text":"⛏"},{"bold":false,"color":"dark_green","italic":false,"text":" Rare Crate"}]'} replace
+run setblock ~ ~ ~ barrel[facing=east]{LootTable:"eden:digsites/terracotta/rare",CustomName:'[{"bold":false,"color":"#AD8F66","italic":false,"text":"⛏"},{"bold":false,"color":"dark_green","italic":false,"text":" Rare Crate"}]'} replace
 
 $execute \
 if score @s eden.digsite.type matches 51..65 \
@@ -34,7 +34,7 @@ unless block ~1 ~ ~ #eden:not_valid_for_container \
 unless block ~ ~ ~1 #eden:not_valid_for_container \
 unless block ~-1 ~ ~ #eden:not_valid_for_container \
 unless block ~ ~ ~-1 #eden:not_valid_for_container \
-run setblock ~ ~ ~ barrel[facing=up]{LootTable:"eden:digsites/terracotta/legendary",CustomName:'[{"bold":false,"color":"#AD8F66","italic":false,"text":"⛏"},{"bold":false,"color":"gold","italic":false,"text":" Legendary Crate"}]'} replace
+run setblock ~ ~ ~ barrel[facing=west]{LootTable:"eden:digsites/terracotta/legendary",CustomName:'[{"bold":false,"color":"#AD8F66","italic":false,"text":"⛏"},{"bold":false,"color":"gold","italic":false,"text":" Legendary Crate"}]'} replace
 
 $execute \
 if score @s eden.digsite.type matches 96..100 \
@@ -45,6 +45,6 @@ unless block ~1 ~ ~ #eden:not_valid_for_container \
 unless block ~ ~ ~1 #eden:not_valid_for_container \
 unless block ~-1 ~ ~ #eden:not_valid_for_container \
 unless block ~ ~ ~-1 #eden:not_valid_for_container \
-run setblock ~ ~ ~ barrel[facing=up]{LootTable:"eden:digsites/terracotta/mythical",CustomName:'[{"bold":false,"color":"#AD8F66","italic":false,"text":"⛏"},{"bold":false,"color":"dark_purple","italic":false,"text":" Mythical Crate"}]'} replace
+run setblock ~ ~ ~ barrel[facing=south]{LootTable:"eden:digsites/terracotta/mythical",CustomName:'[{"bold":false,"color":"#AD8F66","italic":false,"text":"⛏"},{"bold":false,"color":"dark_purple","italic":false,"text":" Mythical Crate"}]'} replace
 
 scoreboard players add @s eden.digsite.placed 1

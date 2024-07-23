@@ -1,8 +1,3 @@
-particle minecraft:poof ~ ~.6 ~ .5 .5 .5 0 100
-particle minecraft:end_rod ~ ~.6 ~ 1 1 1 0 50
-particle minecraft:wax_on ~ ~.6 ~ .8 .8 .8 0 50
-execute at @s run playsound minecraft:ui.toast.challenge_complete master @a ~ ~ ~ 0.5 1.9 1
-
 scoreboard players add @s eden.digsite.container.opened.legendary 1
 scoreboard players add @s eden.digsite.container.opened.total 1
 
