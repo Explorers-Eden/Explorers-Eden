@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "base": {
+      "item": "minecraft:leather_boots"
+    },
+    "addition": {
+      "item": "minecraft:gold_ingot"
+    },
+    "result": {
+      "id": "minecraft:leather_boots",
+      "count": 1,
+      "components": {
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "id": "eden.armor.boots",
+              "type": "minecraft:generic.armor",
+              "amount": 1,
+              "operation": "add_value",
+              "slot": "feet"
+            }
+          ]
+        },
+        "minecraft:damage": 0,
+        "minecraft:max_damage": 91,
+        "minecraft:item_name": "{\"fallback\":\"Gold Infused Leather Boots\",\"translate\":\"armor.eden.boots.infused.gold\"}",
+        "minecraft:dyed_color": {
+          "rgb": 16116736,
+          "show_in_tooltip": false
+        }
+      }
+    }
+  }
+  

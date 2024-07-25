@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "base": {
+      "item": "minecraft:leather_helmet"
+    },
+    "addition": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+      "id": "minecraft:leather_helmet",
+      "count": 1,
+      "components": {
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "id": "eden.armor.boots",
+              "type": "minecraft:generic.armor",
+              "amount": 3,
+              "operation": "add_value",
+              "slot": "feet"
+            },
+            {
+              "id": "eden.armortough.boots",
+              "type": "minecraft:generic.armor_toughness",
+              "amount": 3,
+              "operation": "add_value",
+              "slot": "feet"
+            },
+            {
+              "id": "eden.knockback.boots",
+              "type": "minecraft:generic.knockback_resistance",
+              "amount": 0.1,
+              "operation": "add_value",
+              "slot": "feet"
+            }
+          ]
+        },
+        "minecraft:damage": 0,
+        "minecraft:max_damage": 407,
+        "minecraft:item_name": "{\"fallback\":\"Netherite Infused Leather Cap\",\"translate\":\"armor.eden.helmet.infused.netherite\"}",
+        "minecraft:dyed_color": {
+          "rgb": 3552822,
+          "show_in_tooltip": false
+        }
+      }
+    }
+  }
+  
