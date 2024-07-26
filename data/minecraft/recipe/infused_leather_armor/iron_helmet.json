@@ -16,11 +16,11 @@
         "minecraft:attribute_modifiers": {
           "modifiers": [
             {
-              "id": "eden.armor.boots",
+              "id": "eden.armor.helmet_3",
               "type": "minecraft:generic.armor",
               "amount": 2,
               "operation": "add_value",
-              "slot": "feet"
+              "slot": "head"
             }
           ]
         },

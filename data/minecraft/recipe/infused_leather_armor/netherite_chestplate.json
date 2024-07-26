@@ -16,25 +16,25 @@
         "minecraft:attribute_modifiers": {
           "modifiers": [
             {
-              "id": "eden.armor.boots",
+              "id": "eden.armor.chestplate_4",
               "type": "minecraft:generic.armor",
               "amount": 8,
               "operation": "add_value",
-              "slot": "feet"
+              "slot": "chest"
             },
             {
-              "id": "eden.armortough.boots",
+              "id": "eden.armortough.chestplate_4",
               "type": "minecraft:generic.armor_toughness",
               "amount": 3,
               "operation": "add_value",
-              "slot": "feet"
+              "slot": "chest"
             },
             {
-              "id": "eden.knockback.boots",
+              "id": "eden.knockback.chestplate_4",
               "type": "minecraft:generic.knockback_resistance",
               "amount": 0.1,
               "operation": "add_value",
-              "slot": "feet"
+              "slot": "chest"
             }
           ]
         },

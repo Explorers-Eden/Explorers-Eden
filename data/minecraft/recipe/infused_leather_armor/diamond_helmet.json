@@ -16,18 +16,18 @@
         "minecraft:attribute_modifiers": {
           "modifiers": [
             {
-              "id": "eden.armor.boots",
+              "id": "eden.armor.helmet_1",
               "type": "minecraft:generic.armor",
               "amount": 3,
               "operation": "add_value",
-              "slot": "feet"
+              "slot": "head"
             },
             {
-              "id": "eden.armortough.boots",
+              "id": "eden.armortough.helmet_1",
               "type": "minecraft:generic.armor_toughness",
               "amount": 2,
               "operation": "add_value",
-              "slot": "feet"
+              "slot": "head"
             }
           ]
         },

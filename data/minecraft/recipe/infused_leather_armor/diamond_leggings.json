@@ -16,18 +16,18 @@
         "minecraft:attribute_modifiers": {
           "modifiers": [
             {
-              "id": "eden.armor.boots",
+              "id": "eden.armor.legs_1",
               "type": "minecraft:generic.armor",
               "amount": 6,
               "operation": "add_value",
-              "slot": "feet"
+              "slot": "legs"
             },
             {
               "id": "eden.armortough.boots",
               "type": "minecraft:generic.armor_toughness",
               "amount": 2,
               "operation": "add_value",
-              "slot": "feet"
+              "slot": "legs"
             }
           ]
         },
