@@ -46,8 +46,6 @@ scoreboard objectives add eden.skilltree.luck dummy
 scoreboard objectives add eden.skilltree.blockbreakspeed minecraft.mined:minecraft.coal_ore
 scoreboard objectives add durability_ping_msg_on dummy
 scoreboard objectives add durability_ping_msg_off dummy
-scoreboard objectives add eden.villager.quest.item.count dummy
-scoreboard objectives add eden.villager.quest.completed.count dummy
 
 ##modify scoreboards
 scoreboard objectives setdisplay list eden.players.killed
@@ -59,7 +57,6 @@ scoreboard objectives add equip_hat trigger {"text": "Equip Hat"}
 scoreboard objectives add tp_heritage_harbor trigger {"text": "Heritage Harbor"}
 scoreboard objectives add durability_ping trigger {"text": "Durability Ping"}
 scoreboard objectives add chat_coordinates trigger {"text": "Chat Coordinates"}
-scoreboard objectives add villager_data trigger {"text": "Villager Data"}
 
 ##add teams
 team add eden.afk.dunesworn "AFK Players"

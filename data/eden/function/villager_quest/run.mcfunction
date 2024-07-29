@@ -1,1 +1,0 @@
-execute as @e[type=villager,tag=!quest_set] at @s run function eden:villager_quest/get_data
