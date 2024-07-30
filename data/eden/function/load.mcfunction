@@ -15,6 +15,10 @@ function eden:cleanup
 ##init schedules
 function eden:schedules/on_load
 
+## add team for jobsite data
+team add nvr.jobsite
+team modify nvr.jobsite color dark_green
+
 ##add scoreboards
 scoreboard objectives add eden.digsite.container.opened.common dummy
 scoreboard objectives add eden.digsite.container.opened.rare dummy
