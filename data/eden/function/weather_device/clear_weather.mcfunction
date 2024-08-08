@@ -1,4 +1,4 @@
-weather clear 1d
+weather clear 7d
 
 team leave @s
 

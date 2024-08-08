@@ -1,7 +1,7 @@
 execute store result score $weather_rain eden.technical run random value 1..10
 
-execute if score $weather_rain eden.technical matches 1..8 run weather rain 1d
-execute if score $weather_rain eden.technical matches 9..10 run weather thunder 1d
+execute if score $weather_rain eden.technical matches 1..8 run weather rain 7d
+execute if score $weather_rain eden.technical matches 9..10 run weather thunder 7d
 
 team leave @s
 
