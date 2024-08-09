@@ -50,6 +50,7 @@ scoreboard objectives add eden.skilltree.luck dummy
 scoreboard objectives add eden.skilltree.blockbreakspeed minecraft.mined:minecraft.coal_ore
 scoreboard objectives add durability_ping_msg_on dummy
 scoreboard objectives add durability_ping_msg_off dummy
+scoreboard objectives add eden.joined.key dummy
 
 ##modify scoreboards
 scoreboard objectives setdisplay list eden.players.killed

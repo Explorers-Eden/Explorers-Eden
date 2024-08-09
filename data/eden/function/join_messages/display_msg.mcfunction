@@ -1,5 +1,10 @@
 team leave @s
 
+execute as @s at @s if predicate eden:percentages/25 unless score @s eden.joined.key matches 1 run function eden:join_messages/golden_key
+
+scoreboard players set @s eden.joined.key 1
+
+
 execute store result score $join_msg eden.technical run random value 1..33
 
 execute if score $join_msg eden.technical matches 1 run tellraw @a [{"text":"☀ ","color":"yellow"},{"text":"Welcome ","color":"#F5E8C9"},{"selector":"@s","color":"green"},{"text":". to the realm of Explorers Eden!","color":"#F5E8C9"}]
