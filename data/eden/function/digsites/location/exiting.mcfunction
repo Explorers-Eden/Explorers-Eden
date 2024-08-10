@@ -4,4 +4,3 @@ execute as @s[advancements={eden:technical/class_chosen=true}] at @s run playsou
 
 tag @s add not_at_digsite
 tag @s remove at_digsite
-advancement revoke @s only eden:technical/enter_digsite
