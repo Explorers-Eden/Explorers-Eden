@@ -18,8 +18,8 @@
         "minecraft:custom_model_data": 10017,
         "minecraft:custom_data": "{food:pancake}",
         "minecraft:food": {
-          "nutrition": 4,
-          "saturation": 5,
+          "nutrition": 6,
+          "saturation": 6,
           "eat_seconds": 3
         }
       }

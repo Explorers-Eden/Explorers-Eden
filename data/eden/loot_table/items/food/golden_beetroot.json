@@ -18,8 +18,8 @@
         "minecraft:custom_model_data": 10033,
         "minecraft:custom_data": "{food:golden_beetroot}",
         "minecraft:food": {
-          "nutrition": 7,
-          "saturation": 7,
+          "nutrition": 9,
+          "saturation": 8,
           "eat_seconds": 3
         }
       }

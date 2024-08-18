@@ -18,8 +18,8 @@
         "minecraft:custom_model_data": 10021,
         "minecraft:custom_data": "{food:salad}",
         "minecraft:food": {
-          "nutrition": 6,
-          "saturation": 4,
+          "nutrition": 8,
+          "saturation": 5,
           "eat_seconds": 3,
           "using_converts_to": {
             "id": "minecraft:bowl"

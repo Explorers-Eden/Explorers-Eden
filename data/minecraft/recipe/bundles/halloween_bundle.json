@@ -1,15 +1,27 @@
-{
-    "type": "minecraft:crafting_shapeless",
+  {
+    "type": "minecraft:crafting_shaped",
     "category": "equipment",
     "group": "bundles",
-    "ingredients": [
-      {
-        "item": "minecraft:carved_pumpkin"
-      },
-      {
-        "item": "minecraft:bundle"
-      }
+    "pattern": [
+      "S",
+      "LD"
     ],
+    "key": {
+      "S": {
+        "item": "minecraft:string"
+      },
+      "L": [
+        {
+          "item": "minecraft:leather"
+        },
+        {
+          "item": "minecraft:rabbit_hide"
+        }
+      ],
+      "D": {
+        "item": "minecraft:carved_pumpkin"
+      }
+    },
     "result": {
       "id": "minecraft:bundle",
       "count": 1,

@@ -17,8 +17,8 @@
         "minecraft:custom_model_data": 10003,
         "minecraft:custom_data": "{food:candied_apple}",
         "minecraft:food": {
-          "nutrition": 1,
-          "saturation": 3,
+          "nutrition": 3,
+          "saturation": 4,
           "can_always_eat": false,
           "eat_seconds": 3,
           "using_converts_to": {

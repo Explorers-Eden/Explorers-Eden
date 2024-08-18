@@ -22,8 +22,8 @@
         "minecraft:custom_model_data": 10026,
         "minecraft:custom_data": "{food:sweet_berry_pie}",
         "minecraft:food": {
-          "nutrition": 1,
-          "saturation": 3,
+          "nutrition": 6,
+          "saturation": 6,
           "eat_seconds": 3
         }
       }

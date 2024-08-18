@@ -1,21 +1,32 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "equipment",
-    "group": "bundles",
-    "ingredients": [
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "bundles",
+  "pattern": [
+    "S",
+    "LD"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "L": [
       {
-        "item": "minecraft:brown_dye"
+        "item": "minecraft:leather"
       },
       {
-        "item": "minecraft:bundle"
+        "item": "minecraft:rabbit_hide"
       }
     ],
-    "result": {
-      "id": "minecraft:bundle",
-      "count": 1,
-      "components": {
-        "minecraft:custom_model_data": 10002
-      }
+    "D": {
+      "item": "minecraft:brown_dye"
+    }
+  },
+  "result": {
+    "id": "minecraft:bundle",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 10002
     }
   }
-  
+}

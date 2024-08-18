@@ -4,7 +4,7 @@
   "group": "bundles",
   "pattern": [
     "S",
-    "LD"
+    "L"
   ],
   "key": {
     "S": {
@@ -17,16 +17,10 @@
       {
         "item": "minecraft:rabbit_hide"
       }
-    ],
-    "D": {
-      "item": "minecraft:light_gray_dye"
-    }
+    ]
   },
   "result": {
     "id": "minecraft:bundle",
-    "count": 1,
-    "components": {
-      "minecraft:custom_model_data": 10007
-    }
+    "count": 1
   }
 }

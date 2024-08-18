@@ -22,8 +22,8 @@
         "minecraft:custom_model_data": 10015,
         "minecraft:custom_data": "{food:kelp_soup}",
         "minecraft:food": {
-          "nutrition": 2,
-          "saturation": 3,
+          "nutrition": 4,
+          "saturation": 4,
           "eat_seconds": 3,
           "using_converts_to": {
             "id": "minecraft:bowl"

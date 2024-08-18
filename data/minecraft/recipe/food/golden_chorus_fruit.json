@@ -22,8 +22,8 @@
         "minecraft:custom_model_data": 10034,
         "minecraft:custom_data": "{food:golden_chorus_fruit}",
         "minecraft:food": {
-          "nutrition": 7,
-          "saturation": 7,
+          "nutrition": 9,
+          "saturation": 8,
           "eat_seconds": 3
         }
       }

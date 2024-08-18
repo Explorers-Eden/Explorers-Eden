@@ -16,8 +16,8 @@
         "minecraft:custom_model_data": 10019,
         "minecraft:custom_data": "{food:pumpkin_soup}",
         "minecraft:food": {
-          "nutrition": 3,
-          "saturation": 3,
+          "nutrition": 5,
+          "saturation": 4,
           "eat_seconds": 3,
           "using_converts_to": {
             "id": "minecraft:bowl"

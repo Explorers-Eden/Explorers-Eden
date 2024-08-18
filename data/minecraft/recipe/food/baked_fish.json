@@ -16,8 +16,8 @@
         "minecraft:custom_model_data": 10000,
         "minecraft:custom_data": "{food:baked_fish}",
         "minecraft:food": {
-          "nutrition": 6,
-          "saturation": 6,
+          "nutrition": 8,
+          "saturation": 7,
           "eat_seconds": 3
         }
       }

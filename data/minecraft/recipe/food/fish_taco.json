@@ -22,8 +22,8 @@
         "minecraft:custom_model_data": 10009,
         "minecraft:custom_data": "{food:fish_taco}",
         "minecraft:food": {
-          "nutrition": 2,
-          "saturation": 3,
+          "nutrition": 4,
+          "saturation": 4,
           "eat_seconds": 3,
           "using_converts_to": {
             "id": "minecraft:bowl"
@@ -33,7 +33,7 @@
               "effect": {
                 "id": "minecraft:dolphins_grace",
                 "amplifier": 2,
-                "duration": 600,
+                "duration": 1200,
                 "ambient": true,
                 "show_particles": false,
                 "show_icon": false

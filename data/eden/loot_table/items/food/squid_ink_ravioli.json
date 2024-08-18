@@ -18,8 +18,8 @@
         "minecraft:custom_model_data": 10023,
         "minecraft:custom_data": "{food:squid_ink_ravioli}",
         "minecraft:food": {
-          "nutrition": 4,
-          "saturation": 4,
+          "nutrition": 6,
+          "saturation": 5,
           "eat_seconds": 3,
           "using_converts_to": {
             "id": "minecraft:bowl"

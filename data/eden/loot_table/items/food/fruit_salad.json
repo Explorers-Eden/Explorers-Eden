@@ -15,8 +15,8 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:food": {
-                    "nutrition": 6,
-                    "saturation": 3,
+                    "nutrition": 7,
+                    "saturation": 5,
                     "eat_seconds": 3,
                     "using_converts_to": {
                       "id": "minecraft:bowl"
