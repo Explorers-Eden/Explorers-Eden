@@ -52,9 +52,6 @@ scoreboard objectives add durability_ping_msg_on dummy
 scoreboard objectives add durability_ping_msg_off dummy
 scoreboard objectives add eden.joined.key dummy
 
-##modify scoreboards
-scoreboard objectives setdisplay list eden.players.killed
-
 ##trigger scoreboards
 scoreboard objectives add sit trigger {"text": "Sit"}
 scoreboard objectives add rtp trigger {"text": "RTP"}
