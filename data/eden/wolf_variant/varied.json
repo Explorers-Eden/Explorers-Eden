@@ -4,9 +4,11 @@
   "wild_texture": "minecraft:entity/wolf/wolf_varied",
 
   "biomes": [
-    "#minecraft:is_hill",
     "eden:windswept_hills",
     "eden:windswept_forest",
-    "eden:windswept_gravelly_hills"
+    "eden:windswept_gravelly_hills",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills"
   ]
 }
