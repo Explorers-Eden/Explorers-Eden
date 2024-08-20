@@ -96,6 +96,12 @@
   "spawners": {
     "ambient": [
       {
+        "type": "minecraft:wolf",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
         "type": "minecraft:bat",
         "maxCount": 8,
         "minCount": 8,

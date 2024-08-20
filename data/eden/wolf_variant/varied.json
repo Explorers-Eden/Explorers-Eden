@@ -1,0 +1,12 @@
+{
+  "angry_texture": "minecraft:entity/wolf/wolf_varied_angry",
+  "tame_texture": "minecraft:entity/wolf/wolf_varied_tame",
+  "wild_texture": "minecraft:entity/wolf/wolf_varied",
+
+  "biomes": [
+    "#minecraft:is_hill",
+    "eden:windswept_hills",
+    "eden:windswept_forest",
+    "eden:windswept_gravelly_hills"
+  ]
+}
