@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli",
+          "name": "minecraft:emerald",
           "functions": [
             {
               "function": "minecraft:set_count",
