@@ -8,6 +8,7 @@ function eden:wandering_shops/run
 function eden:wandering_trader/run
 function eden:spawn/particles/run
 function eden:spawn/run_misc
+function eden:player_reset/run
 
 ##repeat function
 schedule function eden:schedules/schedule_40t 40t

@@ -51,6 +51,7 @@ scoreboard objectives add eden.skilltree.blockbreakspeed minecraft.mined:minecra
 scoreboard objectives add durability_ping_msg_on dummy
 scoreboard objectives add durability_ping_msg_off dummy
 scoreboard objectives add eden.joined.key dummy
+scoreboard objectives add eden.progress.reset dummy
 
 ##trigger scoreboards
 scoreboard objectives add sit trigger {"text": "Sit"}
@@ -59,6 +60,7 @@ scoreboard objectives add equip_hat trigger {"text": "Equip Hat"}
 scoreboard objectives add tp_heritage_harbor trigger {"text": "Heritage Harbor"}
 scoreboard objectives add durability_ping trigger {"text": "Durability Ping"}
 scoreboard objectives add chat_coordinates trigger {"text": "Chat Coordinates"}
+scoreboard objectives add reset_progress trigger {"text": "Reset Progress"}
 
 ##add teams
 team add eden.afk.dunesworn "AFK Players"
