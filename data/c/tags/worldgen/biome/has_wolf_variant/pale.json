@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:taiga",
+        "eden:taiga",
+        "terralith:alpha_islands",
+        "terralith:alpha_islands_winter",
+        "terralith:gravel_desert"
+    ]
+}
