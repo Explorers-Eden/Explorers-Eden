@@ -1,5 +1,11 @@
 {
   "values": [
-    "#terralith:reference/mountain"
+    "#terralith:reference/mountain",
+    "eden:meadow",
+    "eden:frozen_peaks",
+    "eden:jagged_peaks",
+    "eden:stony_peaks",
+    "eden:snowy_slopes",
+    "eden:cherry_grove"
   ]
 }

@@ -1,6 +1,14 @@
 {
   "values": [
     "#terralith:reference/swamp",
-    "#terralith:reference/jungle"
+    "#terralith:reference/jungle",
+    "eden:bamboo_jungle",
+    "eden:mushroom_fields",
+    "eden:mangrove_swamp",
+    "eden:snowy_slopes",
+    "eden:frozen_peaks",
+    "eden:jagged_peaks",
+    "eden:swamp",
+    "eden:jungle"
   ]
 }

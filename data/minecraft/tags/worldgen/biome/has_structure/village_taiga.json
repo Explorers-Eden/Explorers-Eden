@@ -1,5 +1,6 @@
 {
   "values": [
-    "#terralith:reference/taiga"
+    "#terralith:reference/taiga",
+    "eden:taiga"
   ]
 }

@@ -1,5 +1,8 @@
 {
   "values": [
-    "#terralith:reference/badlands_all"
+    "#terralith:reference/badlands_all",
+    "eden:badlands",
+    "eden:eroded_badlands",
+    "eden:wooded_badlands"
   ]
 }

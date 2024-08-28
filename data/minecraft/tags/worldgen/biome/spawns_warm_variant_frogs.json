@@ -1,5 +1,12 @@
 {
   "values": [
-    "#terralith:reference/temperature/warm"
+    "#terralith:reference/temperature/warm",
+    "eden:desert",
+    "eden:warm_ocean",
+    "#minecraft:is_jungle",
+    "#minecraft:is_savanna",
+    "#minecraft:is_nether",
+    "#minecraft:is_badlands",
+    "eden:mangrove_swamp"
   ]
 }

@@ -1,5 +1,6 @@
 {
   "values": [
-    "#terralith:reference/temperature/warm"
+    "#terralith:reference/temperature/warm",
+    "eden:desert"
   ]
 }

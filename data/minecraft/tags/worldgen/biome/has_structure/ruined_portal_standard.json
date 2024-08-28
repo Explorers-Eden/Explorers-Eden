@@ -1,6 +1,18 @@
 {
   "values": [
     "#terralith:reference/cave",
-    "#terralith:reference/plains"
+    "#terralith:reference/plains",
+    "#minecraft:is_beach",
+    "#minecraft:is_river",
+    "#minecraft:is_taiga",
+    "#minecraft:is_forest",
+    "eden:mushroom_fields",
+    "eden:ice_spikes",
+    "eden:dripstone_caves",
+    "eden:lush_caves",
+    "eden:savanna",
+    "eden:snowy_plains",
+    "eden:plains",
+    "eden:sunflower_plains"
   ]
 }

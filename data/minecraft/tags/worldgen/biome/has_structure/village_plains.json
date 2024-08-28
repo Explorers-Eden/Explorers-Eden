@@ -2,6 +2,8 @@
   "values": [
     "#terralith:reference/plains",
     "terralith:blooming_plateau",
-    "terralith:temperate_highlands"
+    "terralith:temperate_highlands",
+    "eden:plains",
+    "eden:meadow"
   ]
 }

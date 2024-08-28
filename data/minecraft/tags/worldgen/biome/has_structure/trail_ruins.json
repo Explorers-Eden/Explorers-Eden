@@ -1,6 +1,12 @@
 {
   "values": [
     "#terralith:reference/taiga",
-    "#terralith:reference/jungle"
+    "#terralith:reference/jungle",
+    "eden:taiga",
+    "eden:snowy_taiga",
+    "eden:old_growth_pine_taiga",
+    "eden:old_growth_spruce_taiga",
+    "eden:old_growth_birch_forest",
+    "eden:jungle"
   ]
 }

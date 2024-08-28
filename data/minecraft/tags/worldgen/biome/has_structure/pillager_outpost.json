@@ -1,6 +1,13 @@
 {
   "values": [
     "#terralith:reference/forest",
-    "#terralith:reference/taiga"
+    "#terralith:reference/taiga",
+    "eden:desert",
+    "eden:plains",
+    "eden:savanna",
+    "eden:snowy_plains",
+    "eden:taiga",
+    "#minecraft:is_mountain",
+    "eden:grove"
   ]
 }

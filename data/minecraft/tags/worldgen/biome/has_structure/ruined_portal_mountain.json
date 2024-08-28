@@ -1,5 +1,11 @@
 {
   "values": [
-    "terralith:fractured_savanna"
+    "terralith:fractured_savanna",
+    "#minecraft:is_badlands",
+    "#minecraft:is_hill",
+    "eden:savanna_plateau",
+    "eden:windswept_savanna",
+    "eden:stony_shore",
+    "#minecraft:is_mountain"
   ]
 }

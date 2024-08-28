@@ -1,6 +1,19 @@
 {
   "values": [
     "#terralith:reference/temperature/cold",
-    "#terralith:reference/temperature/frozen_all"
+    "#terralith:reference/temperature/frozen_all",
+    "eden:snowy_plains",
+    "eden:ice_spikes",
+    "eden:frozen_peaks",
+    "eden:jagged_peaks",
+    "eden:snowy_slopes",
+    "eden:frozen_ocean",
+    "eden:deep_frozen_ocean",
+    "eden:grove",
+    "eden:deep_dark",
+    "eden:frozen_river",
+    "eden:snowy_taiga",
+    "eden:snowy_beach",
+    "#minecraft:is_end"
   ]
 }

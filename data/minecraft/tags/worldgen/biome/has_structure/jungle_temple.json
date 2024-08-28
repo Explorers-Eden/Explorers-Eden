@@ -1,5 +1,7 @@
 {
   "values": [
-    "#terralith:reference/jungle"
+    "#terralith:reference/jungle",
+    "eden:bamboo_jungle",
+    "eden:jungle"
   ]
 }

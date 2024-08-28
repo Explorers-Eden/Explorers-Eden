@@ -1,5 +1,9 @@
 {
   "values": [
-    "#terralith:reference/swamp"
+    "#terralith:reference/swamp",
+    "#minecraft:is_ocean",
+    "#minecraft:is_river",
+    "eden:swamp",
+    "eden:mangrove_swamp"
   ]
 }

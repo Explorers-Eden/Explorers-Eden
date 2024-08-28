@@ -1,5 +1,11 @@
 {
   "values": [
-    "#terralith:reference/forest"
+    "#terralith:reference/forest",
+    "eden:forest",
+    "eden:flower_forest",
+    "eden:birch_forest",
+    "eden:old_growth_birch_forest",
+    "eden:dark_forest",
+    "eden:grove"
   ]
 }

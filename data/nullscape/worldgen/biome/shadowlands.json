@@ -55,7 +55,7 @@
             "charge": 1
         }
     },
-    "carvers": {},
+    "carvers": [],
     "features": [
         [
             "nullscape:asteroid_carver"

@@ -1,5 +1,9 @@
 {
   "values": [
-    "#terralith:reference/taiga"
+    "#terralith:reference/taiga",
+    "eden:taiga",
+    "eden:snowy_taiga",
+    "eden:old_growth_pine_taiga",
+    "eden:old_growth_spruce_taiga"
   ]
 }
