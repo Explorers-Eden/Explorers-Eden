@@ -1,5 +1,26 @@
 {
   "values": [
-    "#terralith:all_terralith_biomes"
+    "#minecraft:is_ocean",
+    "#minecraft:is_river",
+    "#minecraft:is_beach",
+    "#minecraft:is_mountain",
+    "#minecraft:is_hill",
+    "#minecraft:is_taiga",
+    "#minecraft:is_jungle",
+    "#minecraft:is_forest",
+    "eden:stony_shore",
+    "eden:mushroom_fields",
+    "eden:ice_spikes",
+    "eden:windswept_savanna",
+    "eden:desert",
+    "eden:savanna",
+    "eden:snowy_plains",
+    "eden:plains",
+    "eden:sunflower_plains",
+    "eden:swamp",
+    "eden:mangrove_swamp",
+    "eden:savanna_plateau",
+    "eden:dripstone_caves",
+    "eden:lush_caves"
   ]
 }

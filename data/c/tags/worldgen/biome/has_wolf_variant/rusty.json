@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "#minecraft:is_jungle",
-        "eden:jungle",
-        "eden:bamboo_jungle",
-        "eden:sparse_jungle"
-    ]
-}

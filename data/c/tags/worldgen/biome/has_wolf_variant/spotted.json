@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "#minecraft:is_savanna",
-        "eden:savanna",
-        "eden:savanna_plateau",
-        "eden:windswept_savanna"
-    ]
-}

@@ -1,7 +1,5 @@
 {
   "values": [
-    "#terralith:reference/temperature/cold",
-    "#terralith:reference/temperature/frozen_all",
     "eden:snowy_plains",
     "eden:ice_spikes",
     "eden:frozen_peaks",

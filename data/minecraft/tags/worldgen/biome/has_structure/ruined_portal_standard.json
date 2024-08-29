@@ -1,7 +1,5 @@
 {
   "values": [
-    "#terralith:reference/cave",
-    "#terralith:reference/plains",
     "#minecraft:is_beach",
     "#minecraft:is_river",
     "#minecraft:is_taiga",
