@@ -52,6 +52,7 @@ scoreboard objectives add durability_ping_msg_on dummy
 scoreboard objectives add durability_ping_msg_off dummy
 scoreboard objectives add eden.joined.key dummy
 scoreboard objectives add eden.progress.reset dummy
+scoreboard objectives add eden.progress.reset.confirmed dummy
 
 ##trigger scoreboards
 scoreboard objectives add sit trigger {"text": "Sit"}
