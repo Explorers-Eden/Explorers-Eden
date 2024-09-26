@@ -1,0 +1,16 @@
+{
+    "structures": [
+      {
+        "structure": "eden:outer_wilds_exit",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 517033362,
+      "spread_type": "triangular",
+      "spacing": 40,
+      "separation": 15
+    }
+  }
+  

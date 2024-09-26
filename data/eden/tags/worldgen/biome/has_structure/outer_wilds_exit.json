@@ -1,0 +1,16 @@
+{
+    "values": [
+        { "id": "eden:meadow","required": false},
+        { "id": "eden:plains","required": false},
+        { "id": "eden:sunflower_plains","required": false},
+        { "id": "eden:savanna","required": false},
+        { "id": "eden:birch_forest","required": false},
+        { "id": "eden:old_growth_birch_forest","required": false},
+        { "id": "eden:flower_forest","required": false},
+        { "id": "eden:forest","required": false},
+        { "id": "eden:windswept_forest","required": false},
+        { "id": "eden:windswept_gravelly_hills","required": false},
+        { "id": "eden:windswept_hills","required": false},
+        { "id": "eden:windswept_forest","required": false}
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "eden:outer_wilds_exit",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+            "location": "eden:outer_wilds_exit_1",
+            "processors": "eden:outer_wilds_exit",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
+    {
+        "weight": 1,
+        "element": {
+            "location": "eden:outer_wilds_exit_2",
+            "processors": "eden:outer_wilds_exit",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
+    {
+        "weight": 1,
+        "element": {
+            "location": "eden:outer_wilds_exit_3",
+            "processors": "eden:outer_wilds_exit",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
+    {
+        "weight": 1,
+        "element": {
+            "location": "eden:outer_wilds_exit_4",
+            "processors": "eden:outer_wilds_exit",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    }
+]
+}

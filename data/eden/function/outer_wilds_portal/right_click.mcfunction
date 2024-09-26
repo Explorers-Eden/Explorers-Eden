@@ -1,3 +1,6 @@
+execute store result score @s eden.outer_wilds.x run data get entity @s Pos[0]
+execute store result score @s eden.outer_wilds.z run data get entity @s Pos[2]
+
 execute in eden:outer_wilds run spreadplayers ~ ~ 100 100 false @s
 
 execute at @s run playsound minecraft:entity.enderman.teleport neutral @a ~ ~ ~ .5 0.5
