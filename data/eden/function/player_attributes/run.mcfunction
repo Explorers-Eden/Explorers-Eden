@@ -1,5 +1,1 @@
-function eden:player_attributes/skill_health
-function eden:player_attributes/skill_speed
-function eden:player_attributes/skill_jump
-function eden:player_attributes/skill_armor_toughness
 function eden:player_attributes/movement_speed

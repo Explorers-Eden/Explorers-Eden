@@ -41,13 +41,6 @@ scoreboard objectives add eden.afk.check dummy
 scoreboard objectives add eden.rtp.cooldown dummy
 scoreboard objectives add eden.rtp.counter dummy
 scoreboard objectives add eden.players.killed minecraft.killed:minecraft.player
-scoreboard objectives add eden.skilltree.health dummy
-scoreboard objectives add eden.skilltree.movespeed minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add eden.skilltree.armortoughness minecraft.custom:minecraft.damage_taken
-scoreboard objectives add eden.skilltree.jumpstrength minecraft.used:minecraft.wind_charge
-scoreboard objectives add eden.skilltree.atckdmg minecraft.custom:minecraft.raid_win
-scoreboard objectives add eden.skilltree.luck dummy
-scoreboard objectives add eden.skilltree.blockbreakspeed minecraft.mined:minecraft.coal_ore
 scoreboard objectives add durability_ping_msg_on dummy
 scoreboard objectives add durability_ping_msg_off dummy
 scoreboard objectives add eden.joined.key dummy
@@ -144,7 +137,7 @@ team modify eden.afk.endling prefix [{"text":"Endling","color":"dark_purple"},{"
 team modify eden.afk.endling suffix {"text":" AFK","color":"dark_gray"}
 
 ##set gamerules
-difficulty hard
+difficulty normal
 gamerule disableElytraMovementCheck true
 gamerule doFireTick false
 gamerule globalSoundEvents false

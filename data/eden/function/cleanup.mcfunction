@@ -1,10 +1,90 @@
-execute as @a[advancements={eden:skill_tree/move_speed_10=true}] run scoreboard players reset @s eden.skilltree.movespeed
-execute as @a[advancements={eden:skill_tree/armor_toughness_10=true}] run scoreboard players reset @s eden.skilltree.armortoughness
-execute as @a[advancements={eden:skill_tree/jump_strength_10=true}] run scoreboard players reset @s eden.skilltree.jumpstrength
-execute as @a[advancements={eden:skill_tree/attack_damage_10=true}] run scoreboard players reset @s eden.skilltree.atckdmg
-execute as @a[advancements={eden:skill_tree/luck_10=true}] run scoreboard players reset @s eden.skilltree.luck
-execute as @a[advancements={eden:skill_tree/max_health_10=true}] run scoreboard players reset @s eden.skilltree.health
-execute as @a[advancements={eden:skill_tree/block_break_speed_10=true}] run scoreboard players reset @s eden.skilltree.blockbreakspeed
+## -------------- Remove with next update ----------------
+scoreboard objectives remove eden.skilltree.movespeed
+scoreboard objectives remove eden.skilltree.armortoughness
+scoreboard objectives remove eden.skilltree.jumpstrength
+scoreboard objectives remove eden.skilltree.atckdmg
+scoreboard objectives remove eden.skilltree.luck
+scoreboard objectives remove eden.skilltree.health
+scoreboard objectives remove eden.skilltree.blockbreakspeed
+
+execute as @a run attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_1
+execute as @a run attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_2
+execute as @a run attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_3
+execute as @a run attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_4
+execute as @a run attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_5
+execute as @a run attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_6
+execute as @a run attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_7
+execute as @a run attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_8
+execute as @a run attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_9
+execute as @a run attribute @s minecraft:generic.attack_damage modifier remove skill_attack_damage_10
+
+execute as @a run attribute @s minecraft:player.block_break_speed modifier remove skill_block_break_speed_1
+execute as @a run attribute @s minecraft:player.block_break_speed modifier remove skill_block_break_speed_2
+execute as @a run attribute @s minecraft:player.block_break_speed modifier remove skill_block_break_speed_3
+execute as @a run attribute @s minecraft:player.block_break_speed modifier remove skill_block_break_speed_4
+execute as @a run attribute @s minecraft:player.block_break_speed modifier remove skill_block_break_speed_5
+execute as @a run attribute @s minecraft:player.block_break_speed modifier remove skill_block_break_speed_6
+execute as @a run attribute @s minecraft:player.block_break_speed modifier remove skill_block_break_speed_7
+execute as @a run attribute @s minecraft:player.block_break_speed modifier remove skill_block_break_speed_8
+execute as @a run attribute @s minecraft:player.block_break_speed modifier remove skill_block_break_speed_9
+execute as @a run attribute @s minecraft:player.block_break_speed modifier remove skill_block_break_speed_10
+
+execute as @a run attribute @s minecraft:generic.luck modifier remove skill_luck_1
+execute as @a run attribute @s minecraft:generic.luck modifier remove skill_luck_2
+execute as @a run attribute @s minecraft:generic.luck modifier remove skill_luck_3
+execute as @a run attribute @s minecraft:generic.luck modifier remove skill_luck_4
+execute as @a run attribute @s minecraft:generic.luck modifier remove skill_luck_5
+execute as @a run attribute @s minecraft:generic.luck modifier remove skill_luck_6
+execute as @a run attribute @s minecraft:generic.luck modifier remove skill_luck_7
+execute as @a run attribute @s minecraft:generic.luck modifier remove skill_luck_8
+execute as @a run attribute @s minecraft:generic.luck modifier remove skill_luck_9
+execute as @a run attribute @s minecraft:generic.luck modifier remove skill_luck_10
+
+execute as @a run attribute @s minecraft:generic.armor_toughness modifier remove skill_armor_toughness_1
+execute as @a run attribute @s minecraft:generic.armor_toughness modifier remove skill_armor_toughness_2
+execute as @a run attribute @s minecraft:generic.armor_toughness modifier remove skill_armor_toughness_3
+execute as @a run attribute @s minecraft:generic.armor_toughness modifier remove skill_armor_toughness_4
+execute as @a run attribute @s minecraft:generic.armor_toughness modifier remove skill_armor_toughness_5
+execute as @a run attribute @s minecraft:generic.armor_toughness modifier remove skill_armor_toughness_6
+execute as @a run attribute @s minecraft:generic.armor_toughness modifier remove skill_armor_toughness_7
+execute as @a run attribute @s minecraft:generic.armor_toughness modifier remove skill_armor_toughness_8
+execute as @a run attribute @s minecraft:generic.armor_toughness modifier remove skill_armor_toughness_9
+execute as @a run attribute @s minecraft:generic.armor_toughness modifier remove skill_armor_toughness_10
+
+execute as @a run attribute @s minecraft:generic.max_health modifier remove skill_max_health_1
+execute as @a run attribute @s minecraft:generic.max_health modifier remove skill_max_health_2
+execute as @a run attribute @s minecraft:generic.max_health modifier remove skill_max_health_3
+execute as @a run attribute @s minecraft:generic.max_health modifier remove skill_max_health_4
+execute as @a run attribute @s minecraft:generic.max_health modifier remove skill_max_health_5
+execute as @a run attribute @s minecraft:generic.max_health modifier remove skill_max_health_6
+execute as @a run attribute @s minecraft:generic.max_health modifier remove skill_max_health_7
+execute as @a run attribute @s minecraft:generic.max_health modifier remove skill_max_health_8
+execute as @a run attribute @s minecraft:generic.max_health modifier remove skill_max_health_9
+execute as @a run attribute @s minecraft:generic.max_health modifier remove skill_max_health_10
+
+execute as @a run attribute @s minecraft:generic.jump_strength modifier remove skill_jump_strength_1
+execute as @a run attribute @s minecraft:generic.jump_strength modifier remove skill_jump_strength_2
+execute as @a run attribute @s minecraft:generic.jump_strength modifier remove skill_jump_strength_3
+execute as @a run attribute @s minecraft:generic.jump_strength modifier remove skill_jump_strength_4
+execute as @a run attribute @s minecraft:generic.jump_strength modifier remove skill_jump_strength_5
+execute as @a run attribute @s minecraft:generic.jump_strength modifier remove skill_jump_strength_6
+execute as @a run attribute @s minecraft:generic.jump_strength modifier remove skill_jump_strength_7
+execute as @a run attribute @s minecraft:generic.jump_strength modifier remove skill_jump_strength_8
+execute as @a run attribute @s minecraft:generic.jump_strength modifier remove skill_jump_strength_9
+execute as @a run attribute @s minecraft:generic.jump_strength modifier remove skill_jump_strength_10
+
+execute as @a run attribute @s minecraft:generic.movement_speed modifier remove skill_move_speed_1
+execute as @a run attribute @s minecraft:generic.movement_speed modifier remove skill_move_speed_2
+execute as @a run attribute @s minecraft:generic.movement_speed modifier remove skill_move_speed_3
+execute as @a run attribute @s minecraft:generic.movement_speed modifier remove skill_move_speed_4
+execute as @a run attribute @s minecraft:generic.movement_speed modifier remove skill_move_speed_5
+execute as @a run attribute @s minecraft:generic.movement_speed modifier remove skill_move_speed_6
+execute as @a run attribute @s minecraft:generic.movement_speed modifier remove skill_move_speed_7
+execute as @a run attribute @s minecraft:generic.movement_speed modifier remove skill_move_speed_8
+execute as @a run attribute @s minecraft:generic.movement_speed modifier remove skill_move_speed_9
+execute as @a run attribute @s minecraft:generic.movement_speed modifier remove skill_move_speed_10
+
+## --------------------------------------------------------
 
 execute unless score @s[tag=frostborne] eden.afk.x2 = @s eden.afk.x1 run team join eden.frostborne @s
 execute unless score @s[tag=frostborne] eden.afk.y2 = @s eden.afk.y1 run team join eden.frostborne @s
