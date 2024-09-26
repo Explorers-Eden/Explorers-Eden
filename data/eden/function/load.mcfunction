@@ -55,6 +55,7 @@ scoreboard objectives add eden.progress.reset dummy
 scoreboard objectives add eden.progress.reset.confirmed dummy
 scoreboard objectives add eden.outer_wilds.x dummy
 scoreboard objectives add eden.outer_wilds.z dummy
+scoreboard objectives add eden.outer_wilds.used_portal dummy
 
 ##trigger scoreboards
 scoreboard objectives add sit trigger {"text": "Sit"}

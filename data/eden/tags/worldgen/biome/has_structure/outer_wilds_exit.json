@@ -10,7 +10,6 @@
         { "id": "eden:forest","required": false},
         { "id": "eden:windswept_forest","required": false},
         { "id": "eden:windswept_gravelly_hills","required": false},
-        { "id": "eden:windswept_hills","required": false},
-        { "id": "eden:windswept_forest","required": false}
+        { "id": "eden:windswept_hills","required": false}
     ]
 }
