@@ -57,6 +57,10 @@
           },
           {
             "type": "minecraft:loot_table",
+            "value": "eden:items/tools/recall_mace"
+          },
+          {
+            "type": "minecraft:loot_table",
             "value": "eden:items/tools/withersbane"
           }
         ]

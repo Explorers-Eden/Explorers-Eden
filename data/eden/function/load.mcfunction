@@ -137,7 +137,7 @@ team modify eden.afk.endling prefix [{"text":"Endling","color":"dark_purple"},{"
 team modify eden.afk.endling suffix {"text":" AFK","color":"dark_gray"}
 
 ##set gamerules
-difficulty normal
+difficulty hard
 gamerule disableElytraMovementCheck true
 gamerule doFireTick false
 gamerule globalSoundEvents false
