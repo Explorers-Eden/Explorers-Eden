@@ -28,6 +28,7 @@ attribute @s minecraft:generic.safe_fall_distance modifier remove safe_fall_moon
 tag @s remove frostborne
 attribute @s minecraft:generic.movement_speed modifier remove debuff_speed_frostborne
 attribute @s minecraft:generic.armor modifier remove carved_pumpkin_armor
+attribute @s minecraft:generic.attack_damage modifier remove atck_dmg_frostborne
 
 ##netherian
 tag @s remove netherian
