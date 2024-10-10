@@ -5,9 +5,6 @@
 
   "biomes": [
     "minecraft:desert",
-    "eden:desert",
-    "terralith:desert_canyon",
-    "terralith:desert_oasis",
-    "terralith:desert_spires"
+    "eden:desert"
   ]
 }

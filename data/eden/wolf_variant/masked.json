@@ -5,8 +5,6 @@
 
   "biomes": [
     "minecraft:cherry_grove",
-    "eden:cherry_grove",
-    "terralith:sakura_grove",
-    "terralith:sakura_valley"
+    "eden:cherry_grove"
 ]
 }
